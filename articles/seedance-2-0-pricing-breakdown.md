@@ -17,10 +17,11 @@ This guide consolidates every Seedance 2.0 pricing option available in 2026, inc
 
 See Seedance 2.0 in action:
 
-- [Seedance 2.0 announcement — native audio, 2K resolution, multimodal input](https://x.com/deedydas/status/2020911900968767976)
-- [Seedance 2.0 demo — fluid motion and solid prompt adherence](https://x.com/heydin_ai/status/2021204908909945287)
+- [Seedance 2.0: Enhanced Global Consistency](https://www.youtube.com/watch?v=8ik_8AHIiqE)
+- [Seedance 2.0: One-click product promos](https://www.youtube.com/watch?v=VC0aLZZ6B-k)
+- [Seedance 2.0: Recreating the SEVERANCE Intro](https://www.youtube.com/watch?v=FfW0F5k9VT0)
 
-## TL;DR — Seedance 2.0 Pricing Summary
+## TL;DR -- Seedance 2.0 Pricing Summary
 
 | Platform | Cost | Best For |
 |----------|------|----------|
@@ -29,9 +30,9 @@ See Seedance 2.0 in action:
 | **Atlas Cloud API (Fast)** | $0.022/sec | Budget-conscious developers and agencies |
 | **Atlas Cloud API (Pro)** | $0.247/sec | Maximum quality, no compromises |
 | **BytePlus API** | ~$0.10–$0.80/min | Enterprise teams already on BytePlus |
-| **Other Providers** | $0.10+/sec | Varies — see detailed breakdown below |
+| **Other Providers** | $0.10+/sec | Varies -- see detailed breakdown below |
 
-For most developers, Seedance 2.0 API pricing through Atlas Cloud's Fast tier delivers the best balance of Seedance 2.0 cost and quality at $0.022/sec — 91% cheaper than the Pro tier and competitive with every other provider on the market. New accounts receive a [$1 free credit](https://atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing) to test generation immediately.
+For most developers, Seedance 2.0 API pricing through Atlas Cloud's Fast tier delivers the best balance of Seedance 2.0 cost and quality at $0.022/sec -- 91% cheaper than the Pro tier and competitive with every other provider on the market. New accounts receive a [$1 free credit](https://atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing) to test generation immediately.
 
 ## Official Pricing: Jimeng (即梦)
 
@@ -92,10 +93,10 @@ The **Fast tier** ($0.022/sec) uses optimized inference to deliver 91% lower cos
 
 ### What You Get
 
-- **Pay-per-second billing** — no monthly minimums, no credit packs
-- **$1 free credit on signup** — enough for ~45 seconds on Fast or ~4 seconds on Pro
-- **REST API with polling** — standard async pattern, easy to integrate
-- **No rate limits on reasonable usage** — scale up without negotiating enterprise contracts
+- **Pay-per-second billing** -- no monthly minimums, no credit packs
+- **$1 free credit on signup** -- enough for ~45 seconds on Fast or ~4 seconds on Pro
+- **REST API with polling** -- standard async pattern, easy to integrate
+- **No rate limits on reasonable usage** -- scale up without negotiating enterprise contracts
 - Supports text-to-video, image-to-video, and multimodal input modes
 
 > **Note:** Seedance 2.0 API access is expected to follow once ByteDance makes the model available to third-party providers. Atlas Cloud currently offers Seedance v1.5 Pro, which remains the most widely deployed Seedance model across all API platforms.
@@ -236,10 +237,14 @@ while True:
 
 **Steps to get started:**
 
-1. Create an account at [atlascloud.ai](https://atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing) — $1 free credit applied automatically
+1. Create an account at [atlascloud.ai](https://atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing) -- $1 free credit applied automatically
 2. Generate an API key from the dashboard
 3. Replace `your-atlas-cloud-api-key` in the code above
-4. Run the script — video URL is returned when generation completes
+4. Run the script -- video URL is returned when generation completes
+
+![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+
+![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
 
 The API follows a standard async polling pattern. Submit a generation request, receive a `request_id`, then poll for completion. Most 10-second clips complete within 60–120 seconds.
 
@@ -276,7 +281,7 @@ New Jimeng accounts receive approximately 800 seconds of Seedance 2.0 free gener
 Dreamina provides 225 shared tokens daily at no cost, making Seedance 2.0 free for light usage. This is enough for 1–2 short video clips per day, with watermarks applied. No geographic restrictions.
 
 ### Atlas Cloud Seedance 2.0 Free Credit
-New Atlas Cloud accounts receive a $1 signup credit to try Seedance 2.0 free. At the Fast tier rate of $0.022/sec, this translates to approximately 45 seconds of generation — enough for 4–5 short test clips. Sign up at [atlascloud.ai](https://atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing).
+New Atlas Cloud accounts receive a $1 signup credit to try Seedance 2.0 free. At the Fast tier rate of $0.022/sec, this translates to approximately 45 seconds of generation -- enough for 4–5 short test clips. Sign up at [atlascloud.ai](https://atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing).
 
 ### Atlas Cloud Playground
 The [Atlas Cloud Playground](https://atlascloud.ai/playground?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing) provides a browser-based interface for testing Seedance generation without writing any code. Credits from the free signup apply here as well.
@@ -301,7 +306,7 @@ The [Atlas Cloud Playground](https://atlascloud.ai/playground?utm_medium=article
 | **Video Duration** | 4–15 seconds |
 | **Aspect Ratios** | 16:9, 9:16, 4:3, 3:4, 21:9, 1:1 |
 | **Input Modes** | Text, Image (up to 9), Video (up to 3), Audio (up to 3) |
-| **Native Audio** | Yes — generated alongside video |
+| **Native Audio** | Yes -- generated alongside video |
 | **Architecture** | Unified multimodal (audio + video) |
 | **Available Platforms** | Jimeng (China), Dreamina (Global), API (via third-party providers) |
 

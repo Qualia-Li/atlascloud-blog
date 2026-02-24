@@ -14,9 +14,10 @@ This Veo 3 tutorial covers everything teams need to know: technical specificatio
 
 *Last Updated: February 20, 2026*
 
-![Aerial drone shot over a misty Norwegian fjord at sunrise — generated with Imagen 4 Ultra via Atlas Cloud API](https://drive.google.com/uc?id=1fuGwgE9c83j2HlbBHRj7ET41mysV99Eo)
+See Veo 3.1 in action:
 
-Generated with Imagen 4 Ultra via Atlas Cloud API
+- [5 Top AI Models. 3 Prompts. One Clear Winner for Audio/Video Sync](https://www.youtube.com/watch?v=j-qDCyXubyE) -- Includes Veo 3.1 comparison
+- [Demis Hassabis announces Veo 3.1 -- enhanced realism, richer audio, scene extension](https://x.com/demishassabis/status/1978502149563646094)
 
 ## Veo 3.1 at a Glance
 
@@ -26,7 +27,7 @@ Generated with Imagen 4 Ultra via Atlas Cloud API
 | **API Model ID** | `google/veo3.1/text-to-video` |
 | **Max Resolution** | 1080p / 24fps |
 | **Max Duration** | 8 seconds |
-| **Native Audio** | Yes — generated alongside video |
+| **Native Audio** | Yes -- generated alongside video |
 | **Atlas Cloud Price** | $0.03/sec |
 | **Best Strength** | Cinematic polish, broadcast-quality output |
 | **Input Modes** | Text-to-video |
@@ -45,7 +46,7 @@ Unlike models that generate silent video and require separate audio workflows, V
 
 ### Professional Depth of Field
 
-Veo 3.1 handles depth of field with unusual sophistication. Shallow DOF effects — foreground blur, bokeh, rack focus transitions — are generated naturally based on prompt context. Terms like "shallow depth of field," "bokeh," or "focus pull" in prompts produce results that closely match what a physical cinema lens would capture. This is an area where Veo 3.1 consistently outperforms competing models.
+Veo 3.1 handles depth of field with unusual sophistication. Shallow DOF effects -- foreground blur, bokeh, rack focus transitions -- are generated naturally based on prompt context. Terms like "shallow depth of field," "bokeh," or "focus pull" in prompts produce results that closely match what a physical cinema lens would capture. This is an area where Veo 3.1 consistently outperforms competing models.
 
 ### Color Science and Grading
 
@@ -53,7 +54,7 @@ The model's internal color science produces output that looks professionally gra
 
 ### Consistent Scene Coherence
 
-Across the 8-second generation window, Veo 3.1 maintains strong temporal coherence. Camera movements remain smooth. Objects maintain their physical properties frame to frame. Lighting transitions — such as passing clouds or flickering interior lights — evolve naturally rather than jumping between states. This consistency is critical for any content that will be viewed at full resolution on large screens.
+Across the 8-second generation window, Veo 3.1 maintains strong temporal coherence. Camera movements remain smooth. Objects maintain their physical properties frame to frame. Lighting transitions -- such as passing clouds or flickering interior lights -- evolve naturally rather than jumping between states. This consistency is critical for any content that will be viewed at full resolution on large screens.
 
 ## Veo 3.1 Pricing
 
@@ -73,12 +74,12 @@ For context, a typical 8-second Veo 3.1 generation costs just $0.24. That is les
 
 **Why developers choose Atlas Cloud for Veo 3.1:**
 
-- **$1 free credit on signup** — enough to generate approximately 40 seconds of Veo 3.1 video (5+ clips), no credit card required.
-- **Single API key** for Veo 3.1 alongside 300+ other AI models — video, image, text, and multimodal. One integration, one bill.
-- **No queue delays** — production-grade infrastructure with consistent generation times.
-- **Transparent pricing** — $0.03 per second, calculated precisely. No credit packs, no subscription tiers, no expiring tokens.
+- **$1 free credit on signup** -- enough to generate approximately 40 seconds of Veo 3.1 video (5+ clips), no credit card required.
+- **Single API key** for Veo 3.1 alongside 300+ other AI models -- video, image, text, and multimodal. One integration, one bill.
+- **No queue delays** -- production-grade infrastructure with consistent generation times.
+- **Transparent pricing** -- $0.03 per second, calculated precisely. No credit packs, no subscription tiers, no expiring tokens.
 
-> [Get $1 Free Credit — Start Generating with Veo 3.1](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
+> [Get $1 Free Credit -- Start Generating with Veo 3.1](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
 
 ### Cost Comparison: Veo 3.1 at Scale
 
@@ -89,7 +90,7 @@ For context, a typical 8-second Veo 3.1 generation costs just $0.24. That is les
 | Heavy | 500 videos | 4,000s | **$120.00** |
 | Enterprise | 2,000 videos | 16,000s | **$480.00** |
 
-At $0.03/second, Veo 3.1 on Atlas Cloud is one of the most cost-effective options for production-quality AI video. Even at enterprise scale — 2,000 videos per month — the total cost remains under $500. Compare that to traditional video production, where a single 8-second clip from a production house can easily cost $500-$2,000.
+At $0.03/second, Veo 3.1 on Atlas Cloud is one of the most cost-effective options for production-quality AI video. Even at enterprise scale -- 2,000 videos per month -- the total cost remains under $500. Compare that to traditional video production, where a single 8-second clip from a production house can easily cost $500-$2,000.
 
 ## How to Access Veo 3.1 API
 
@@ -98,6 +99,10 @@ Getting started with the Veo 3.1 API through Veo 3.1 Atlas Cloud takes under fiv
 ### Step 1: Get Your API Key
 
 Sign up at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide) and navigate to the API Keys section in the console. The $1 free credit is applied automatically upon registration.
+
+![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+
+![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
 
 ### Step 2: Generate Video
 
@@ -137,7 +142,7 @@ while True:
 
 ### Step 3: Retrieve and Use
 
-The response includes a `video_url` pointing to the generated video file, along with metadata about the generation. Videos are available for download immediately upon completion. Native audio is included in the output file by default — no additional API calls or parameters are required.
+The response includes a `video_url` pointing to the generated video file, along with metadata about the generation. Videos are available for download immediately upon completion. Native audio is included in the output file by default -- no additional API calls or parameters are required.
 
 > [Get Your API Key Free](https://www.atlascloud.ai/console/api-keys?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
 
@@ -169,7 +174,7 @@ Veo 3.1 handles DOF better than any competing model. Include explicit DOF direct
 
 ### 4. Design for 8 Seconds
 
-With a maximum duration of 8 seconds, each prompt should center on one clear visual moment. Avoid cramming multiple actions or scene changes into a single generation. One subject, one action, one mood — this approach maximizes quality.
+With a maximum duration of 8 seconds, each prompt should center on one clear visual moment. Avoid cramming multiple actions or scene changes into a single generation. One subject, one action, one mood -- this approach maximizes quality.
 
 ### 5. Leverage Audio Context
 
@@ -228,7 +233,7 @@ The Google AI video generation landscape in 2026 offers several strong options. 
 - **Resolution**: Kling 3.0 supports 4K/60fps output, compared to Veo 3.1's 1080p/24fps ceiling. For teams requiring ultra-high-resolution deliverables, Kling remains the leader.
 - **Duration**: Veo 3.1's 8-second maximum is the shortest among the top models. Seedance 2.0 offers 15 seconds, Sora 2 provides 12, and Kling 3.0 delivers 10.
 - **Multimodal input**: Seedance 2.0 accepts up to 9 images, 3 videos, and 3 audio files as reference material. Veo 3.1's reference input is more limited.
-- **Physics simulation**: Sora 2 remains the leader in realistic physics — gravity, fluid dynamics, collisions, and object interactions.
+- **Physics simulation**: Sora 2 remains the leader in realistic physics -- gravity, fluid dynamics, collisions, and object interactions.
 
 The practical takeaway: no single model dominates every use case. Teams producing polished brand content and cinematic sequences will find Veo 3.1 delivers the best results per dollar. Teams needing maximum resolution, longer clips, or complex multi-reference workflows should evaluate the alternatives.
 
@@ -251,18 +256,18 @@ The practical takeaway: no single model dominates every use case. Teams producin
 
 ### Ideal Use Cases for Veo 3.1
 
-- **Social media ads and branded content** — cinematic quality at scale, under $0.25 per clip
-- **Product demonstration videos** — professional lighting and DOF for e-commerce and marketing
-- **Film pre-visualization** — rapid generation of cinematic-quality concept footage
-- **Music video prototyping** — native audio generation paired with visual storytelling
-- **Real estate and travel content** — atmospheric, broadcast-quality environmental footage
-- **Corporate presentations** — polished video assets without production house costs
+- **Social media ads and branded content** -- cinematic quality at scale, under $0.25 per clip
+- **Product demonstration videos** -- professional lighting and DOF for e-commerce and marketing
+- **Film pre-visualization** -- rapid generation of cinematic-quality concept footage
+- **Music video prototyping** -- native audio generation paired with visual storytelling
+- **Real estate and travel content** -- atmospheric, broadcast-quality environmental footage
+- **Corporate presentations** -- polished video assets without production house costs
 
 ## Frequently Asked Questions
 
 ### How much does Veo 3.1 cost on Atlas Cloud?
 
-Google Veo 3 pricing on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide) is $0.03 per second. A full 8-second generation costs $0.24. New accounts receive $1 in free credit upon signup, which covers approximately 5 full-length Veo 3.1 clips — enough to evaluate the model thoroughly before committing any budget.
+Google Veo 3 pricing on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide) is $0.03 per second. A full 8-second generation costs $0.24. New accounts receive $1 in free credit upon signup, which covers approximately 5 full-length Veo 3.1 clips -- enough to evaluate the model thoroughly before committing any budget.
 
 ### Is Veo 3.1 free to use?
 
@@ -274,7 +279,7 @@ Veo 3.1 generates video at up to 1080p resolution at 24fps. The 24fps frame rate
 
 ### Does Veo 3.1 generate audio automatically?
 
-Yes. Veo 3.1 generates synchronized audio natively as part of the video generation process. There is no need for separate audio API calls or post-production audio syncing. The audio quality is contextually aware — a beach scene will include wave sounds, a city scene will include traffic ambiance — based on the content of the prompt.
+Yes. Veo 3.1 generates synchronized audio natively as part of the video generation process. There is no need for separate audio API calls or post-production audio syncing. The audio quality is contextually aware -- a beach scene will include wave sounds, a city scene will include traffic ambiance -- based on the content of the prompt.
 
 ### How does Veo 3.1 compare to Sora 2?
 

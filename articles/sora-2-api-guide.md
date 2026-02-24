@@ -10,9 +10,10 @@ author: "Atlas Cloud Team"
 
 OpenAI Sora 2 represents a significant step forward in AI video generation, particularly in the domain of physics simulation. Objects fall, bounce, shatter, and interact with their environments in ways that feel genuinely plausible -- a capability that no competing model has fully matched. This Sora 2 tutorial covers everything developers need to integrate Sora 2 into their workflows via the Sora 2 Atlas Cloud API, including pricing, Python code examples, prompt strategies, and a direct comparison against Seedance 2.0, Kling 3.0, and Veo 3.1.
 
-![A glass sphere rolling down a marble staircase with realistic physics — generated with Imagen 4 Ultra via Atlas Cloud API](https://drive.google.com/uc?id=1ROE5D6fBq4NcN5VZBww0QAQ-F0itLsXt)
+See Sora 2 in action:
 
-Generated with Imagen 4 Ultra via Atlas Cloud API
+- [5 Top AI Models. 3 Prompts. One Clear Winner for Audio/Video Sync](https://www.youtube.com/watch?v=j-qDCyXubyE) -- Includes Sora 2 comparison
+- [OpenAI announces Sora 2 -- "the GPT-3.5 moment for video"](https://x.com/OpenAI/status/1973075422058623274)
 
 The Sora 2 API is available through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide) at $0.15 per second of generated video, with $1 in free credit upon signup. Users gain access to Sora 2 alongside 300+ other models through a single API key, eliminating the need to manage separate accounts with OpenAI, Kuaishou, ByteDance, and Google.
 
@@ -73,7 +74,7 @@ OpenAI Sora 2 is available through ChatGPT with a Plus subscription ($20/month) 
 
 A $1 free credit upon registration translates to approximately 6 seconds of Sora 2 video -- enough to evaluate quality and physics accuracy before committing to paid usage. This Sora 2 pricing structure means costs scale linearly and predictably for teams generating at volume.
 
-> [Access Sora 2 API on Atlas Cloud — $1 Free Credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
+> [Access Sora 2 API on Atlas Cloud -- $1 Free Credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
 
 ## How to Access Sora 2 API
 
@@ -86,6 +87,10 @@ Users can access Sora 2 through OpenAI's official channels, either via ChatGPT s
 For most developers, the Sora 2 Atlas Cloud integration provides the fastest path to production. A single API key unlocks OpenAI Sora 2 alongside 300+ other models, including Seedance 2.0, Kling 3.0, and Veo 3.1. No waitlist. No separate accounts. Unified billing.
 
 **Step 1:** Create an account at [atlascloud.ai](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide) and retrieve your API key from the dashboard. The $1 free credit is applied automatically.
+
+![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+
+![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
 
 **Step 2:** Use the following Python code to generate video with Sora 2:
 
@@ -251,7 +256,7 @@ Sora 2 occupies a distinct position in the AI video generation landscape. It is 
 
 The practical recommendation from this Sora 2 tutorial remains consistent: access Sora 2 through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide) alongside Seedance 2.0, Kling 3.0, Veo 3.1, and 300+ other models. One API key. One bill. The flexibility to choose the right model for each project. The $1 free credit provides enough to evaluate Sora 2's physics simulation firsthand before scaling up.
 
-> [Get $1 Free Credit on Atlas Cloud — Try Sora 2 and 300+ Models](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
+> [Get $1 Free Credit on Atlas Cloud -- Try Sora 2 and 300+ Models](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
 
 ---
 ## Related Articles
