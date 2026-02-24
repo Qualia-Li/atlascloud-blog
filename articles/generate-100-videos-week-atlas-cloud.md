@@ -13,7 +13,9 @@ Traditional video production costs anywhere from $500 to $5,000 per finished min
 
 AI video generation at scale changes the equation entirely. With models like Seedance, Kling, Veo, and Sora now accessible through a single bulk video API, the cost of producing a marketing-quality 8-second video has dropped below $0.25. That means 100 videos per week is no longer an enterprise-scale budget item. It is a line item that fits comfortably under $50.
 
-![Batch video generation workflow diagram — generated with Ideogram v3 via Atlas Cloud API](../images/generated/ideogram-v3-batch-workflow.jpg)
+![Batch video generation workflow diagram — generated with Ideogram v3 via Atlas Cloud API](https://drive.google.com/uc?id=10iFVF9ovucet4NkMAbbnG9NuJEUpf7X-)
+
+Generated with Ideogram v3 via Atlas Cloud API
 
 This guide walks through the exact cost breakdown, model selection strategy, and marketing video automation code needed to set up an Atlas Cloud video generation pipeline that produces 100+ clips per week.
 
@@ -47,6 +49,44 @@ The key insight for AI video generation at scale is that not every video needs t
 **Total: $36.48/week for 100 videos.** Well under the $50 target.
 
 Even a uniform approach using only Seedance Fast comes in at $17.60 per week for 100 eight-second clips. That is less than what most teams spend on stock footage subscriptions.
+
+## Sample Videos Generated via Atlas Cloud API
+
+To demonstrate what each model produces, here are real videos generated using the Atlas Cloud API with the exact prompts from this guide:
+
+### Seedance v1.5 Pro Fast — Product Showcase
+**Prompt:** *"Product showcase: wireless earbuds rotating slowly on glossy black surface, soft studio lighting with subtle reflections, premium commercial feel, clean background"*
+**Cost:** 8 seconds × $0.022/sec = **$0.176**
+
+[![Seedance product showcase video thumbnail](https://drive.google.com/uc?id=1h5gm5yPskLBMV6MhQEiCfSqmD8_i8OW1)](https://atlas-media.oss-us-west-1.aliyuncs.com/flashvsr_videos/13e0a4b3-8976-40e6-a717-84fbb3edd3c1.mp4)
+
+Generated with Seedance v1.5 Pro Fast via Atlas Cloud API
+
+▶ [Watch Seedance Product Video](https://atlas-media.oss-us-west-1.aliyuncs.com/flashvsr_videos/13e0a4b3-8976-40e6-a717-84fbb3edd3c1.mp4)
+
+### Veo 3.1 — Brand Storytelling
+**Prompt:** *"Cinematic aerial shot of a modern city skyline transitioning from golden sunset to blue hour, smooth drone movement, warm to cool color grading, brand storytelling aesthetic"*
+**Cost:** 8 seconds × $0.03/sec = **$0.24**
+
+[![Veo 3.1 brand story video thumbnail](https://drive.google.com/uc?id=1MI135J0_DeKeWfU9JCN-Q2HtLZjJFpGK)](https://atlas-media.oss-us-west-1.aliyuncs.com/videos/1d2de4c9-d5ed-4727-b64f-4cda3f99de9d.mp4)
+
+Generated with Veo 3.1 via Atlas Cloud API
+
+▶ [Watch Veo 3.1 Brand Story Video](https://atlas-media.oss-us-west-1.aliyuncs.com/videos/1d2de4c9-d5ed-4727-b64f-4cda3f99de9d.mp4)
+
+### Kling 3.0 Standard — Social Media Hook
+**Prompt:** *"Eye-catching social media hook: steaming coffee cup on a wooden desk, morning sunlight streaming through window, cozy warm atmosphere, Instagram Reel style"*
+**Cost:** 6 seconds × $0.126/sec = **$0.756**
+
+[![Kling 3.0 social hook video thumbnail](https://drive.google.com/uc?id=19FuspX6gl1Ic3I6fU_XDPfzwN_Kkwjd2)](https://v16-kling-fdl.klingai.com/bs2/upload-ylab-stunt-sgp/muse/817540344522489950/VIDEO/20260224/eef43d29e162340c3e494d6bb745e928-4515238e-3c14-4e79-93c1-977f0ef19682.mp4)
+
+Generated with Kling 3.0 Standard via Atlas Cloud API
+
+▶ [Watch Kling 3.0 Social Hook Video](https://v16-kling-fdl.klingai.com/bs2/upload-ylab-stunt-sgp/muse/817540344522489950/VIDEO/20260224/eef43d29e162340c3e494d6bb745e928-4515238e-3c14-4e79-93c1-977f0ef19682.mp4)
+
+**Total cost for all 3 sample videos: $1.17** — demonstrating how affordable AI video generation at scale truly is.
+
+---
 
 ## Which Model for Which Content Type?
 
@@ -330,8 +370,8 @@ For teams ready to explore the full model catalog or access the API documentatio
 
 ## Related Articles
 
-- [Seedance 2.0 Pricing Breakdown](/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
-- [Kling 3.0 Review: Features, Pricing & How to Access](/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
-- [Sora 2 on Atlas Cloud: Complete API Guide](/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
-- [Veo 3.1 on Atlas Cloud: Google's 4K AI Video Guide](/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
-- [Atlas Cloud Image Generation: Flux, Imagen & Ideogram Guide](/blog/image-generation-api-guide?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
+- [Seedance 2.0 Pricing Breakdown](https://www.atlascloud.ai/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
+- [Kling 3.0 Review: Features, Pricing & How to Access](https://www.atlascloud.ai/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
+- [Sora 2 on Atlas Cloud: Complete API Guide](https://www.atlascloud.ai/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
+- [Veo 3.1 on Atlas Cloud: Google's 4K AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
+- [Atlas Cloud Image Generation: Flux, Imagen & Ideogram Guide](https://www.atlascloud.ai/blog/image-generation-api-guide?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)

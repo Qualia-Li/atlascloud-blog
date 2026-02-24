@@ -11,7 +11,15 @@ Kuaishou released Kling 3.0 on February 5th, 2026, just days before ByteDance la
 
 Kling 3.0 is built on a **Multi-modal Visual Language (MVL)** framework, meaning it processes text, images, audio, and video within a single unified architecture. It supports native 4K output, built-in multilingual audio, and a suite of creative tools that position it as a serious contender against Seedance 2.0, Sora 2, and Veo 3.1. Extensive testing over two weeks -- generating hundreds of clips, stress-testing the free tier, and benchmarking side by side with every major competitor -- reveals clear strengths and notable limitations.
 
-![Cinematic samurai scene in a field of red spider lilies at sunset — generated with Imagen 4 Ultra via Atlas Cloud API](../images/generated/imagen4-ultra-kling-samurai-scene.png)
+![Cinematic samurai scene in a field of red spider lilies at sunset — generated with Imagen 4 Ultra via Atlas Cloud API](https://drive.google.com/uc?id=1ouaVfMDZeh2LFwU2uiF4oWD5J5VmQbN0)
+
+Generated with Imagen 4 Ultra via Atlas Cloud API
+
+[![Kling 3.0 samurai video thumbnail — generated with Kling 3.0 via Atlas Cloud API](https://drive.google.com/uc?id=1oPinlDWr6jCuS1BhySf9PZgWtJD58ISB)](https://v16-kling-fdl.klingai.com/bs2/upload-ylab-stunt-sgp/muse/817540344522489950/VIDEO/20260224/21cfa5cb94b29b0fedda499483bbfd4e-e9ff1d4a-784d-4492-a6de-40be2b121c2c.mp4)
+
+Generated with Kling 3.0 Standard via Atlas Cloud API
+
+▶ [Watch this scene as a Kling 3.0 video](https://v16-kling-fdl.klingai.com/bs2/upload-ylab-stunt-sgp/muse/817540344522489950/VIDEO/20260224/21cfa5cb94b29b0fedda499483bbfd4e-e9ff1d4a-784d-4492-a6de-40be2b121c2c.mp4) — Generated with Kling 3.0 Standard via Atlas Cloud API. Prompt: "A samurai in traditional armor walking through a field of red spider lilies at golden sunset, wind blowing petals, cinematic wide shot, dramatic Japanese landscape"
 
 ## Kling 3.0 at a Glance
 
@@ -159,7 +167,9 @@ Free-tier users face substantial wait times during peak hours, often exceeding 3
 
 ## Kling 3.0 vs. Competitors
 
-![Kling 3.0 blog cover — via Atlas Cloud](../images/screenshots/kling-3-blog-cover.png)
+![Kling 3.0 blog cover — via Atlas Cloud](https://drive.google.com/uc?id=11sGJmUyyLUEtStvsTf8ExugoGIzlslgt)
+
+Screenshot from Atlas Cloud
 
 | Feature | Kling 3.0 | Seedance 2.0 | Sora 2 | Veo 3.1 |
 |---------|----------|-------------|--------|---------|
@@ -320,10 +330,10 @@ The recommendation for developers and creators: avoid locking into a single mode
 ---
 ## Related Articles
 
-- [Seedance 2.0 Pricing Breakdown](/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
-- [How to Use Seedance 2.0 for Video Generation](/blog/how-to-use-seedance-2-0-video-generation?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
-- [15 Best Seedance 2.0 Prompts for Viral Videos](/blog/best-seedance-2-0-prompts-guide?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
-- [Sora 2 on Atlas Cloud: Complete API Guide](/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
-- [Veo 3.1 on Atlas Cloud: Google's 4K AI Video Guide](/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
-- [Best Sora 2 API Alternatives in 2026](/blog/best-sora-2-api-alternatives-2026?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
-- [Best Seedance 2.0 API for Free in 2026](/blog/best-seedance-2-0-api-free-2026?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
+- [Seedance 2.0 Pricing Breakdown](https://www.atlascloud.ai/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
+- [How to Use Seedance 2.0 for Video Generation](https://www.atlascloud.ai/blog/how-to-use-seedance-2-0-video-generation?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
+- [15 Best Seedance 2.0 Prompts for Viral Videos](https://www.atlascloud.ai/blog/best-seedance-2-0-prompts-guide?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
+- [Sora 2 on Atlas Cloud: Complete API Guide](https://www.atlascloud.ai/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
+- [Veo 3.1 on Atlas Cloud: Google's 4K AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
+- [Best Sora 2 API Alternatives in 2026](https://www.atlascloud.ai/blog/best-sora-2-api-alternatives-2026?utm_medium=article&utm_source=blog&utm_campaign=kling-review)
+- [Best Seedance 2.0 API for Free in 2026](https://www.atlascloud.ai/blog/best-seedance-2-0-api-free-2026?utm_medium=article&utm_source=blog&utm_campaign=kling-review)

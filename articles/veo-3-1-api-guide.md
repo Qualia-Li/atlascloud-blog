@@ -14,7 +14,9 @@ This Veo 3 tutorial covers everything teams need to know: technical specificatio
 
 *Last Updated: February 20, 2026*
 
-![Aerial drone shot over a misty Norwegian fjord at sunrise — generated with Imagen 4 Ultra via Atlas Cloud API](../images/generated/imagen4-ultra-aerial-fjord.png)
+![Aerial drone shot over a misty Norwegian fjord at sunrise — generated with Imagen 4 Ultra via Atlas Cloud API](https://drive.google.com/uc?id=1fuGwgE9c83j2HlbBHRj7ET41mysV99Eo)
+
+Generated with Imagen 4 Ultra via Atlas Cloud API
 
 ## Veo 3.1 at a Glance
 
@@ -296,8 +298,8 @@ As this Veo 3 tutorial recommends: test the Veo 3.1 API alongside competing mode
 
 ## Related Articles
 
-- [Seedance 2.0 Pricing Breakdown](/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
-- [Kling 3.0 Review: Features, Pricing & How to Access](/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
-- [Sora 2 on Atlas Cloud: Complete API Guide](/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
-- [How to Use Seedance 2.0 for Video Generation](/blog/how-to-use-seedance-2-0-video-generation?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
-- [15 Best Seedance 2.0 Prompts for Viral Videos](/blog/best-seedance-2-0-prompts-guide?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
+- [Seedance 2.0 Pricing Breakdown](https://www.atlascloud.ai/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
+- [Kling 3.0 Review: Features, Pricing & How to Access](https://www.atlascloud.ai/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
+- [Sora 2 on Atlas Cloud: Complete API Guide](https://www.atlascloud.ai/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
+- [How to Use Seedance 2.0 for Video Generation](https://www.atlascloud.ai/blog/how-to-use-seedance-2-0-video-generation?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)
+- [15 Best Seedance 2.0 Prompts for Viral Videos](https://www.atlascloud.ai/blog/best-seedance-2-0-prompts-guide?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide)

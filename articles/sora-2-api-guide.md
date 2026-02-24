@@ -10,7 +10,9 @@ author: "Atlas Cloud Team"
 
 OpenAI Sora 2 represents a significant step forward in AI video generation, particularly in the domain of physics simulation. Objects fall, bounce, shatter, and interact with their environments in ways that feel genuinely plausible -- a capability that no competing model has fully matched. This Sora 2 tutorial covers everything developers need to integrate Sora 2 into their workflows via the Sora 2 Atlas Cloud API, including pricing, Python code examples, prompt strategies, and a direct comparison against Seedance 2.0, Kling 3.0, and Veo 3.1.
 
-![A glass sphere rolling down a marble staircase with realistic physics — generated with Imagen 4 Ultra via Atlas Cloud API](../images/generated/imagen4-ultra-glass-sphere-physics.png)
+![A glass sphere rolling down a marble staircase with realistic physics — generated with Imagen 4 Ultra via Atlas Cloud API](https://drive.google.com/uc?id=1ROE5D6fBq4NcN5VZBww0QAQ-F0itLsXt)
+
+Generated with Imagen 4 Ultra via Atlas Cloud API
 
 The Sora 2 API is available through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide) at $0.15 per second of generated video, with $1 in free credit upon signup. Users gain access to Sora 2 alongside 300+ other models through a single API key, eliminating the need to manage separate accounts with OpenAI, Kuaishou, ByteDance, and Google.
 
@@ -254,8 +256,8 @@ The practical recommendation from this Sora 2 tutorial remains consistent: acces
 ---
 ## Related Articles
 
-- [Seedance 2.0 Pricing Breakdown](/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
-- [Kling 3.0 Review: Features, Pricing & How to Access](/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
-- [Veo 3.1 on Atlas Cloud: Google's 4K AI Video Guide](/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
-- [How to Use Seedance 2.0 for Video Generation](/blog/how-to-use-seedance-2-0-video-generation?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
-- [15 Best Seedance 2.0 Prompts for Viral Videos](/blog/best-seedance-2-0-prompts-guide?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
+- [Seedance 2.0 Pricing Breakdown](https://www.atlascloud.ai/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
+- [Kling 3.0 Review: Features, Pricing & How to Access](https://www.atlascloud.ai/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
+- [Veo 3.1 on Atlas Cloud: Google's 4K AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
+- [How to Use Seedance 2.0 for Video Generation](https://www.atlascloud.ai/blog/how-to-use-seedance-2-0-video-generation?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
+- [15 Best Seedance 2.0 Prompts for Viral Videos](https://www.atlascloud.ai/blog/best-seedance-2-0-prompts-guide?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
