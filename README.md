@@ -15,6 +15,14 @@ SEO-optimized blog articles and marketing content for [Atlas Cloud](https://www.
 | `generate-100-videos-week-atlas-cloud.md` | Bulk video generation guide | AI video at scale, bulk video API |
 | `image-generation-api-guide.md` | Image generation guide | AI image API, Flux, Imagen 4, Ideogram |
 
+## Repo Structure
+
+```
+articles/       — Blog article markdown (.md) and PDFs (.pdf)
+resources/      — Reference docs, images, videos, YouTube links, Google Docs links
+scripts/        — Utility scripts (SEO checker, etc.)
+```
+
 ## SEO Checker
 
 ```bash
@@ -31,9 +39,9 @@ Checks: H1/H2/H3 structure, links & UTM tracking, content length, keyword densit
 
 All Atlas Cloud links use: `utm_medium=article&utm_source=blog&utm_campaign={topic-slug}`
 
-## Image & Video Placeholders
+## Resources
 
-- `[IMAGE: description]` placeholders indicate where generated images should be inserted.
-- `[VIDEO: description]` placeholders indicate where generated videos should be embedded.
+- `resources/youtube-videos.md` — All YouTube videos referenced in articles (from @AtlasCloudAI channel)
+- `resources/google-docs-links.md` — Google Doc links for all 8 articles
 
-Generate media via Atlas Cloud API and upload to CDN before publishing.
+Images and videos should be stored in `resources/` (not `articles/`).
