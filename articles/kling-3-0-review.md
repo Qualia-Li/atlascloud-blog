@@ -14,9 +14,11 @@ Kling 3.0 is built on a **Multi-modal Visual Language (MVL)** framework, meaning
 
 See Kling 3.0 in action:
 
-- [Kling 3.0: Multilingual is wild!](https://www.youtube.com/watch?v=KNFb9xu566M)
-- [Kling 3.0: High Consistency](https://www.youtube.com/watch?v=PrOoWKFfhsU)
-- [Kling 3.0: General demo](https://www.youtube.com/watch?v=Ta2nPFaYLy0)
+[![Kling 3.0: Multilingual is wild!](https://img.youtube.com/vi/KNFb9xu566M/maxresdefault.jpg)](https://www.youtube.com/watch?v=KNFb9xu566M)
+
+[![Kling 3.0: High Consistency](https://img.youtube.com/vi/PrOoWKFfhsU/maxresdefault.jpg)](https://www.youtube.com/watch?v=PrOoWKFfhsU)
+
+[![Kling 3.0: General demo](https://img.youtube.com/vi/Ta2nPFaYLy0/maxresdefault.jpg)](https://www.youtube.com/watch?v=Ta2nPFaYLy0)
 
 ## Kling 3.0 at a Glance
 

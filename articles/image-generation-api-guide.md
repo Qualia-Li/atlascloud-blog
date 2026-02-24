@@ -31,6 +31,10 @@ All three models are accessible through a single Atlas Cloud API key. There is n
 
 The Flux API powers Flux 2 Pro, the workhorse of the three. It generates images quickly, handles a wide range of styles competently, and offers solid text rendering capabilities. For teams that need high throughput and consistent quality across diverse prompt types, Flux 2 Pro is the pragmatic default choice.
 
+![Flux 2 Pro sample: Professional product photo of wireless headphones on marble surface, studio lighting](https://d1q70pf5vjeyhc.cloudfront.net/predictions/7534e64e99de45b59ed7b4a1a41443b5/1.jpg)
+
+Generated with Flux 2 Pro via Atlas Cloud API. Prompt: "Professional product photo of wireless headphones on marble surface, studio lighting, clean white background"
+
 ### Key Strengths
 
 - **Speed**: Average generation time of approximately 3 seconds at 1024x1024. This makes it viable for real-time or near-real-time applications where users are waiting for results.
@@ -53,6 +57,10 @@ Flux 2 Pro produces strong results, but it does not match Imagen 4 Ultra in phot
 
 The Imagen 4 API gives access to Imagen 4 Ultra, Google DeepMind's flagship image generation model, and it shows. The photorealistic quality is the highest of any model currently available through a public AI image generation API. If visual fidelity is the top priority and slightly longer generation times are acceptable, Imagen 4 Ultra is the clear choice.
 
+![Imagen 4 Ultra sample: Photorealistic aerial view of a Norwegian fjord at golden hour](https://atlas-media.oss-us-west-1.aliyuncs.com/images/89522cbd-4c56-4357-a2ce-26536cc6e72a.png)
+
+Generated with Imagen 4 Ultra via Atlas Cloud API. Prompt: "Photorealistic aerial view of a Norwegian fjord at golden hour, dramatic cliffs, mirror-still water reflecting mountains"
+
 ### Key Strengths
 
 - **Photorealism**: This is where Imagen 4 Ultra genuinely excels. Skin textures, fabric draping, water reflections, atmospheric haze, and natural lighting are rendered with a level of detail that other models have not yet matched. In side-by-side comparisons, the difference is immediately apparent.
@@ -74,6 +82,10 @@ The primary tradeoff is speed. At approximately 8 seconds per generation, Imagen
 ## Ideogram v3 by Ideogram
 
 The Ideogram API powers Ideogram v3, which occupies a unique position in the image generation ecosystem. Its standout capability is text rendering, and it is not a marginal advantage. Ideogram v3 produces the most accurate, legible, and aesthetically integrated text-in-image results of any model currently available. For design-heavy workflows involving typography, posters, logos, and branded content, it is the specialist tool.
+
+![Ideogram v3 sample: Modern minimalist poster with DREAM BIG typography](https://d1q70pf5vjeyhc.cloudfront.net/predictions/5ce1bce942824fbfbf7b9bc53ab6c5ea/1.png)
+
+Generated with Ideogram v3 via Atlas Cloud API. Prompt: "Modern minimalist poster with text DREAM BIG in bold geometric typography, gradient blue to purple background, clean design"
 
 ### Key Strengths
 

@@ -16,8 +16,7 @@ This Veo 3 tutorial covers everything teams need to know: technical specificatio
 
 See Veo 3.1 in action:
 
-- [5 Top AI Models. 3 Prompts. One Clear Winner for Audio/Video Sync](https://www.youtube.com/watch?v=j-qDCyXubyE) -- Includes Veo 3.1 comparison
-- [Demis Hassabis announces Veo 3.1 -- enhanced realism, richer audio, scene extension](https://x.com/demishassabis/status/1978502149563646094)
+[![5 Top AI Models. 3 Prompts. One Clear Winner for Audio/Video Sync](https://img.youtube.com/vi/j-qDCyXubyE/maxresdefault.jpg)](https://www.youtube.com/watch?v=j-qDCyXubyE)
 
 ## Veo 3.1 at a Glance
 

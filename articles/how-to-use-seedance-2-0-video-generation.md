@@ -16,10 +16,13 @@ This Seedance 2.0 guide covers every method of accessing the model, provides tes
 
 See Seedance 2.0 in action:
 
-- [Seedance 2.0: Significant Boost in Core Capabilities](https://www.youtube.com/watch?v=LtKRTycjVRg)
-- [Seedance 2.0: UI Design -- Text-to-UI Motion](https://www.youtube.com/watch?v=INWDLI63z0s)
-- [Seedance 2.0: Improved Temporal Consistency](https://www.youtube.com/watch?v=nffvWtsue-I)
-- [Seedance 2.0: Video Extension](https://www.youtube.com/watch?v=OP0q7xt8DtY)
+[![Seedance 2.0: Significant Boost in Core Capabilities](https://img.youtube.com/vi/LtKRTycjVRg/maxresdefault.jpg)](https://www.youtube.com/watch?v=LtKRTycjVRg)
+
+[![Seedance 2.0: UI Design -- Text-to-UI Motion](https://img.youtube.com/vi/INWDLI63z0s/maxresdefault.jpg)](https://www.youtube.com/watch?v=INWDLI63z0s)
+
+[![Seedance 2.0: Improved Temporal Consistency](https://img.youtube.com/vi/nffvWtsue-I/maxresdefault.jpg)](https://www.youtube.com/watch?v=nffvWtsue-I)
+
+[![Seedance 2.0: Video Extension](https://img.youtube.com/vi/OP0q7xt8DtY/maxresdefault.jpg)](https://www.youtube.com/watch?v=OP0q7xt8DtY)
 ## What Makes Seedance 2.0 Different?
 
 With a growing number of AI video models entering the market, it is worth examining what distinguishes Seedance 2.0 from the rest. Across hundreds of generations in direct comparison with competing models, the differences become clear.

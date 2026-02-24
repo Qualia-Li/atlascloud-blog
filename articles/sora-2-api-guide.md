@@ -12,8 +12,7 @@ OpenAI Sora 2 represents a significant step forward in AI video generation, part
 
 See Sora 2 in action:
 
-- [5 Top AI Models. 3 Prompts. One Clear Winner for Audio/Video Sync](https://www.youtube.com/watch?v=j-qDCyXubyE) -- Includes Sora 2 comparison
-- [OpenAI announces Sora 2 -- "the GPT-3.5 moment for video"](https://x.com/OpenAI/status/1973075422058623274)
+[![5 Top AI Models. 3 Prompts. One Clear Winner for Audio/Video Sync](https://img.youtube.com/vi/j-qDCyXubyE/maxresdefault.jpg)](https://www.youtube.com/watch?v=j-qDCyXubyE)
 
 The Sora 2 API is available through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide) at $0.15 per second of generated video, with $1 in free credit upon signup. Users gain access to Sora 2 alongside 300+ other models through a single API key, eliminating the need to manage separate accounts with OpenAI, Kuaishou, ByteDance, and Google.
 

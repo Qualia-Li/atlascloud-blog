@@ -14,9 +14,11 @@ This Seedance 2.0 prompt guide presents 15 thoroughly tested AI video prompts, e
 
 See Seedance 2.0 in action:
 
-- [Seedance 2.0: Enhanced Global Consistency](https://www.youtube.com/watch?v=8ik_8AHIiqE)
-- [Seedance 2.0: From Real Life to Fantasy CG](https://www.youtube.com/watch?v=a05ZwmGX1-Q)
-- [Seedance 2.0: Nuanced Emotional Expression](https://www.youtube.com/watch?v=5G6yZFvnLNQ)
+[![Seedance 2.0: Enhanced Global Consistency](https://img.youtube.com/vi/8ik_8AHIiqE/maxresdefault.jpg)](https://www.youtube.com/watch?v=8ik_8AHIiqE)
+
+[![Seedance 2.0: From Real Life to Fantasy CG](https://img.youtube.com/vi/a05ZwmGX1-Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=a05ZwmGX1-Q)
+
+[![Seedance 2.0: Nuanced Emotional Expression](https://img.youtube.com/vi/5G6yZFvnLNQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=5G6yZFvnLNQ)
 ## The Seedance 2.0 Prompt Formula
 
 Before diving into the specific prompts, understanding the underlying framework is essential. Every high-performing Seedance 2.0 prompt follows a consistent structure:

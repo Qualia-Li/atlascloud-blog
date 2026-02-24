@@ -17,9 +17,11 @@ This guide consolidates every Seedance 2.0 pricing option available in 2026, inc
 
 See Seedance 2.0 in action:
 
-- [Seedance 2.0: Enhanced Global Consistency](https://www.youtube.com/watch?v=8ik_8AHIiqE)
-- [Seedance 2.0: One-click product promos](https://www.youtube.com/watch?v=VC0aLZZ6B-k)
-- [Seedance 2.0: Recreating the SEVERANCE Intro](https://www.youtube.com/watch?v=FfW0F5k9VT0)
+[![Seedance 2.0: Enhanced Global Consistency](https://img.youtube.com/vi/8ik_8AHIiqE/maxresdefault.jpg)](https://www.youtube.com/watch?v=8ik_8AHIiqE)
+
+[![Seedance 2.0: One-click product promos](https://img.youtube.com/vi/VC0aLZZ6B-k/maxresdefault.jpg)](https://www.youtube.com/watch?v=VC0aLZZ6B-k)
+
+[![Seedance 2.0: Recreating the SEVERANCE Intro](https://img.youtube.com/vi/FfW0F5k9VT0/maxresdefault.jpg)](https://www.youtube.com/watch?v=FfW0F5k9VT0)
 
 ## TL;DR -- Seedance 2.0 Pricing Summary
 
