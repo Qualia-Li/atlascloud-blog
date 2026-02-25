@@ -313,7 +313,7 @@ Image-to-video combined with a well-crafted text prompt provides the highest lev
 Every prompt in this guide can be tested at no cost:
 
 1. **[Sign up for Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)** -- new accounts receive $1 in free credits
-2. Open **[Playground](https://www.atlascloud.ai/playground?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)**
+2. Open **[Models](https://www.atlascloud.ai/models?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)**
 3. Select Seedance v1.5 Pro
 4. Paste any prompt from this guide
 5. Click generate and review the output
@@ -322,7 +322,7 @@ That dollar in credit covers 3-4 HD video generations, or approximately 45 secon
 
 > [Start Testing Prompts on Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
 
-For developers integrating video generation into applications, the [Atlas Cloud API](https://docs.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts) provides unified access to Seedance 2.0 alongside other leading video generation models. This allows direct comparison of outputs across models using the same prompts and settings -- the most efficient path for benchmarking quality and selecting the right fit.
+For developers integrating video generation into applications, the [Atlas Cloud API](https://www.atlascloud.ai/docs?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts) provides unified access to Seedance 2.0 alongside other leading video generation models. This allows direct comparison of outputs across models using the same prompts and settings -- the most efficient path for benchmarking quality and selecting the right fit.
 
 ### How to Get Your API Key
 
@@ -363,6 +363,4 @@ The optimal aspect ratio depends on the target platform:
 - [Seedance 2.0 Pricing Breakdown](https://www.atlascloud.ai/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
 - [Kling 3.0 Review: Features, Pricing & How to Access](https://www.atlascloud.ai/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
 - [Sora 2 on Atlas Cloud: Complete API Guide](https://www.atlascloud.ai/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
-- [Veo 3.1 on Atlas Cloud: Google's 4K AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
-- [Best Seedance 2.0 API for Free in 2026](https://www.atlascloud.ai/blog/best-seedance-2-0-api-free-2026?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
-- [Best Sora 2 API Alternatives in 2026](https://www.atlascloud.ai/blog/best-sora-2-api-alternatives-2026?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
+- [Veo 3.1 on Atlas Cloud: Google's Film-Grade AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)

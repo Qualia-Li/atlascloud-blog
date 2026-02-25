@@ -36,7 +36,7 @@ See Seedance 2.0 in action:
 
 For most developers, Seedance 2.0 API pricing through Atlas Cloud's Fast tier delivers the best balance of Seedance 2.0 cost and quality at $0.022/sec -- 91% cheaper than the Pro tier and competitive with every other provider on the market. New accounts receive a [$1 free credit](https://atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing) to test generation immediately.
 
-## Official Pricing: Jimeng (即梦)
+## Official Pricing: Jimeng
 
 Jimeng is ByteDance's Chinese-language creative platform and the primary home for Seedance 2.0. Understanding the Seedance 2.0 plans available on Jimeng requires a Chinese phone number or existing Douyin account.
 
@@ -261,14 +261,14 @@ How does Seedance stack up against other leading AI video models in 2026?
 | **Kling 3.0 Standard** | Kuaishou | $0.084–$0.126/sec | 4K | 15s | Yes |
 | **Kling 3.0 Pro** | Kuaishou | $0.112–$0.168/sec | 4K | 15s | Yes |
 | **Sora 2** | OpenAI | ~$0.15/sec | 1080p | 20s | No |
-| **Veo 3.1** | Google | ~$0.03/sec | 4K | 8s | Yes |
+| **Veo 3.1** | Google | ~$0.03/sec | HD Cinematic | 8s | Yes |
 | **Wan 2.6** | Alibaba | ~$0.07/sec | 2K | 10s | No |
 
 ### Key Takeaways
 
 - **Cheapest API access:** Atlas Cloud's Seedance Fast tier at $0.022/sec is the lowest-cost option among all models listed, including Veo 3.1.
 - **Best value for quality:** Seedance v1.5 Pro on the Fast tier delivers strong visual quality at a fraction of competitor pricing.
-- **4K requirement:** If native 4K output is essential, Kling 3.0 and Veo 3.1 are the only current options. Seedance maxes out at 2K.
+- **4K requirement:** If native 4K output is essential, Kling 3.0 is the primary option. Seedance maxes out at 2K.
 - **Longest clips:** Sora 2 supports up to 20 seconds per generation. Seedance and Kling cap at 15 seconds.
 - **Audio generation:** Seedance 2.0, Kling 3.0, and Veo 3.1 all support native audio. Sora 2 and Wan 2.6 do not.
 
@@ -285,8 +285,8 @@ Dreamina provides 225 shared tokens daily at no cost, making Seedance 2.0 free f
 ### Atlas Cloud Seedance 2.0 Free Credit
 New Atlas Cloud accounts receive a $1 signup credit to try Seedance 2.0 free. At the Fast tier rate of $0.022/sec, this translates to approximately 45 seconds of generation -- enough for 4–5 short test clips. Sign up at [atlascloud.ai](https://atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing).
 
-### Atlas Cloud Playground
-The [Atlas Cloud Playground](https://atlascloud.ai/playground?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing) provides a browser-based interface for testing Seedance generation without writing any code. Credits from the free signup apply here as well.
+### Atlas Cloud Models
+The [Atlas Cloud Models page](https://www.atlascloud.ai/models?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing) provides a browser-based interface for testing Seedance generation without writing any code. Credits from the free signup apply here as well.
 
 ## Money-Saving Tips
 
@@ -354,4 +354,4 @@ Seedance 2.0 generates video at up to 2K resolution (2048 x 1080) at 24fps. It s
 - [15 Best Seedance 2.0 Prompts for Viral Videos](https://www.atlascloud.ai/blog/best-seedance-2-0-prompts-guide?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing)
 - [Kling 3.0 Review: Features, Pricing & How to Access](https://www.atlascloud.ai/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing)
 - [Sora 2 on Atlas Cloud: Complete API Guide](https://www.atlascloud.ai/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing)
-- [Veo 3.1 on Atlas Cloud: Google's 4K AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing)
+- [Veo 3.1 on Atlas Cloud: Google's Film-Grade AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=seedance-pricing)

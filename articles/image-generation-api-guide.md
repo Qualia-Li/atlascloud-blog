@@ -235,7 +235,7 @@ while True:
     time.sleep(2)
 ```
 
-Users can also test all three models interactively through the [Atlas Cloud Playground](https://www.atlascloud.ai/playground?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide) before writing any code.
+Users can also test all three models interactively through the [Atlas Cloud Models page](https://www.atlascloud.ai/models?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide) before writing any code.
 
 ## Which Model Should Teams Choose?
 
@@ -296,7 +296,7 @@ Flux 2 Pro, Imagen 4 Ultra, and Ideogram v3 represent the current state of the a
 
 Atlas Cloud image generation provides two paths for getting started with the AI image generation API:
 
-- **[Playground](https://www.atlascloud.ai/playground?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide)**: Test all three models interactively in the browser. No code required. Useful for prompt experimentation and quality comparison before committing to a specific model.
+- **[Models](https://www.atlascloud.ai/models?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide)**: Test all three models interactively in the browser. No code required. Useful for prompt experimentation and quality comparison before committing to a specific model.
 - **[API Access](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide)**: Sign up, grab an API key, and start generating images programmatically. The $1 free credit applies immediately, and there are no minimum commitments or subscription requirements.
 
 > [Try Atlas Cloud Image Generation -- $1 Free Credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide)
@@ -309,4 +309,4 @@ Atlas Cloud image generation provides two paths for getting started with the AI 
 - [Kling 3.0 Review: Features, Pricing & How to Access](https://www.atlascloud.ai/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide)
 - [Generate 100 Marketing Videos/Week Under $50](https://www.atlascloud.ai/blog/generate-100-videos-week-atlas-cloud?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide)
 - [Sora 2 on Atlas Cloud: Complete API Guide](https://www.atlascloud.ai/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide)
-- [Veo 3.1 on Atlas Cloud: Google's 4K AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide)
+- [Veo 3.1 on Atlas Cloud: Google's Film-Grade AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide)
