@@ -43,14 +43,14 @@ The first question any team exploring cheap AI video production asks is straight
 
 The key insight for AI video generation at scale is that not every video needs the most expensive model. A smart model mix using the bulk video API delivers the best quality-to-cost ratio:
 
-- **60 videos on Seedance Fast** (product shots, simple demos): 60 x $0.176 = $10.56
+- **60 videos on Seedance v1.5 Fast** (product shots, simple demos): 60 x $0.176 = $10.56
 - **20 videos on Veo 3.1** (brand storytelling, cinematic clips): 20 x $0.24 = $4.80
 - **15 videos on Kling 3.0 Std** (text-heavy social content): 15 x $1.008 = $15.12
 - **5 videos on Sora 2** (physics-heavy hero content): 5 x $1.20 = $6.00
 
 **Total: $36.48/week for 100 videos.** Well under the $50 target.
 
-Even a uniform approach using only Seedance Fast comes in at $17.60 per week for 100 eight-second clips. That is less than what most teams spend on stock footage subscriptions.
+Even a uniform approach using only Seedance v1.5 Fast comes in at $17.60 per week for 100 eight-second clips. That is less than what most teams spend on stock footage subscriptions.
 
 ## Sample Videos Generated via Atlas Cloud API
 
@@ -86,7 +86,7 @@ To demonstrate what each model produces, here are real videos generated using th
 
 Each model has distinct strengths that make it better suited to specific types of marketing video automation. Selecting the right model for the right task is how teams maintain quality while keeping cheap AI video costs low.
 
-### Product Demos and Showcases -- Seedance Fast
+### Product Demos and Showcases -- Seedance v1.5 Fast
 
 - **Best for**: Product rotation shots, unboxing animations, feature highlights
 - **Why**: Seedance excels at image-to-video generation, making it ideal for turning product photos into polished video clips. The Fast tier produces output that is production-ready for approximately 90% of use cases.
@@ -118,12 +118,12 @@ Each model has distinct strengths that make it better suited to specific types o
 
 | Content Type | Recommended Model | Cost/8s | Priority |
 |-------------|-------------------|---------|----------|
-| Product rotation | Seedance Fast | $0.176 | High volume |
+| Product rotation | Seedance v1.5 Fast | $0.176 | High volume |
 | Social media ads | Kling 3.0 Std | $1.008 | Text-heavy |
 | Brand story clips | Veo 3.1 | $0.24 | Cinematic |
 | Physics demos | Sora 2 | $1.20 | Hero content |
 | Explainer clips | Wan 2.6 | $0.56 | Mid-range |
-| Draft iterations | Seedance Fast | $0.176 | Cost savings |
+| Draft iterations | Seedance v1.5 Fast | $0.176 | Cost savings |
 
 ## Automation: Python Batch Generation Script
 
@@ -257,11 +257,11 @@ Atlas Cloud video generation at scale introduces quality challenges that do not 
 
 ### Use the Fast Tier for Drafts, Pro for Finals
 
-This is the single most effective cost-saving technique. Run all initial prompt iterations on Seedance Fast at $0.022/second. Once the prompt, framing, and style are dialed in, switch to a higher-quality model for the final render. Teams that adopt this workflow consistently report 70-85% savings on their total generation spend compared to running everything on Pro tiers.
+This is the single most effective cost-saving technique. Run all initial prompt iterations on Seedance v1.5 Fast at $0.022/second. Once the prompt, framing, and style are dialed in, switch to a higher-quality model for the final render. Teams that adopt this workflow consistently report 70-85% savings on their total generation spend compared to running everything on Pro tiers.
 
 ### Start with 4-6 Second Clips
 
-Longer is not always better. For social media content, 4-6 second clips often outperform longer ones in engagement metrics. They also cost 25-50% less to generate. A 4-second Seedance Fast clip costs just $0.088 -- meaning 100 short clips would run only $8.80 per week.
+Longer is not always better. For social media content, 4-6 second clips often outperform longer ones in engagement metrics. They also cost 25-50% less to generate. A 4-second Seedance v1.5 Fast clip costs just $0.088 -- meaning 100 short clips would run only $8.80 per week.
 
 ### Template Your Prompts for Consistency
 
@@ -294,7 +294,7 @@ A local business producing social media content and product showcases.
 |-----------|--------|
 | Videos per week | 25 |
 | Average duration | 8 seconds |
-| Primary model | Seedance Fast |
+| Primary model | Seedance v1.5 Fast |
 | Weekly cost | 25 x 8 x $0.022 = **$4.40** |
 | Monthly cost | **$17.60** |
 
@@ -308,7 +308,7 @@ A marketing agency serving multiple clients with diverse content needs.
 |-----------|--------|
 | Videos per week | 100 |
 | Average duration | 8 seconds |
-| Model mix | 60% Seedance Fast, 20% Veo 3.1, 15% Kling 3.0 Std, 5% Sora 2 |
+| Model mix | 60% Seedance v1.5 Fast, 20% Veo 3.1, 15% Kling 3.0 Std, 5% Sora 2 |
 | Weekly breakdown | $10.56 + $4.80 + $15.12 + $6.00 |
 | **Weekly cost** | **$36.48** |
 | **Monthly cost** | **$145.92** |
@@ -323,8 +323,8 @@ A large e-commerce operation generating product videos, ad variations, and A/B t
 |-----------|--------|
 | Videos per week | 500 |
 | Average duration | 6 seconds |
-| Model mix | 70% Seedance Fast, 20% Veo 3.1, 10% Kling 3.0 Std |
-| Seedance Fast | 350 x 6 x $0.022 = $46.20 |
+| Model mix | 70% Seedance v1.5 Fast, 20% Veo 3.1, 10% Kling 3.0 Std |
+| Seedance v1.5 Fast | 350 x 6 x $0.022 = $46.20 |
 | Veo 3.1 | 100 x 6 x $0.03 = $18.00 |
 | Kling 3.0 Std | 50 x 6 x $0.126 = $37.80 |
 | **Weekly cost** | **$102.00** |
@@ -350,7 +350,7 @@ Yes. Atlas Cloud provides access to over 300 AI models -- including Seedance, Kl
 
 ### How long does it take to generate 100 videos?
 
-Generation time varies by model. Seedance Fast typically completes an 8-second video in 30-90 seconds. Kling 3.0 and Veo 3.1 may take 2-5 minutes per clip. Running requests sequentially, a full batch of 100 videos on Seedance Fast completes in approximately 2-3 hours. With concurrent requests, that timeline compresses significantly.
+Generation time varies by model. Seedance v1.5 Fast typically completes an 8-second video in 30-90 seconds. Kling 3.0 and Veo 3.1 may take 2-5 minutes per clip. Running requests sequentially, a full batch of 100 videos on Seedance v1.5 Fast completes in approximately 2-3 hours. With concurrent requests, that timeline compresses significantly.
 
 ### Are AI-generated videos suitable for commercial use?
 

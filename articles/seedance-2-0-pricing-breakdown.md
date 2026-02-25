@@ -266,7 +266,7 @@ How does Seedance stack up against other leading AI video models in 2026?
 
 ### Key Takeaways
 
-- **Cheapest API access:** Atlas Cloud's Seedance Fast tier at $0.022/sec is the lowest-cost option among all models listed, including Veo 3.1.
+- **Cheapest API access:** Atlas Cloud's Seedance v1.5 Fast tier at $0.022/sec is the lowest-cost option among all models listed, including Veo 3.1.
 - **Best value for quality:** Seedance v1.5 Pro on the Fast tier delivers strong visual quality at a fraction of competitor pricing.
 - **4K requirement:** If native 4K output is essential, Kling 3.0 is the primary option. Seedance maxes out at 2K.
 - **Longest clips:** Sora 2 supports up to 20 seconds per generation. Seedance and Kling cap at 15 seconds.
@@ -334,11 +334,11 @@ Seedance 2.0 is not yet available through any third-party API. The current API o
 
 ### How does Seedance pricing compare to Kling 3.0?
 
-Atlas Cloud's Seedance Fast tier ($0.022/sec) is significantly cheaper than Kling 3.0 Standard ($0.084–$0.126/sec). However, Kling 3.0 offers native 4K output and multilingual audio, which Seedance does not. The right choice depends on whether resolution or cost is the higher priority.
+Atlas Cloud's Seedance v1.5 Fast tier ($0.022/sec) is significantly cheaper than Kling 3.0 Standard ($0.084–$0.126/sec). However, Kling 3.0 offers native 4K output and multilingual audio, which Seedance does not. The right choice depends on whether resolution or cost is the higher priority.
 
 ### How does Seedance pricing compare to Sora 2?
 
-Sora 2 costs approximately $0.15/sec, making it roughly 7x more expensive than Atlas Cloud's Seedance Fast tier. Sora 2 supports longer 20-second clips but does not generate native audio.
+Sora 2 costs approximately $0.15/sec, making it roughly 7x more expensive than Atlas Cloud's Seedance v1.5 Fast tier. Sora 2 supports longer 20-second clips but does not generate native audio.
 
 ### Can I use Seedance for commercial projects?
 

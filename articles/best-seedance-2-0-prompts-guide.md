@@ -313,10 +313,9 @@ Image-to-video combined with a well-crafted text prompt provides the highest lev
 Every prompt in this guide can be tested at no cost:
 
 1. **[Sign up for Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)** -- new accounts receive $1 in free credits
-2. Open **[Models](https://www.atlascloud.ai/models?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)**
-3. Select Seedance v1.5 Pro
-4. Paste any prompt from this guide
-5. Click generate and review the output
+2. Open **[Seedance 2.0](https://www.atlascloud.ai/collections/seedance2?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)**
+3. Paste any prompt from this guide
+4. Click generate and review the output
 
 That dollar in credit covers 3-4 HD video generations, or approximately 45 seconds of video on the fast tier -- sufficient capacity to test multiple Seedance 2.0 prompts and identify which styles align with a given content strategy.
 
