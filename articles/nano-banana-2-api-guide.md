@@ -14,6 +14,12 @@ But Nano Banana 2 is more than a meme generator. Under the hood, it is a versati
 
 *Last Updated: February 28, 2026*
 
+Here are examples of what Nano Banana 2 can generate:
+
+![3D collectible figurine of a cyberpunk cat hacker, generated with Nano Banana 2 on Atlas Cloud](../resources/samples/nano-banana-2-figurine.png)
+
+![Japanese garden landscape at golden hour, generated with Nano Banana 2 on Atlas Cloud](../resources/samples/nano-banana-2-landscape.png)
+
 The Nano Banana 2 API is accessible via [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) for $0.056-0.072 per image depending on resolution. Atlas also provides $1 in free credit upon sign-up, which translates to roughly 14-18 images. Atlas customers can access Nano Banana 2 as well as 300+ other models with a single API key, without needing separate accounts with Google, Black Forest Labs, or Ideogram.
 
 ## Nano Banana 2 at a Glance

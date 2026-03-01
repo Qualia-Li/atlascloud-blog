@@ -14,6 +14,12 @@ The Standard tier at $0.04 per image is suitable for high-volume content. The Pr
 
 *Last Updated: February 28, 2026*
 
+Here are examples of what Imagen 4 Ultra can generate:
+
+![Neon sign with accurate text rendering, generated with Imagen 4 Ultra on Atlas Cloud](../resources/samples/imagen4-ultra-text.png)
+
+![Aerial coral reef photography, generated with Imagen 4 Ultra on Atlas Cloud](../resources/samples/imagen4-ultra-nature.png)
+
 ## Imagen 4 Ultra at a Glance
 
 | Feature | Standard | Premium | Ultra |

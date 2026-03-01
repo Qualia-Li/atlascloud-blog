@@ -263,7 +263,7 @@ If Seedance 2.0 Fast does not meet your quality requirements, test the next tier
 budget_models = [
     {"model": "bytedance/seedance-v1.5-pro/text-to-video", "cost_per_sec": 0.022},
     {"model": "google/veo3.1/text-to-video", "cost_per_sec": 0.03},
-    {"model": "alibaba/wan-v2.6/text-to-video", "cost_per_sec": 0.07},
+    {"model": "alibaba/wan-2.6/text-to-video", "cost_per_sec": 0.07},
     {"model": "shengshu/vidu-q3/text-to-video", "cost_per_sec": 0.07},
 ]
 
@@ -296,7 +296,7 @@ def select_model(use_case, needs_audio=False, min_duration=5):
     elif min_duration > 8:
         return "kwaivgi/kling-v3.0-pro/text-to-video"  # $0.126/sec, 10s
     elif use_case == "draft":
-        return "alibaba/wan-v2.6/text-to-video"  # $0.07/sec, fast
+        return "alibaba/wan-2.6/text-to-video"  # $0.07/sec, fast
     else:
         return "bytedance/seedance-v1.5-pro/text-to-video"  # $0.022/sec, best value
 ```

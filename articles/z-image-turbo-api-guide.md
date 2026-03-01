@@ -14,6 +14,12 @@ For development teams, content creators, and businesses that need images at scal
 
 *Last Updated: February 28, 2026*
 
+Here are examples of what Z-Image Turbo can generate:
+
+![Futuristic cityscape at dusk, generated with Z-Image Turbo on Atlas Cloud for just $0.01](../resources/samples/z-image-turbo-cityscape.png)
+
+![Photorealistic portrait with shallow depth of field, generated with Z-Image Turbo on Atlas Cloud](../resources/samples/z-image-turbo-portrait.png)
+
 ## Z-Image Turbo at a Glance
 
 | Feature | Detail |

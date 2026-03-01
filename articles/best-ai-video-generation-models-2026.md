@@ -319,7 +319,7 @@ To use a different model, replace the model ID. For example:
 - Kling 3.0: `"kwaivgi/kling-v3.0-pro/text-to-video"`
 - Veo 3.1: `"google/veo3.1/text-to-video"`
 - Sora 2: `"openai/sora-2/text-to-video"`
-- Wan 2.6: `"alibaba/wan-v2.6/text-to-video"`
+- Wan 2.6: `"alibaba/wan-2.6/text-to-video"`
 
 ### Step 3: Compare Models
 

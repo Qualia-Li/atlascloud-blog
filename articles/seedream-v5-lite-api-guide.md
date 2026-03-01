@@ -16,12 +16,18 @@ This guide covers everything needed to integrate Seedream v5.0 Lite through the 
 
 *Last Updated: February 28, 2026*
 
+Here are examples of what Seedream v5.0 Lite can generate:
+
+![Product photography of a luxury watch, generated with Seedream v5.0 Lite on Atlas Cloud](../resources/samples/seedream-product-photo.png)
+
+![Lifestyle scene of a cozy coffee shop, generated with Seedream v5.0 Lite on Atlas Cloud](../resources/samples/seedream-lifestyle.png)
+
 ## Seedream v5.0 Lite at a Glance
 
 | Spec | Detail |
 |------|--------|
 | **Developer** | ByteDance |
-| **API Model ID** | `bytedance/seedream-v5-lite/text-to-image` |
+| **API Model ID** | `bytedance/seedream-v5.0-lite` |
 | **Max Resolution** | 1024x1024 |
 | **Generation Speed** | Fast (~2-4s) |
 | **Text Rendering** | Good -- legible text in most scenarios |
@@ -153,7 +159,7 @@ response = requests.post(
         "Content-Type": "application/json"
     },
     json={
-        "model": "bytedance/seedream-v5-lite/text-to-image",
+        "model": "bytedance/seedream-v5.0-lite",
         "prompt": "Professional product photo of a minimalist white sneaker on a clean white surface, soft studio lighting, e-commerce style, sharp detail",
         "width": 1024,
         "height": 1024
@@ -193,7 +199,7 @@ def generate_image(prompt):
         f"{BASE_URL}/model/generateImage",
         headers=HEADERS,
         json={
-            "model": "bytedance/seedream-v5-lite/text-to-image",
+            "model": "bytedance/seedream-v5.0-lite",
             "prompt": prompt,
             "width": 1024,
             "height": 1024
@@ -216,7 +222,7 @@ landscape = requests.post(
     f"{BASE_URL}/model/generateImage",
     headers=HEADERS,
     json={
-        "model": "bytedance/seedream-v5-lite/text-to-image",
+        "model": "bytedance/seedream-v5.0-lite",
         "prompt": "Panoramic mountain landscape at sunrise, dramatic clouds, golden light",
         "width": 1024,
         "height": 576
@@ -228,7 +234,7 @@ portrait = requests.post(
     f"{BASE_URL}/model/generateImage",
     headers=HEADERS,
     json={
-        "model": "bytedance/seedream-v5-lite/text-to-image",
+        "model": "bytedance/seedream-v5.0-lite",
         "prompt": "Tall glass of iced coffee with cream swirling, dark background, dramatic lighting",
         "width": 576,
         "height": 1024

@@ -27,7 +27,7 @@ The Hailuo 2.3 API is accessible via [Atlas Cloud](https://www.atlascloud.ai?utm
 | Spec | Detail |
 |------|--------|
 | **Developer** | MiniMax |
-| **Model ID** | `minimax/hailuo-v2.3/text-to-video` |
+| **Model ID** | `minimax/hailuo-2.3/t2v-standard` |
 | **Max Resolution** | 1080p |
 | **Max Duration** | 8 seconds |
 | **Frame Rate** | 30fps |
@@ -90,7 +90,7 @@ The most straightforward way for developers to access the Hailuo 2.3 API is thro
 
 | Detail | Value |
 |--------|-------|
-| **Model** | `minimax/hailuo-v2.3/text-to-video` |
+| **Model** | `minimax/hailuo-2.3/t2v-standard` |
 | **Price** | $0.08/sec |
 | **5-second clip** | $0.40 |
 | **8-second clip (max)** | $0.64 |
@@ -144,7 +144,7 @@ response = requests.post(
         "Content-Type": "application/json"
     },
     json={
-        "model": "minimax/hailuo-v2.3/text-to-video",
+        "model": "minimax/hailuo-2.3/t2v-standard",
         "prompt": "Anime style, a young warrior with flowing silver hair unsheathes a glowing katana in a moonlit bamboo forest, dramatic wind effect blowing leaves across the frame, dynamic camera angle from below, cel-shaded lighting with deep blue shadows and white highlights",
         "duration": 8,
         "resolution": "1080p"
@@ -188,7 +188,7 @@ response = requests.post(
         "Content-Type": "application/json"
     },
     json={
-        "model": "minimax/hailuo-v2.3/text-to-video",
+        "model": "minimax/hailuo-2.3/t2v-standard",
         "prompt": "The character gently turns their head to the side, hair flowing with the movement, soft breeze effect, warm sunset lighting, slice-of-life anime style, gentle and peaceful atmosphere",
         "image_url": "https://example.com/your-character-illustration.jpg",
         "duration": 6,
@@ -336,7 +336,7 @@ Hailuo 2.3 can generate semi-realistic content, but it is not optimized for phot
 
 ### How do I access the Hailuo 2.3 API?
 
-The easiest way is through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=hailuo-2-3-api-guide). Sign up, get an API key, and use the model ID `minimax/hailuo-v2.3/text-to-video` in your requests. $1 free credit is applied automatically. Hailuo 2.3 is also available through MiniMax's Hailuo AI platform, but the interface is primarily in Chinese.
+The easiest way is through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=hailuo-2-3-api-guide). Sign up, get an API key, and use the model ID `minimax/hailuo-2.3/t2v-standard` in your requests. $1 free credit is applied automatically. Hailuo 2.3 is also available through MiniMax's Hailuo AI platform, but the interface is primarily in Chinese.
 
 ### What anime styles does Hailuo 2.3 support?
 

@@ -15,6 +15,16 @@ This guide compares every major AI image generation model available through the 
 
 *Last Updated: February 28, 2026*
 
+Here are examples of what these models can generate:
+
+![Nano Banana 2: 3D figurine generation](../resources/samples/nano-banana-2-figurine.png)
+
+![Seedream v5.0 Lite: Product photography](../resources/samples/seedream-product-photo.png)
+
+![Z-Image Turbo: Cityscape for $0.01](../resources/samples/z-image-turbo-cityscape.png)
+
+![Imagen 4 Ultra: Text rendering accuracy](../resources/samples/imagen4-ultra-text.png)
+
 ## The Complete Comparison Table
 
 | Model | Developer | Price/Image | Max Resolution | Speed | Text Rendering | Photorealism | Best For |
@@ -254,7 +264,7 @@ while True:
 Model IDs for other models:
 - Imagen 4 Ultra: `"google/imagen4-ultra/text-to-image"`
 - Ideogram v3: `"ideogram/ideogram-v3/text-to-image"`
-- Seedream v5.0 Lite: `"bytedance/seedream-v5-lite/text-to-image"`
+- Seedream v5.0 Lite: `"bytedance/seedream-v5.0-lite"`
 - Z-Image Turbo: `"z-ai/z-image-turbo/text-to-image"`
 - Nano Banana 2: `"nano-banana/nano-banana-2/text-to-image"`
 
@@ -267,7 +277,7 @@ models = [
     "black-forest-labs/flux-2-pro/text-to-image",
     "google/imagen4-ultra/text-to-image",
     "ideogram/ideogram-v3/text-to-image",
-    "bytedance/seedream-v5-lite/text-to-image"
+    "bytedance/seedream-v5.0-lite"
 ]
 
 prompt = "A vintage coffee shop interior, warm afternoon light, bokeh effect, photorealistic"

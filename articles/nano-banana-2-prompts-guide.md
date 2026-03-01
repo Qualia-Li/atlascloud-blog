@@ -14,6 +14,12 @@ This guide contains 15+ of the best Nano Banana 2 prompts, organized by category
 
 *Last Updated: February 28, 2026*
 
+Here are examples of what Nano Banana 2 can generate:
+
+![3D figurine generated using the cyberpunk cat hacker prompt from this guide](../resources/samples/nano-banana-2-figurine.png)
+
+![Landscape generated with Nano Banana 2 showing detailed natural scenery](../resources/samples/nano-banana-2-landscape.png)
+
 Access Nano Banana 2 on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts-guide) for $0.056-0.072 per image with $1 in free credit at sign-up -- enough for approximately 14-18 images to test these prompts yourself.
 
 ## The Nano Banana 2 Prompt Formula

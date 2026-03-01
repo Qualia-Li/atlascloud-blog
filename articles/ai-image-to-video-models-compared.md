@@ -296,7 +296,7 @@ response = requests.post(
         "Content-Type": "application/json"
     },
     json={
-        "model": "alibaba/wan-v2.6/image-to-video",
+        "model": "alibaba/wan-2.6/image-to-video",
         "prompt": "Gentle motion with natural swaying, soft ambient "
                   "lighting, peaceful and calm atmosphere",
         "image_url": "https://example.com/source-image.jpg",

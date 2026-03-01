@@ -86,7 +86,7 @@ Not all AI video models are equally suited to product content. Based on extensiv
 
 | Spec | Detail |
 |------|--------|
-| **Model ID** | `alibaba/wan-v2.6/image-to-video` |
+| **Model ID** | `alibaba/wan-2.6/image-to-video` |
 | **Price** | $0.015/sec |
 | **Max Duration** | 10 seconds |
 | **Best Feature** | Lowest price |
@@ -407,7 +407,7 @@ This script handles:
 - **Cost tracking** and summary reporting
 - **Results logging** for audit and troubleshooting
 
-To use this with your own catalog, replace the `products` list with your actual product data. Each product needs a `name`, `image_url`, and `prompt`. You can also swap the `MODEL` variable to try different models -- `pixverse/v4.5/image-to-video` for camera controls or `alibaba/wan-v2.6/image-to-video` for budget production.
+To use this with your own catalog, replace the `products` list with your actual product data. Each product needs a `name`, `image_url`, and `prompt`. You can also swap the `MODEL` variable to try different models -- `pixverse/v4.5/image-to-video` for camera controls or `alibaba/wan-2.6/image-to-video` for budget production.
 
 ## Cost Analysis: Traditional vs. AI Video
 
@@ -555,7 +555,7 @@ social_video = generate_product_video(
     prompt="Dynamic quick reveal with energetic camera movement, "
            "vibrant lighting, trendy social media advertisement style, "
            "9:16 vertical format",
-    model="alibaba/wan-v2.6/image-to-video",
+    model="alibaba/wan-2.6/image-to-video",
     duration=5
 )
 print(f"Social video: {social_video}")

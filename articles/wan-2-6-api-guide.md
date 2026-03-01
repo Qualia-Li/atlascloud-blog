@@ -25,7 +25,7 @@ The Wan 2.6 API is accessible via [Atlas Cloud](https://www.atlascloud.ai?utm_me
 | Spec | Detail |
 |------|--------|
 | **Developer** | Alibaba |
-| **Model ID** | `alibaba/wan-v2.6/text-to-video` |
+| **Model ID** | `alibaba/wan-2.6/text-to-video` |
 | **Max Resolution** | 1080p |
 | **Max Duration** | 10 seconds |
 | **Frame Rate** | 30fps |
@@ -86,7 +86,7 @@ The most straightforward way for developers to access the Wan 2.6 API is through
 
 | Detail | Value |
 |--------|-------|
-| **Model** | `alibaba/wan-v2.6/text-to-video` |
+| **Model** | `alibaba/wan-2.6/text-to-video` |
 | **Price** | $0.07/sec |
 | **5-second clip** | $0.35 |
 | **10-second clip (max)** | $0.70 |
@@ -152,7 +152,7 @@ response = requests.post(
         "Content-Type": "application/json"
     },
     json={
-        "model": "alibaba/wan-v2.6/text-to-video",
+        "model": "alibaba/wan-2.6/text-to-video",
         "prompt": "A golden retriever running through a sunlit meadow with wildflowers, slow motion, warm natural lighting, shallow depth of field, cinematic quality",
         "duration": 10,
         "resolution": "1080p"
@@ -196,7 +196,7 @@ response = requests.post(
         "Content-Type": "application/json"
     },
     json={
-        "model": "alibaba/wan-v2.6/text-to-video",
+        "model": "alibaba/wan-2.6/text-to-video",
         "prompt": "The camera slowly zooms in as the subject turns to face the viewer, soft natural movement, cinematic lighting",
         "image_url": "https://example.com/your-reference-image.jpg",
         "duration": 8,
@@ -342,7 +342,7 @@ Wan 2.6 generates clips up to 10 seconds at 1080p resolution and 30fps. This mat
 
 ### How do I access the Wan 2.6 API?
 
-The easiest way is through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=wan-2-6-api-guide). Sign up, get an API key, and use the model ID `alibaba/wan-v2.6/text-to-video` in your requests. $1 free credit is applied automatically. Wan 2.6 is also available through Alibaba Cloud's Model Studio, but the onboarding process is more complex for international developers.
+The easiest way is through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=wan-2-6-api-guide). Sign up, get an API key, and use the model ID `alibaba/wan-2.6/text-to-video` in your requests. $1 free credit is applied automatically. Wan 2.6 is also available through Alibaba Cloud's Model Studio, but the onboarding process is more complex for international developers.
 
 ### Is Wan 2.6 good enough for commercial use?
 

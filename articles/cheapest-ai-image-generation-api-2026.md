@@ -15,6 +15,10 @@ This guide ranks every major AI image generation API by cost, calculates what fi
 
 *Last Updated: February 28, 2026*
 
+Here is an example of what the cheapest model can produce:
+
+![This cityscape was generated with Z-Image Turbo for just $0.01](../resources/samples/z-image-turbo-cityscape.png)
+
 ## Complete Price Ranking: Cheapest to Most Expensive
 
 | Rank | Model | Price/Image | Max Resolution | Speed | Quality Tier |
@@ -169,8 +173,8 @@ def select_model(use_case):
     routing = {
         "thumbnail": "z-ai/z-image-turbo/text-to-image",        # $0.01
         "draft": "z-ai/z-image-turbo/text-to-image",             # $0.01
-        "social_media": "bytedance/seedream-v5-lite/text-to-image",  # $0.026
-        "product_catalog": "bytedance/seedream-v5-lite/text-to-image",  # $0.026
+        "social_media": "bytedance/seedream-v5.0-lite",  # $0.026
+        "product_catalog": "bytedance/seedream-v5.0-lite",  # $0.026
         "blog_illustration": "black-forest-labs/flux-2-pro/text-to-image",  # $0.03-0.05
         "text_overlay": "ideogram/ideogram-v3/text-to-image",    # $0.03-0.05
         "hero_image": "google/imagen4-ultra/text-to-image",      # $0.08
@@ -262,7 +266,7 @@ prompt = "Professional headshot of a business executive, neutral background, stu
 
 models = [
     {"id": "z-ai/z-image-turbo/text-to-image", "price": "$0.01"},
-    {"id": "bytedance/seedream-v5-lite/text-to-image", "price": "$0.026"},
+    {"id": "bytedance/seedream-v5.0-lite", "price": "$0.026"},
     {"id": "black-forest-labs/flux-2-pro/text-to-image", "price": "$0.03-0.05"},
     {"id": "google/imagen4-ultra/text-to-image", "price": "$0.08"},
 ]

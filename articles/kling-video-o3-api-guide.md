@@ -25,7 +25,7 @@ See Kling Video O3 in action:
 | Feature | Detail |
 |---------|--------|
 | **Developer** | Kuaishou |
-| **Model ID** | `kwaivgi/kling-o3/text-to-video` |
+| **Model ID** | `kwaivgi/kling-video-o3-pro/text-to-video` |
 | **Price** | $0.15/second |
 | **Max Resolution** | 1080p to 4K |
 | **Max Duration** | Up to 10 seconds |
@@ -157,7 +157,7 @@ response = requests.post(
     f"{BASE_URL}/model/generateVideo",
     headers=HEADERS,
     json={
-        "model": "kwaivgi/kling-o3/text-to-video",
+        "model": "kwaivgi/kling-video-o3-pro/text-to-video",
         "prompt": "A ceramic artist shaping a vase on a pottery wheel, close-up of hands covered in wet clay, warm studio lighting, shallow depth of field, documentary style",
         "duration": 10,
         "resolution": "1080p"
@@ -192,7 +192,7 @@ response = requests.post(
     f"{BASE_URL}/model/generateVideo",
     headers=HEADERS,
     json={
-        "model": "kwaivgi/kling-o3/text-to-video",
+        "model": "kwaivgi/kling-video-o3-pro/text-to-video",
         "prompt": "Transform into Studio Ghibli anime style, vibrant colors, hand-drawn aesthetic, soft watercolor backgrounds, whimsical atmosphere",
         "video_url": "https://example.com/your-source-video.mp4",
         "duration": 10,
@@ -228,7 +228,7 @@ response = requests.post(
     f"{BASE_URL}/model/generateVideo",
     headers=HEADERS,
     json={
-        "model": "kwaivgi/kling-o3/text-to-video",
+        "model": "kwaivgi/kling-video-o3-pro/text-to-video",
         "prompt": "A woman walking through a futuristic city at night, neon lights reflecting on wet streets, cinematic atmosphere, slow tracking shot",
         "image_url": "https://example.com/character-reference.jpg",
         "duration": 10,
@@ -276,7 +276,7 @@ for video_url in source_videos:
         f"{BASE_URL}/model/generateVideo",
         headers=HEADERS,
         json={
-            "model": "kwaivgi/kling-o3/text-to-video",
+            "model": "kwaivgi/kling-video-o3-pro/text-to-video",
             "prompt": style_prompt,
             "video_url": video_url,
             "duration": 10,

@@ -14,6 +14,12 @@ With the right AI image generation models and a well-structured workflow, teams 
 
 *Last Updated: February 28, 2026*
 
+Here are examples of AI-generated product photography:
+
+![AI-generated product photography using Seedream v5.0 Lite on Atlas Cloud](../resources/samples/seedream-product-photo.png)
+
+![3D product visualization using Nano Banana 2 on Atlas Cloud](../resources/samples/nano-banana-2-figurine.png)
+
 ## Why AI Product Photography Makes Sense in 2026
 
 The case for AI-generated product images is no longer theoretical. E-commerce brands are already using AI product photography in production for catalog images, social media assets, and advertising creatives. The reasons are straightforward:
