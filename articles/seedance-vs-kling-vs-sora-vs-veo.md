@@ -28,7 +28,7 @@ See all four models compared side by side:
 | **Max Duration** | 15 seconds | 10 seconds | 20 seconds | 8 seconds |
 | **Native Audio** | Yes | Yes | Yes | Yes |
 | **Frame Rate** | 30fps | 30fps | 30fps | 24fps (cinematic) |
-| **Reference Images** | Up to 12 | Up to 4 | 1 | 1 |
+| **Reference Files** | Up to 9 images (plus 3 videos and 3 audio files) | Up to 4 | 1 | 1 |
 | **Price (per sec)** | $0.022 (Fast) / $0.247 (Pro) | $0.126 | $0.15 | $0.03 |
 | **5s Clip Cost** | $0.11 / $1.24 | $0.63 | $0.75 | $0.15 |
 | **10s Clip Cost** | $0.22 / $2.47 | $1.26 | $1.50 | $0.30 |
@@ -148,14 +148,14 @@ Rendering legible text within video -- brand names, signs, labels -- is still ch
 
 Reference images allow you to guide the model's output by providing visual context -- a product photo, a character design, or a style reference.
 
-| Model | Max Reference Images | Best For |
+| Model | Max Reference Files | Best For |
 |-------|---------------------|----------|
-| **Seedance 2.0** | 12 images | Multi-reference compositions, style consistency |
+| **Seedance 2.0** | 9 images (plus 3 videos and 3 audio files) | Multi-reference compositions, style consistency |
 | **Kling 3.0** | 4 images | Product animations, character consistency |
 | **Sora 2** | 1 image | Simple image-to-video conversion |
 | **Veo 3.1** | 1 image | Style-guided cinematic generation |
 
-**Seedance 2.0** has a major advantage here with support for up to 12 reference images. This enables workflows like maintaining character consistency across multiple clips, combining elements from different references, and providing detailed style guidance. For teams producing serialized content where visual consistency matters, this is a significant differentiator.
+**Seedance 2.0** has a major advantage here with support for up to 9 reference images (plus 3 videos and 3 audio files). This enables workflows like maintaining character consistency across multiple clips, combining elements from different references, and providing detailed style guidance. For teams producing serialized content where visual consistency matters, this is a significant differentiator.
 
 **Winner: Seedance 2.0** by a wide margin.
 
@@ -334,7 +334,7 @@ Yes. All four models use the same Atlas Cloud API endpoints. The only difference
 
 ### How do the models compare for image-to-video?
 
-Seedance 2.0 has the strongest image-to-video capabilities with support for up to 12 reference images. Kling 3.0 supports up to 4. Sora 2 and Veo 3.1 each accept 1 reference image. For workflows that start with product photos or design assets, Seedance 2.0 provides the most control.
+Seedance 2.0 has the strongest image-to-video capabilities with support for up to 9 reference images (plus 3 videos and 3 audio files). Kling 3.0 supports up to 4. Sora 2 and Veo 3.1 each accept 1 reference image. For workflows that start with product photos or design assets, Seedance 2.0 provides the most control.
 
 ### Is the $1 free credit enough to test all four models?
 

@@ -74,7 +74,7 @@ Not all AI video models are equally suited to product content. Based on extensiv
 
 | Spec | Detail |
 |------|--------|
-| **Model ID** | `bytedance/seedance-2.0/image-to-video` |
+| **Model ID** | `bytedance/seedance-v1.5-pro/image-to-video` |
 | **Price** | $0.022/sec |
 | **Max Duration** | 15 seconds |
 | **Best Feature** | Multi-reference input, quality |
@@ -86,7 +86,7 @@ Not all AI video models are equally suited to product content. Based on extensiv
 
 | Spec | Detail |
 |------|--------|
-| **Model ID** | `alibaba/wan-2.6/image-to-video` |
+| **Model ID** | `alibaba/wan-v2.6/image-to-video` |
 | **Price** | $0.015/sec |
 | **Max Duration** | 10 seconds |
 | **Best Feature** | Lowest price |
@@ -285,7 +285,7 @@ products = [
 ]
 
 # Configuration
-MODEL = "bytedance/seedance-2.0/image-to-video"  # Best quality/price
+MODEL = "bytedance/seedance-v1.5-pro/image-to-video"  # Best quality/price
 DURATION = 8
 RESOLUTION = "1080p"
 MAX_CONCURRENT = 5  # Limit concurrent requests
@@ -407,7 +407,7 @@ This script handles:
 - **Cost tracking** and summary reporting
 - **Results logging** for audit and troubleshooting
 
-To use this with your own catalog, replace the `products` list with your actual product data. Each product needs a `name`, `image_url`, and `prompt`. You can also swap the `MODEL` variable to try different models -- `pixverse/v4.5/image-to-video` for camera controls or `alibaba/wan-2.6/image-to-video` for budget production.
+To use this with your own catalog, replace the `products` list with your actual product data. Each product needs a `name`, `image_url`, and `prompt`. You can also swap the `MODEL` variable to try different models -- `pixverse/v4.5/image-to-video` for camera controls or `alibaba/wan-v2.6/image-to-video` for budget production.
 
 ## Cost Analysis: Traditional vs. AI Video
 
@@ -533,7 +533,7 @@ hero_video = generate_product_video(
     prompt="Cinematic slow reveal of the smartwatch, dramatic lighting "
            "with soft bokeh background, premium luxury commercial style, "
            "camera slowly orbiting to reveal all angles",
-    model="bytedance/seedance-2.0/image-to-video",
+    model="bytedance/seedance-v1.5-pro/image-to-video",
     duration=10
 )
 print(f"Hero video: {hero_video}")
@@ -555,7 +555,7 @@ social_video = generate_product_video(
     prompt="Dynamic quick reveal with energetic camera movement, "
            "vibrant lighting, trendy social media advertisement style, "
            "9:16 vertical format",
-    model="alibaba/wan-2.6/image-to-video",
+    model="alibaba/wan-v2.6/image-to-video",
     duration=5
 )
 print(f"Social video: {social_video}")

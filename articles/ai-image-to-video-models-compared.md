@@ -78,7 +78,7 @@ Kling 3.0 delivers the highest resolution I2V output available, with Ultra HD su
 **I2V Strengths:**
 - Ultra HD output for maximum visual clarity
 - Excellent character consistency from source images
-- 10-second duration with 30fps (60fps on Ultra)
+- 10-second duration with 30fps
 - Strong text preservation -- brand names and product labels remain readable
 - Motion Brush tool for precise directional control
 
@@ -214,7 +214,7 @@ response = requests.post(
         "Content-Type": "application/json"
     },
     json={
-        "model": "bytedance/seedance-2.0/image-to-video",
+        "model": "bytedance/seedance-v1.5-pro/image-to-video",
         "prompt": "The character begins walking forward confidently, "
                   "hair moving naturally in a gentle breeze, "
                   "cinematic camera slowly tracking alongside",
@@ -296,7 +296,7 @@ response = requests.post(
         "Content-Type": "application/json"
     },
     json={
-        "model": "alibaba/wan-2.6/image-to-video",
+        "model": "alibaba/wan-v2.6/image-to-video",
         "prompt": "Gentle motion with natural swaying, soft ambient "
                   "lighting, peaceful and calm atmosphere",
         "image_url": "https://example.com/source-image.jpg",

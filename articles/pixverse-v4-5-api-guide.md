@@ -268,7 +268,7 @@ Here is a direct comparison of PixVerse V4.5 against other leading AI video mode
 |---------|-------------|----------|-------------|-----------|---------|
 | **Max Resolution** | 1080p | Ultra HD | High Definition | 1080p | 1080p |
 | **Max Duration** | 8s | 10s | 15s | 10s | 10s |
-| **API Cost (Atlas Cloud)** | $0.09/sec | $0.126/sec | $0.022/sec | $0.10/sec | $0.04/sec |
+| **API Cost (Atlas Cloud)** | $0.09/sec | $0.126/sec | $0.022/sec | $0.10/sec | $0.07/sec |
 | **Camera Controls** | 20+ presets | Limited | Limited | Limited | Limited |
 | **Style Presets** | Yes | No | No | No | No |
 | **Native Audio** | No | Yes (5 languages) | Yes | No | No |
@@ -286,7 +286,7 @@ Here is a direct comparison of PixVerse V4.5 against other leading AI video mode
 
 - **Resolution**: Kling 3.0 supports ultra-high-definition output. For teams requiring the highest resolution, Kling is the clear choice.
 - **Duration**: At 8 seconds, PixVerse V4.5 has the shortest maximum duration in this comparison. Seedance 2.0 offers 15 seconds, Luma Ray 3 and Wan 2.6 offer 10, and Kling 3.0 provides 10.
-- **Price**: Seedance 2.0 ($0.022/sec) and Wan 2.6 ($0.04/sec) are significantly cheaper. For high-volume content where camera precision is not critical, these models offer better economics.
+- **Price**: Seedance 2.0 ($0.022/sec) and Wan 2.6 ($0.07/sec) are cheaper. For high-volume content where camera precision is not critical, these models offer better economics.
 - **Native audio**: PixVerse V4.5 does not generate audio. Kling 3.0 and Seedance 2.0 include native audio.
 - **Reasoning and physics**: Luma Ray 3's reasoning architecture handles complex physical interactions more accurately than PixVerse V4.5.
 - **Multimodal input**: Seedance 2.0 accepts up to 12 reference files, providing creative control that PixVerse V4.5 does not match.

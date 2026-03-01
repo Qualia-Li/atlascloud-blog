@@ -231,12 +231,12 @@ The AI video generation landscape in 2026 offers several strong options. Here is
 | Feature | Vidu Q3 | Veo 3.1 | Kling 3.0 | Seedance 2.0 | Hailuo 2.3 |
 |---------|---------|---------|----------|-------------|-----------|
 | **Max Resolution** | 1080p | HD Cinematic | Ultra HD | High Definition | 1080p |
-| **Max Duration** | 12s | 8s | 10s | 15s | 10s |
-| **API Cost (Atlas Cloud)** | $0.07/sec | $0.03/sec | $0.126/sec | $0.022/sec | $0.05/sec |
-| **Native Audio** | Yes | Yes | Yes (5 languages) | Yes | Yes |
+| **Max Duration** | 12s | 8s | 10s | 15s | 8s |
+| **API Cost (Atlas Cloud)** | $0.07/sec | $0.03/sec | $0.126/sec | $0.022/sec | $0.08/sec |
+| **Native Audio** | Yes | Yes | Yes (5 languages) | Yes | No |
 | **Smart Cuts** | Yes | No | No | No | No |
 | **Image-to-Video** | Yes | No | Yes | Yes | Yes |
-| **Best Strength** | Audio + Smart Cuts | Cinematic polish | Resolution | Multimodal control | Character consistency |
+| **Best Strength** | Audio + Smart Cuts | Cinematic polish | Resolution | Multimodal control | Anime/illustration styles |
 
 ### Where Vidu Q3 Wins
 
@@ -250,7 +250,7 @@ The AI video generation landscape in 2026 offers several strong options. Here is
 - **Cinematic quality**: Veo 3.1 produces more polished, broadcast-grade visual output with superior color grading and depth of field. For premium brand content, Veo 3.1's visual quality is a step above.
 - **Resolution**: Kling 3.0 supports ultra-high-definition output. For teams requiring the highest resolution deliverables, Kling remains the leader.
 - **Duration and price**: Seedance 2.0 offers 15 seconds at $0.022/sec -- nearly 7x cheaper per second than Vidu Q3 and 3 seconds longer. For budget-conscious teams that don't need Smart Cuts, Seedance is the value leader.
-- **Character consistency**: Hailuo 2.3 excels at maintaining consistent character appearance across multiple generations, which is important for narrative content with recurring characters.
+- **Stylized content**: Hailuo 2.3 excels at anime and illustration styles, which is important for creative and stylized content production.
 - **Multimodal input**: Seedance 2.0 accepts up to 9 images, 3 videos, and 3 audio files as reference material, providing unmatched creative control for complex projects.
 
 ### Choosing the Right Model
@@ -261,7 +261,7 @@ The decision between these models depends on your workflow priorities:
 - Choose **Veo 3.1** when cinematic visual quality is the top priority and budget is a key constraint.
 - Choose **Kling 3.0** when ultra-high-definition resolution is a hard requirement.
 - Choose **Seedance 2.0** when you need the longest clips at the lowest price with multi-reference creative control.
-- Choose **Hailuo 2.3** when character consistency across multiple clips matters most.
+- Choose **Hailuo 2.3** when anime or illustration-style content is the priority.
 
 ## Who Should Use Vidu Q3?
 

@@ -46,7 +46,7 @@ For a team generating 100 clips per week, the annual cost difference between Sor
 
 Wan 2.6 is not a toy model marketed at a toy price. Alibaba invested heavily in the underlying architecture, and the results show. At 1080p resolution with 30fps frame rate, the output is clean, coherent, and usable for production contexts where absolute top-tier quality is not the requirement. Motion rendering is smooth, colors are accurate, and temporal consistency holds across the full 10-second duration.
 
-Is it as good as Seedance 2.0 or Veo 3.1? No. But it is 68% cheaper than Seedance 2.0 ($0.022/sec) when accounting for the longer clips you can afford with the savings, and dramatically cheaper than every other video model in the lineup. The value proposition is clear: Wan 2.6 delivers 80% of the quality at 30-50% of the cost.
+Is it as good as Seedance 2.0 or Veo 3.1? No. But it is 44% cheaper than Kling 3.0 ($0.126/sec) and 53% cheaper than Sora 2 ($0.15/sec), which are the premium models most teams compare against. The value proposition is clear: Wan 2.6 delivers solid quality at a fraction of the premium model cost.
 
 ### Alibaba's AI Research Pedigree
 
@@ -117,7 +117,7 @@ For comparison, the same 500 clips/week at Sora 2 pricing ($0.15/sec) would cost
 | **Kling 3.0** | $0.126 | $1.26 | $6,552 |
 | **Sora 2** | $0.15 | $1.50 | $7,800 |
 
-Note: While Seedance 2.0 and Veo 3.1 are cheaper per second, Wan 2.6 occupies a unique position offering longer maximum duration (10s) at a very competitive rate. For teams that need reliable, affordable video without the absolute lowest per-second cost, Wan 2.6 is a strong middle-ground option.
+Note: Seedance 2.0 and Veo 3.1 are cheaper per second, making them better options for teams optimizing purely on cost. However, Wan 2.6 offers advantages in different areas -- it supports up to 10 seconds of video (compared to Veo 3.1's 8-second max), provides a distinct visual style from Alibaba's research, and delivers significant savings over premium models like Kling 3.0 and Sora 2. For teams that need affordable video generation without paying premium prices, Wan 2.6 is a solid option.
 
 ## How to Access Wan 2.6 API
 

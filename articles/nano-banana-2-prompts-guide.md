@@ -332,7 +332,7 @@ Lighting is one of the most impactful elements in determining output quality. Ev
 
 ### Step 1: Get Your API Key
 
-Sign up at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts) to get your free API key with $1 in credits.
+Sign up at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts-guide) to get your free API key with $1 in credits.
 
 ![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
 

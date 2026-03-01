@@ -29,7 +29,7 @@ See these models compared side by side:
 | **Audio Languages** | English-centric | English, Chinese, Japanese, Korean, Spanish | English-centric |
 | **Lip Sync** | Contextual | Multilingual lip sync | Contextual |
 | **Audio Type** | Ambient + dialogue | Ambient + multilingual dialogue | Ambient + dialogue |
-| **Max Duration** | 8 seconds | 10 seconds | 8 seconds |
+| **Max Duration** | 8 seconds | 10 seconds | 12 seconds |
 | **Max Resolution** | HD Cinematic | Ultra HD | 1080p |
 | **Atlas Cloud Price** | $0.03/sec | $0.126/sec | $0.07/sec |
 | **Per 8s Clip Cost** | $0.24 | $1.01 | $0.56 |
@@ -207,7 +207,7 @@ Vidu Q3 from Shengshu Technology positions itself between Veo 3.1's ambient focu
 - English-centric -- lacks multilingual dialogue capability
 - Audio quality does not reach the cinematic heights of Veo 3.1
 - Lip sync accuracy is below Kling 3.0's multilingual standard
-- 8-second maximum duration
+- 12-second maximum duration
 - Less established ecosystem compared to Veo and Kling
 
 ### Vidu Q3 Code Example
@@ -268,7 +268,7 @@ while True:
 | Model | Cost/Second | 8s Clip | 10s Clip | 100 Clips (8s) |
 |-------|------------|---------|----------|----------------|
 | **Veo 3.1** | $0.03 | $0.24 | N/A (8s max) | $24.00 |
-| **Vidu Q3** | $0.07 | $0.56 | N/A (8s max) | $56.00 |
+| **Vidu Q3** | $0.07 | $0.56 | $0.70 | $56.00 |
 | **Kling 3.0** | $0.126 | $1.01 | $1.26 | $100.80 |
 
 At scale, the pricing differences become significant. A team producing 500 clips per month would spend $120 with Veo 3.1, $280 with Vidu Q3, or $504 with Kling 3.0. The question is whether Kling 3.0's multilingual dialogue or Vidu Q3's balanced approach justifies the premium over Veo 3.1's cinematic ambient audio.
@@ -277,11 +277,11 @@ At scale, the pricing differences become significant. A team producing 500 clips
 
 | Model | Max Duration | Max Resolution | Frame Rate |
 |-------|-------------|---------------|------------|
-| **Kling 3.0** | 10 seconds | Ultra HD | 30fps (60fps Ultra) |
+| **Kling 3.0** | 10 seconds | Ultra HD | 30fps |
 | **Veo 3.1** | 8 seconds | HD Cinematic | 24fps |
-| **Vidu Q3** | 8 seconds | 1080p | 24fps |
+| **Vidu Q3** | 12 seconds | 1080p | 24fps |
 
-Kling 3.0 has a clear advantage in both maximum duration and resolution. The extra 2 seconds may not sound like much, but for dialogue-heavy content, those additional seconds allow for more complete sentences and more natural pacing.
+Kling 3.0 has a clear advantage in resolution, while Vidu Q3 leads in duration at 12 seconds. For dialogue-heavy content, those additional seconds allow for more complete sentences and more natural pacing.
 
 ## How to Access These Models via Atlas Cloud API
 
@@ -381,7 +381,7 @@ for name, url in completed.items():
 
 - **The content requires characters speaking in multiple languages.** This is Kling 3.0's defining feature. No other model generates multilingual dialogue with lip sync at this level.
 - **Lip sync accuracy is critical.** For talking-head videos, explainer content, or any scene where a character speaks directly to camera, Kling 3.0's lip sync is the most accurate available.
-- **You need longer clips.** Kling 3.0's 10-second maximum gives 25% more time than Veo 3.1 and Vidu Q3's 8-second limit.
+- **You need longer clips with multilingual audio.** Kling 3.0's 10-second maximum with five-language support provides flexibility that Veo 3.1's 8-second limit cannot match.
 - **The project targets a global audience.** Five-language support means a single workflow can produce content for English, Chinese, Japanese, Korean, and Spanish-speaking markets.
 
 ### Choose Vidu Q3 for Audio When:

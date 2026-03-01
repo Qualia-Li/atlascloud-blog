@@ -302,6 +302,24 @@ for model in models:
 
 **Not sure?** Start with Flux 2 Pro. It is the safest default, and you can always specialize later once you have identified your specific needs.
 
+## Frequently Asked Questions
+
+### Which AI image generation model produces the most realistic photos?
+
+Imagen 4 Ultra from Google DeepMind produces the most photorealistic output available in 2026. Skin textures, fabric details, lighting, and reflections are rendered with fidelity that is consistently the hardest to distinguish from real photographs. The tradeoff is cost ($0.08/image) and speed (~8s).
+
+### Can AI image generators render text accurately?
+
+Most models still struggle with text rendering, but Ideogram v3 is the clear exception. It reliably produces legible, accurate text in images -- including long strings, brand names, and complex layouts. If your images need readable text, Ideogram v3 is the recommended choice.
+
+### What is the cheapest AI image generation API?
+
+Z-Image Turbo at $0.01/image is the cheapest option, generating images in approximately 1 second at 1024x1024 resolution. For production-quality output at 2048x2048, Seedream v5.0 Lite at $0.026/image offers the best value.
+
+### Can I access all image generation models through one API?
+
+Yes. Atlas Cloud provides access to Flux 2 Pro, Imagen 4 Ultra, Ideogram v3, Seedream v5.0 Lite, Z-Image Turbo, and Nano Banana 2 through a single API key with unified billing. You switch between models by changing the model ID in your request.
+
 ## Final Verdict
 
 The AI image generation market in 2026 has matured to the point where there are no bad options -- only options better or worse suited to specific needs. Every model in this comparison produces usable output for at least some production use case.

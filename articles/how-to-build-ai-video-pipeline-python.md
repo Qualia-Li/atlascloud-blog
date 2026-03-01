@@ -687,6 +687,7 @@ Create a simple entry point script:
 
 ```python
 # run_pipeline.py
+import os
 import argparse
 import yaml
 from pipeline import VideoPipeline
@@ -709,6 +710,7 @@ For larger deployments, use a task queue like Celery or Redis Queue to decouple 
 
 ```python
 # tasks.py (Celery example)
+import os
 from celery import Celery
 from pipeline import AtlasCloudClient
 

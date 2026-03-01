@@ -120,11 +120,11 @@ At $0.026 per image, even enterprise-scale generation of 50,000 images per month
 |-------|----------------|-------|-------------|----------|
 | **Seedream v5.0 Lite** | $0.026 | ~2-4s | Production-ready | Volume + speed |
 | **Flux 2 Pro** | $0.03-0.05 | ~3s | Production-ready | Versatility |
-| **Nano Banana 2** | $0.02-0.04 | ~2s | Good | Ultra-fast generation |
-| **Z-Image Turbo** | $0.015-0.03 | ~1-2s | Good | Maximum speed |
+| **Nano Banana 2** | $0.056-0.072 | ~5s | Good | Creative/artistic styles |
+| **Z-Image Turbo** | $0.01 | ~1-2s | Good | Maximum speed |
 | **Imagen 4 Ultra** | $0.04-0.08 | ~8s | Premium | Maximum quality |
 
-Seedream v5.0 Lite competes directly with Flux 2 Pro and Nano Banana 2 in the production-ready tier. Its $0.026 flat rate is consistently cheaper than Flux 2 Pro's $0.03-0.05 range, with comparable speed. Compared to Nano Banana 2 and Z-Image Turbo, Seedream v5.0 Lite offers slightly higher baseline quality at a marginally higher price.
+Seedream v5.0 Lite competes directly with Flux 2 Pro and Nano Banana 2 in the production-ready tier. Its $0.026 flat rate is consistently cheaper than Flux 2 Pro's $0.03-0.05 range, with comparable speed. Compared to Z-Image Turbo, Seedream v5.0 Lite offers higher baseline quality at a slightly higher price. Nano Banana 2 is more expensive but excels at creative and artistic styles.
 
 ## How to Generate Images with Seedream v5.0 Lite API
 
@@ -311,10 +311,10 @@ Here is a comparison of Seedream v5.0 Lite against the leading AI image generati
 
 | Feature | Seedream v5.0 Lite | Flux 2 Pro | Nano Banana 2 | Z-Image Turbo | Imagen 4 Ultra |
 |---------|-------------------|-----------|---------------|--------------|---------------|
-| **Developer** | ByteDance | Black Forest Labs | Banana Labs | Z-AI | Google DeepMind |
+| **Developer** | ByteDance | Black Forest Labs | Google | Open Source Community | Google DeepMind |
 | **Max Resolution** | 1024x1024 | 2048x2048 | 1024x1024 | 1024x1024 | 2048x2048 |
-| **Speed** | ~2-4s | ~3s | ~2s | ~1-2s | ~8s |
-| **Price/Image** | $0.026 | $0.03-0.05 | $0.02-0.04 | $0.015-0.03 | $0.04-0.08 |
+| **Speed** | ~2-4s | ~3s | ~5s | ~1-2s | ~8s |
+| **Price/Image** | $0.026 | $0.03-0.05 | $0.056-0.072 | $0.01 | $0.04-0.08 |
 | **Text Rendering** | Good | Good | Fair | Fair | Good |
 | **Photorealism** | Good | Strong | Good | Good | Excellent |
 | **Best For** | Volume + quality balance | Versatility | Ultra-fast | Maximum speed | Maximum quality |
@@ -330,9 +330,9 @@ Here is a comparison of Seedream v5.0 Lite against the leading AI image generati
 
 - **Maximum resolution**: Flux 2 Pro and Imagen 4 Ultra support 2048x2048, double the maximum resolution of Seedream v5.0 Lite. For large-format or print-quality output, these models are necessary.
 - **Photorealism**: Imagen 4 Ultra delivers the highest level of photorealistic detail -- skin textures, lighting nuances, and material properties are rendered with a precision that Seedream v5.0 Lite does not match.
-- **Raw speed**: Z-Image Turbo at 1-2 seconds and Nano Banana 2 at approximately 2 seconds are both faster than Seedream v5.0 Lite's 2-4 second range. For applications where every millisecond matters, these ultra-fast options may be preferable.
+- **Raw speed**: Z-Image Turbo at 1-2 seconds is faster than Seedream v5.0 Lite's 2-4 second range. For applications where every millisecond matters, Z-Image Turbo may be preferable.
 - **Versatility**: Flux 2 Pro handles a wider range of visual styles with consistently high quality. For teams with highly varied content needs, Flux's broader style coverage may justify its higher price.
-- **Lowest absolute price**: Z-Image Turbo can go as low as $0.015/image and Nano Banana 2 as low as $0.02/image, making them cheaper for teams that prioritize absolute cost minimization over quality.
+- **Lowest absolute price**: Z-Image Turbo at $0.01/image is the cheapest option available, making it ideal for teams that prioritize absolute cost minimization over quality.
 
 ### Choosing the Right Image Model
 
