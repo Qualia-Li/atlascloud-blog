@@ -419,6 +419,18 @@ dynamic tracking shot, warm afternoon sunlight
 4. **Use high-quality reference images**: For Ref2V, reference images should be clear, well-composed, and representative of the desired visual style. Multiple reference images from the same aesthetic produce more consistent results.
 5. **Match duration to content**: Not every clip needs to be 10 seconds. Shorter durations (5-8 seconds) often produce higher quality per frame and cost less.
 
+## Who Should Use Kling Video O3?
+
+**Choose Kling Video O3 if you need:**
+- Video-to-Video (V2V) transformation to restyle, recolor, or visually transform existing footage while preserving original motion and composition
+- Reference-based video generation (Ref2V) for maintaining character consistency, brand visual identity, or concept art direction across multiple clips
+- Style transfer capabilities -- converting live action to anime, changing day to night, or applying brand-specific visual treatments to source footage
+
+**Consider alternatives if you need:**
+- Budget-friendly video generation -- Seedance 2.0 ($0.022/sec) or Veo 3.1 ($0.03/sec) are significantly cheaper for standard text-to-video workflows
+- Simple text-to-video without transformation features -- Kling 3.0 Standard ($0.126/sec) offers strong original generation at a lower price point
+- Native audio generation -- Veo 3.1 or Kling 3.0 Standard include synchronized audio, which Kling Video O3 does not emphasize
+
 ## Frequently Asked Questions
 
 ### What is the difference between V2V and I2V?
@@ -449,7 +461,7 @@ Kling Video O3 supports multimodal input, meaning you can provide a source video
 
 When you [register for Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=kling-video-o3-api-guide), $1 in credit is applied immediately. At $0.15/second, this covers approximately 6.6 seconds of generated video -- enough for a test clip to evaluate the model's capabilities for your specific use case.
 
-## Getting Started
+## Verdict
 
 Kling Video O3 is available now on Atlas Cloud. Its V2V and Ref2V capabilities make it uniquely suited for video transformation workflows that no other model in its class currently supports.
 

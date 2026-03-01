@@ -46,7 +46,7 @@ For a team generating 100 clips per week, the annual cost difference between Sor
 
 Wan 2.6 is not a toy model marketed at a toy price. Alibaba invested heavily in the underlying architecture, and the results show. At 1080p resolution with 30fps frame rate, the output is clean, coherent, and usable for production contexts where absolute top-tier quality is not the requirement. Motion rendering is smooth, colors are accurate, and temporal consistency holds across the full 10-second duration.
 
-Is it as good as Seedance 2.0 or Veo 3.1? No. But it is 44% cheaper than Kling 3.0 ($0.126/sec) and 53% cheaper than Sora 2 ($0.15/sec), which are the premium models most teams compare against. The value proposition is clear: Wan 2.6 delivers solid quality at a fraction of the premium model cost.
+Is it as good as Seedance 2.0 or Veo 3.1? No. But it is 44% cheaper than Kling 3.0 ($0.126/sec) and 53% cheaper than Sora 2 ($0.15/sec), which are the premium models most teams compare against. The value proposition is clear: Wan 2.6 delivers solid quality at a fraction of the premium models' cost.
 
 ### Alibaba's AI Research Pedigree
 

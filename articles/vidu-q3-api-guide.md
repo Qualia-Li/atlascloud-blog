@@ -18,6 +18,8 @@ See how Vidu Q3 compares to other top AI video models:
 
 [![Top AI Video Models Compared -- Audio, Quality, and Speed](https://img.youtube.com/vi/j-qDCyXubyE/maxresdefault.jpg)](https://www.youtube.com/watch?v=j-qDCyXubyE)
 
+The Vidu Q3 API is available through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=vidu-q3-api-guide) at $0.07 per second of generated video. New users get $1 in free credits to start experimenting immediately.
+
 ## Vidu Q3 at a Glance
 
 | Spec | Detail |

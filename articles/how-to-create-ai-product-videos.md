@@ -36,7 +36,7 @@ The numbers make the case clearly:
 | **Ad CTR** | 1.2% | 3.1% | +158% |
 | **Social Engagement** | Baseline | 3-5x higher | +300-500% |
 
-These numbers come from industry benchmarks across e-commerce platforms. Video lets customers see products in motion -- how a fabric drapes, how a gadget operates, how a cosmetic applies. This reduces uncertainty and drives purchases.
+Based on reported averages across major e-commerce platforms -- individual results will vary based on product category, audience, and implementation. Video lets customers see products in motion -- how a fabric drapes, how a gadget operates, how a cosmetic applies. This reduces uncertainty and drives purchases.
 
 ### The Traditional Cost Problem
 

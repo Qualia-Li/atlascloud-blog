@@ -440,6 +440,34 @@ Access Nano Banana 2 on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=artic
 
 > [Try These Prompts on Atlas Cloud -- $1 Free Credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts-guide)
 
+## Prompt Approach Comparison
+
+| Approach | Quality | Speed | Best For |
+|----------|---------|-------|----------|
+| **Simple** (e.g., "a knight figurine") | Low -- unpredictable, generic output | Fast to write, but requires many regenerations | Quick concept exploration, brainstorming |
+| **Detailed** (e.g., subject + materials + lighting + packaging) | High -- consistent, polished results | 30 seconds to write, usable on first or second try | Social media content, client presentations, product mockups |
+| **Formula-based** (subject + style + material + accessories + packaging + lighting) | Highest -- repeatable, production-ready | 1-2 minutes to write, but near-zero regenerations needed | Commercial use, app integrations, batch generation pipelines |
+
+The simple approach works for initial exploration but wastes time on regenerations. The formula-based approach takes more effort upfront but pays off immediately in output consistency. For most users, detailed prompts with 3-4 of the formula elements hit the practical sweet spot -- enough specificity for good results without spending minutes on every prompt.
+
+## Frequently Asked Questions
+
+### What is the optimal prompt length for Nano Banana 2?
+
+The sweet spot is 40-80 words. Prompts under 20 words produce generic, unpredictable results because the model fills in too many gaps on its own. Prompts over 100 words can cause the model to deprioritize certain elements, leading to inconsistent output. The best-performing prompts in this guide average around 50-60 words -- enough to specify subject, style, materials, context, and lighting without overwhelming the model.
+
+### How do I get a consistent style across multiple generations?
+
+Consistency comes from anchoring your prompts with the same style references, material descriptions, and lighting setup. For example, if you want a series of figurines with the same aesthetic, keep the packaging type ("sealed in clear blister packaging"), material finish ("hand-painted matte vinyl"), and photography style ("product photography with soft studio lighting") identical across all prompts. Only change the subject and its unique details. Using a specific brand reference like "Funko Pop style" or "Nendoroid aesthetic" across a series also helps maintain visual cohesion.
+
+### Can I use negative prompts with Nano Banana 2?
+
+Nano Banana 2 does not support a dedicated negative prompt parameter through the Atlas Cloud API. Instead, guide the model by being explicit about what you want rather than what you do not want. For example, instead of trying to exclude "blurry" or "low quality," specify "sharp macro lens detail, product photography, studio lighting" -- this positively steers the model toward the quality level you are targeting. Explicit positive instructions consistently outperform attempts at exclusion.
+
+### What is the best aspect ratio for figurine prompts?
+
+For standalone figurines and collectible toy shots, 1024x1024 (square) produces the best results. The square format gives the model balanced space to render the figure, packaging, and background without cropping. For character sheets or action poses with horizontal elements, 1024x768 (landscape) works well. For tall figures, standing poses, or portrait-style compositions, 768x1024 (portrait) is the better choice. When in doubt, start with 1024x1024 -- it is the most reliable default for Nano Banana 2.
+
 ## Verdict
 
 Nano Banana 2 prompt engineering follows a clear, repeatable formula: specify the format, describe materials, add packaging or display context, and include lighting and photography instructions. The 15+ prompts in this guide cover the most popular categories -- figurines, character art, product shots, and environments -- and each has been tested for consistency and quality.

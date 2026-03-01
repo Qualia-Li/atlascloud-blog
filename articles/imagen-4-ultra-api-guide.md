@@ -25,6 +25,8 @@ The Standard tier at $0.04 per image is suitable for high-volume content. The Pr
 | **Best For** | Volume content | Marketing assets | Hero imagery |
 | **Speed** | ~5s | ~6s | ~8s |
 
+### General Specifications
+
 | Spec | Detail |
 |------|--------|
 | **Developer** | Google DeepMind |
@@ -171,7 +173,8 @@ response = requests.post(
         "model": "google/imagen4-ultra/text-to-image",
         "prompt": "Photorealistic portrait of a female architect reviewing blueprints at a drafting table, natural window light from the left, shallow depth of field, modern office with exposed brick walls, editorial photography style",
         "width": 1024,
-        "height": 1024
+        "height": 1024,
+        "quality": "ultra"  # Options: "standard", "premium", "ultra"
     }
 )
 
@@ -249,7 +252,8 @@ for item in images_to_generate:
             "model": "google/imagen4-ultra/text-to-image",
             "prompt": item["prompt"],
             "width": 1024,
-            "height": 1024
+            "height": 1024,
+            "quality": item["tier"]
         }
     )
     result = response.json()
@@ -375,6 +379,18 @@ Ideogram v3 is the specialist for pure typography and design-focused image gener
 
 Nano Banana 2 ($0.056-0.072) is more expensive than Imagen 4 Ultra's Standard tier ($0.04) and does not match its photorealistic quality. Imagen 4 Ultra's tiered pricing makes it the more flexible and cost-effective option for teams that need varying quality levels across their content pipeline.
 
+## Who Should Use Imagen 4 Ultra?
+
+**Choose Imagen 4 Ultra if you need:**
+- Best-in-class text accuracy in photorealistic images -- brand names, product labels, signage, and captions rendered correctly and naturally
+- Brand-safe content generation with Google's built-in content safety filtering for enterprise and regulated industries
+- Tiered quality control that lets you optimize cost per image -- use Standard for volume, Premium for marketing, and Ultra for hero assets
+
+**Consider alternatives if you need:**
+- The lowest possible cost as the primary concern -- Flux 2 Pro ($0.03-0.05) or Z-Image Turbo ($0.01) offer lower per-image pricing
+- Raw photorealism without text requirements -- Flux 2 Pro delivers 90-95% of the quality at lower cost and faster speed
+- Fastest possible generation -- Imagen 4 Ultra takes 5-8 seconds versus 3 seconds for Flux 2 Pro or 1 second for Z-Image Turbo
+
 ## Frequently Asked Questions
 
 ### What are the differences between Standard, Premium, and Ultra tiers?
@@ -401,7 +417,7 @@ Standard tier: 1024x1024 is recommended for cost efficiency. Premium tier: 1024x
 
 Your $1 free credit works across all tiers. At Standard ($0.04), that is 25 images. At Premium ($0.06), approximately 16. At Ultra ($0.08), approximately 12. You can mix tiers within the same credit balance to test all quality levels.
 
-## Getting Started
+## Verdict
 
 Imagen 4 Ultra is available now on Atlas Cloud with three quality tiers, giving teams the flexibility to optimize cost and quality on a per-image basis.
 

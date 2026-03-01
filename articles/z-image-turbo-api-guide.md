@@ -350,7 +350,7 @@ No. Your Atlas Cloud API key provides access to Z-Image Turbo and all other mode
 
 When you [register for Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=z-image-turbo-api-guide), $1 in credit is applied to your account immediately. This credit works with any model on the platform. With Z-Image Turbo at $0.01/image, that is 100 free images -- more than enough to evaluate the model thoroughly.
 
-## Getting Started
+## Verdict
 
 Z-Image Turbo is available now on Atlas Cloud. The combination of $0.01 pricing, sub-second generation, and open-source transparency makes it uniquely suited for high-volume, cost-sensitive, and speed-critical image generation workflows.
 

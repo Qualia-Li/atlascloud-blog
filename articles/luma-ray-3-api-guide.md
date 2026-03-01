@@ -20,6 +20,8 @@ See how Ray 3 compares to other leading AI video models:
 
 [![Top AI Video Models Compared -- Quality, Physics, and Reasoning](https://img.youtube.com/vi/j-qDCyXubyE/maxresdefault.jpg)](https://www.youtube.com/watch?v=j-qDCyXubyE)
 
+The Luma Ray 3 API is available through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=luma-ray-3-api-guide) at $0.10 per second of generated video. New users get $1 in free credits to start experimenting immediately.
+
 ## Luma Ray 3 at a Glance
 
 | Spec | Detail |
@@ -332,7 +334,7 @@ Yes. Video generated through the Atlas Cloud API can be used for commercial purp
 
 ## Verdict
 
-Luma Ray 3 represents a genuine architectural advancement in AI video generation. The reasoning layer is not marketing language -- it produces measurably better results for complex scenes involving physical interactions, spatial relationships, and cause-and-effect sequences. Combined with the native HDR pipeline, Ray 3 delivers output that is both logically coherent and visually rich in ways that other models do not currently match.
+Luma Ray 3 represents a genuine architectural advancement in AI video generation. The reasoning layer translates directly into visible output quality -- it produces measurably better results for complex scenes involving physical interactions, spatial relationships, and cause-and-effect sequences. Combined with the native HDR pipeline, Ray 3 delivers output that is both logically coherent and visually rich in ways that other models do not currently match.
 
 The tradeoff is price and feature scope. At $0.10/sec, Ray 3 is 3-4x more expensive than budget-friendly alternatives like Veo 3.1 and Seedance 2.0. It also lacks native audio generation, which several competitors now offer. These limitations mean Ray 3 is best suited for use cases where scene accuracy and physical plausibility are worth the premium -- not for high-volume social media content where "good enough" physics is perfectly acceptable.
 

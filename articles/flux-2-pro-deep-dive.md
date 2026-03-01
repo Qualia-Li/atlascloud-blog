@@ -322,6 +322,18 @@ Nano Banana 2 is a strong general-purpose model, but it costs more ($0.056-0.072
 
 Seedream v5.0 Lite is cheaper ($0.026 vs. $0.03-0.05) and faster, but its output quality is a tier below Flux 2 Pro's -- particularly in photorealism, fine detail, and complex compositions. Seedream v5.0 Lite is a good mid-tier option; Flux 2 Pro is the premium choice for teams that need the highest quality at competitive pricing.
 
+## Who Should Use Flux 2 Pro?
+
+**Choose Flux 2 Pro if you need:**
+- Best-in-class photorealism with a 32B parameter architecture that captures fine detail, material properties, and lighting with unmatched fidelity
+- Reference image support for brand consistency, product variations, and style transfer across production workflows
+- Large-scale production at competitive pricing ($0.03-0.05/image) with fast 3-second generation times
+
+**Consider alternatives if you need:**
+- The lowest possible cost per image -- Z-Image Turbo ($0.01) or Seedream v5.0 Lite ($0.026) are more budget-friendly
+- Maximum generation speed as the top priority -- Z-Image Turbo generates in approximately 1 second
+- 3D rendering or figurine-style output -- specialized models like Nano Banana 2 may better suit stylized and non-photorealistic workflows
+
 ## Frequently Asked Questions
 
 ### What makes Flux 2 Pro different from Flux 1?
@@ -348,7 +360,7 @@ For web and social media, 1024x1024 offers the best balance of quality, speed, a
 
 Atlas Cloud pricing for Flux 2 Pro ($0.03-0.05/image) is at or below the direct pricing from Black Forest Labs, with the added benefit of consolidated billing, a unified API, and access to 300+ other models under the same account.
 
-## Getting Started
+## Verdict
 
 Flux 2 Pro is available now on Atlas Cloud with $1 free credit on registration -- approximately 20-33 images to evaluate the model's capabilities before committing to production use.
 
