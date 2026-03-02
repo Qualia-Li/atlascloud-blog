@@ -232,7 +232,7 @@ The AI video generation landscape in 2026 offers several strong options. Here is
 
 | Feature | Vidu Q3 | Veo 3.1 | Kling 3.0 | Seedance 2.0 | Hailuo 2.3 |
 |---------|---------|---------|----------|-------------|-----------|
-| **Max Resolution** | 1080p | HD Cinematic | Ultra HD | High Definition | 1080p |
+| **Max Resolution** | 1080p | Cinematic | Ultra HD | High Definition | 1080p |
 | **Max Duration** | 12s | 8s | 10s | 15s | 8s |
 | **API Cost (Atlas Cloud)** | $0.07/sec | $0.03/sec | $0.126/sec | $0.022/sec | $0.08/sec |
 | **Native Audio** | Yes | Yes | Yes (5 languages) | Yes | No |

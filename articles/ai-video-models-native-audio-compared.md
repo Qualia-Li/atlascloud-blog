@@ -31,7 +31,7 @@ See these models compared side by side:
 | **Lip Sync** | Contextual | Multilingual lip sync | Contextual |
 | **Audio Type** | Ambient + dialogue | Ambient + multilingual dialogue | Ambient + dialogue |
 | **Max Duration** | 8 seconds | 10 seconds | 12 seconds |
-| **Max Resolution** | HD Cinematic | Ultra HD | 1080p |
+| **Max Resolution** | Cinematic | Ultra HD | 1080p |
 | **Atlas Cloud Price** | $0.03/sec | $0.126/sec | $0.07/sec |
 | **Per 8s Clip Cost** | $0.24 | $1.01 | $0.56 |
 | **Best Audio Strength** | Ambient soundscapes | Multilingual dialogue | Balanced audio-visual sync |
@@ -279,7 +279,7 @@ At scale, the pricing differences become significant. A team producing 500 clips
 | Model | Max Duration | Max Resolution | Frame Rate |
 |-------|-------------|---------------|------------|
 | **Kling 3.0** | 10 seconds | Ultra HD | 30fps |
-| **Veo 3.1** | 8 seconds | HD Cinematic | 24fps |
+| **Veo 3.1** | 8 seconds | Cinematic | 24fps |
 | **Vidu Q3** | 12 seconds | 1080p | 24fps |
 
 Kling 3.0 has a clear advantage in resolution, while Vidu Q3 leads in duration at 12 seconds. For dialogue-heavy content, those additional seconds allow for more complete sentences and more natural pacing.

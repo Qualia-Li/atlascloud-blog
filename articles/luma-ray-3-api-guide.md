@@ -247,7 +247,7 @@ Here is a comprehensive comparison of Luma Ray 3 against the leading AI video mo
 
 | Feature | Luma Ray 3 | Veo 3.1 | Kling 3.0 | Seedance 2.0 | Sora 2 |
 |---------|-----------|---------|----------|-------------|--------|
-| **Max Resolution** | 1080p | HD Cinematic | Ultra HD | High Definition | High Definition |
+| **Max Resolution** | 1080p | Cinematic | Ultra HD | High Definition | High Definition |
 | **Max Duration** | 10s | 8s | 10s | 15s | 12s |
 | **API Cost (Atlas Cloud)** | $0.10/sec | $0.03/sec | $0.126/sec | $0.022/sec | $0.15/sec |
 | **Reasoning** | Yes | No | No | No | No |

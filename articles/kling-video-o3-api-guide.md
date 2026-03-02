@@ -115,7 +115,7 @@ For longer content, multiple 10-second clips can be generated and assembled in p
 | **Kling 3.0 Standard** | $0.126/sec | 10s | Ultra HD | No |
 | **Seedance 2.0** | $0.022/sec | 15s | HD | No |
 | **Sora 2** | $0.15/sec | 12s | HD | No |
-| **Veo 3.1** | $0.03/sec | 8s | HD Cinematic | No |
+| **Veo 3.1** | $0.03/sec | 8s | Cinematic | No |
 
 Kling Video O3 is priced at a premium relative to standard text-to-video models, which reflects its expanded capabilities. The V2V and Ref2V features provide value that text-to-video models simply cannot replicate. For teams that need video transformation, style transfer, or reference-guided generation, the $0.15/second price point includes capabilities that would otherwise require multiple tools or manual post-production work.
 

@@ -271,7 +271,7 @@ satisfying visual texture
 
 | Feature | Wan 2.6 | Seedance 2.0 | Kling 3.0 | Veo 3.1 | Sora 2 |
 |---------|---------|-------------|----------|---------|--------|
-| **Max Resolution** | 1080p | High Definition | Ultra HD | HD Cinematic | High Definition |
+| **Max Resolution** | 1080p | High Definition | Ultra HD | Cinematic | High Definition |
 | **Max Duration** | 10s | 15s | 10s | 8s | 12s |
 | **Reference Input** | 1 image | 12 files | 1-2 images | 1-2 images | 1 image |
 | **Native Audio** | No | Yes | Yes (5 languages) | Yes | Yes |
