@@ -1,7 +1,7 @@
 ---
 title: "How to Generate AI Product Photography with Atlas Cloud"
-description: "Complete guide to AI product photography using Flux 2 Pro, Imagen 4 Ultra, and Nano Banana 2 APIs. Includes prompt templates, batch scripts, and cost comparisons."
-keywords: ["AI product photography", "product photo API", "Flux 2 Pro product photos", "Imagen 4 Ultra", "AI e-commerce images", "Atlas Cloud image generation"]
+description: "Complete guide to AI product photography using Seedream v5.0 Lite, Imagen 4 Ultra, and Nano Banana 2 APIs. Includes prompt templates, batch scripts, and cost comparisons."
+keywords: ["AI product photography", "product photo API", "Seedream v5.0 Lite product photos", "Imagen 4 Ultra", "AI e-commerce images", "Atlas Cloud image generation"]
 slug: "how-to-generate-ai-product-photography"
 date: "2026-02-28"
 author: "Atlas Cloud Team"
@@ -16,16 +16,16 @@ With the right AI image generation models and a well-structured workflow, teams 
 
 Here are examples of AI-generated product photography:
 
-![AI-generated product photography using Seedream v5.0 Lite on Atlas Cloud](../resources/samples/seedream-product-photo.png)
+![AI-generated product photography using Seedream v5.0 Lite on Atlas Cloud](https://drive.google.com/uc?id=1CgR-ap6n0l2ie3eRQXLnivYZ4_QRCBYE)
 
-![3D product visualization using Nano Banana 2 on Atlas Cloud](../resources/samples/nano-banana-2-figurine.png)
+![3D product visualization using Nano Banana 2 on Atlas Cloud](https://drive.google.com/uc?id=1Yows9ptvclt20HGyqURm4HEX4JPIJ1qI)
 
 ## Why AI Product Photography Makes Sense in 2026
 
 The case for AI-generated product images is no longer theoretical. E-commerce brands are already using AI product photography in production for catalog images, social media assets, and advertising creatives. The reasons are straightforward:
 
 - **Speed**: Generate hundreds of product images per hour instead of scheduling multi-day shoots.
-- **Cost**: A single AI-generated image costs $0.03 to $0.08. A traditional product photo costs $25 to $150 per shot when factoring in studio time, equipment, and editing.
+- **Cost**: A single AI-generated image costs $0.01 to $0.054. A traditional product photo costs $25 to $150 per shot when factoring in studio time, equipment, and editing.
 - **Consistency**: Every image follows the same lighting, angle, and style guidelines without variation from shoot to shoot.
 - **Iteration**: Test different backgrounds, lighting setups, and compositions without reshooting.
 - **Scale**: Generate images for thousands of SKUs without proportionally scaling your photography budget.
@@ -36,45 +36,45 @@ The technology has reached the point where AI-generated product photos are indis
 
 Atlas Cloud provides access to 300+ AI models through a single API key. For product photography specifically, three models stand out, each with distinct strengths.
 
-### Flux 2 Pro -- The Photorealism Workhorse
+### [Seedream v5.0 Lite](https://www.atlascloud.ai/models/bytedance/seedream-v5.0-lite/sequential?utm_medium=article&utm_source=blog&utm_campaign=how-to-generate-ai-product-photography) -- The Photorealism Workhorse
 
 | Spec | Detail |
 |------|--------|
-| **Developer** | Black Forest Labs |
-| **Model ID** | `black-forest-labs/flux-2-pro/text-to-image` |
-| **Max Resolution** | 2048x2048 |
+| **Developer** | ByteDance |
+| **Model ID** | `bytedance/seedream-v5.0-lite/sequential` |
+| **Max Resolution** | 4K |
 | **Speed** | ~3 seconds |
-| **Price** | $0.03-0.05/image |
+| **Price** | $0.032/image |
 | **Best For** | Clean product shots, white backgrounds, studio lighting |
 
-Flux 2 Pro is the default choice for high-volume product photography. It generates images fast, handles studio lighting scenarios reliably, and produces clean compositions with accurate color rendering. When you need 500 product photos with white backgrounds and consistent lighting, Flux 2 Pro delivers without surprises.
+Seedream v5.0 Lite is the default choice for high-volume product photography. It generates images fast, handles studio lighting scenarios reliably, and produces clean compositions with accurate color rendering. When you need 500 product photos with white backgrounds and consistent lighting, Seedream v5.0 Lite delivers without surprises.
 
-Its speed advantage compounds at scale. At 3 seconds per generation, a batch of 1,000 images completes in under an hour. At $0.03 to $0.05 per image, that same batch costs $30 to $50 -- roughly what a single traditional product photo costs.
+Its speed advantage compounds at scale. At 3 seconds per generation, a batch of 1,000 images completes in under an hour. At $0.032 per image, that same batch costs $32 -- roughly what a single traditional product photo costs.
 
-### Imagen 4 Ultra -- Premium Quality
+### [Imagen 4 Ultra](https://www.atlascloud.ai/models/google/imagen-4-ultra/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=how-to-generate-ai-product-photography) -- Premium Quality
 
 | Spec | Detail |
 |------|--------|
 | **Developer** | Google DeepMind |
-| **Model ID** | `google/imagen4-ultra/text-to-image` |
-| **Max Resolution** | 2048x2048 |
+| **Model ID** | `google/imagen-4-ultra/text-to-image` |
+| **Max Resolution** | 4K |
 | **Speed** | ~8 seconds |
-| **Price** | $0.04-0.08/image |
+| **Price** | $0.054/image |
 | **Best For** | Hero images, luxury products, lifestyle scenes |
 
 Imagen 4 Ultra produces the most photorealistic output of any publicly available image generation API. Material textures -- leather grain, metal brushing, glass reflections -- are rendered with exceptional fidelity. For hero images on landing pages, premium brand photography, and any context where the image will be viewed at full size and scrutinized, Imagen 4 Ultra justifies its slightly higher cost and slower generation time.
 
 The model also excels at text rendering within images. If your product packaging includes brand names, labels, or ingredient lists that need to appear legible in the generated image, Imagen 4 Ultra handles this with good accuracy.
 
-### Nano Banana 2 -- 3D Product Visualization
+### [Nano Banana 2](https://www.atlascloud.ai/models/google/nano-banana-2/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=how-to-generate-ai-product-photography) -- 3D Product Visualization
 
 | Spec | Detail |
 |------|--------|
 | **Developer** | Nano Banana |
-| **Model ID** | `nano-banana/nano-banana-2/text-to-image` |
-| **Max Resolution** | 2048x2048 |
+| **Model ID** | `google/nano-banana-2/text-to-image` |
+| **Max Resolution** | 4K |
 | **Speed** | ~5 seconds |
-| **Price** | $0.03-0.06/image |
+| **Price** | $0.013/image |
 | **Best For** | 3D-style product renders, isometric views, product exploded views |
 
 Nano Banana 2 brings a unique capability to product photography -- 3D-style rendering that produces images resembling professional 3D product visualizations. This is particularly valuable for electronics, gadgets, and any product where showing internal components, multiple angles, or exploded views adds value.
@@ -87,9 +87,9 @@ The model understands concepts like isometric perspective, product cutaway views
 
 Sign up at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=how-to-generate-ai-product-photography) and create an API key from the dashboard. You receive $1 in free credit automatically -- enough for 20-30 product photos to test the workflow before committing to production volume.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 ### Step 2: Generate Your First Product Photo
 
@@ -100,7 +100,7 @@ import time
 API_KEY = "your-atlas-cloud-api-key"
 BASE_URL = "https://api.atlascloud.ai/api/v1"
 
-# Generate a product photo with Flux 2 Pro
+# Generate a product photo with Seedream v5.0 Lite
 response = requests.post(
     f"{BASE_URL}/model/generateImage",
     headers={
@@ -108,7 +108,7 @@ response = requests.post(
         "Content-Type": "application/json"
     },
     json={
-        "model": "black-forest-labs/flux-2-pro/text-to-image",
+        "model": "bytedance/seedream-v5.0-lite/sequential",
         "prompt": "Professional product photo of a minimalist ceramic coffee mug, pure white background, soft studio lighting from upper left, subtle shadow beneath, commercial photography style, 8K detail",
         "width": 1024,
         "height": 1024
@@ -129,7 +129,7 @@ while True:
     time.sleep(3)
 ```
 
-**Step 3:** The API returns a `request_id` immediately. Poll the prediction endpoint until the status is `completed`, then retrieve the image URL from the response. For Flux 2 Pro, generation typically completes in 3 to 5 seconds.
+**Step 3:** The API returns a `request_id` immediately. Poll the prediction endpoint until the status is `completed`, then retrieve the image URL from the response. For Seedream v5.0 Lite, generation typically completes in 3 to 5 seconds.
 
 > [Start Generating Product Photos -- $1 Free Credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=how-to-generate-ai-product-photography)
 
@@ -259,7 +259,7 @@ OUTPUT_DIR = "product_photos"
 class ProductShot:
     name: str
     prompt: str
-    model: str = "black-forest-labs/flux-2-pro/text-to-image"
+    model: str = "bytedance/seedream-v5.0-lite/sequential"
     width: int = 1024
     height: int = 1024
 
@@ -353,14 +353,14 @@ products = [
         prompt="Lifestyle product photo of a white ceramic coffee mug filled "
                "with latte art, placed on a wooden cafe table, morning sunlight "
                "through window, warm tones, shallow depth of field, editorial",
-        model="google/imagen4-ultra/text-to-image"
+        model="google/imagen-4-ultra/text-to-image"
     ),
     ProductShot(
         name="Headphones Hero",
         prompt="Commercial product photo of premium wireless headphones in "
                "matte black, floating at slight angle, dark gradient background, "
                "dramatic rim lighting, technology product photography, 8K detail",
-        model="google/imagen4-ultra/text-to-image"
+        model="google/imagen-4-ultra/text-to-image"
     ),
     ProductShot(
         name="Headphones 3D Exploded",
@@ -368,7 +368,7 @@ products = [
                "view showing internal components, drivers, cushions, and frame "
                "separated and floating, isometric perspective, clean white "
                "background, technical product render style",
-        model="nano-banana/nano-banana-2/text-to-image"
+        model="google/nano-banana-2/text-to-image"
     ),
     ProductShot(
         name="Lipstick Beauty",
@@ -422,11 +422,11 @@ Surfaces anchor products in reality. Common effective combinations:
 
 | Factor | Traditional Photography | AI Product Photography |
 |--------|------------------------|----------------------|
-| **Cost per image** | $25-150 | $0.03-0.08 |
+| **Cost per image** | $25-150 | $0.01-0.054 |
 | **Setup time** | 2-8 hours per shoot | 0 (prompt-based) |
 | **Turnaround** | 1-5 business days | Seconds to minutes |
 | **Consistency** | Varies between shoots | Identical parameters every time |
-| **Scaling to 1000 SKUs** | $25,000-150,000 | $30-80 |
+| **Scaling to 1000 SKUs** | $25,000-150,000 | $10-54 |
 | **Background variants** | Separate shoot per background | Prompt change |
 | **Seasonal campaigns** | New shoot each season | New prompts, same API call |
 | **Physical product required** | Yes | No (generate from description) |
@@ -466,9 +466,9 @@ AI product photography is not a universal replacement. Traditional photography r
 
 ### Mistake 3: Wrong Model for the Job
 
-**Problem:** Using Flux 2 Pro for hero images where photorealism matters most, or Imagen 4 Ultra for bulk catalog shots where speed matters more.
+**Problem:** Using Seedream v5.0 Lite for hero images where maximum photorealism matters most, or Imagen 4 Ultra for bulk catalog shots where speed matters more.
 
-**Fix:** Match the model to the use case. Flux 2 Pro for volume. Imagen 4 Ultra for premium. Nano Banana 2 for 3D visualization. Using the batch script above, you can assign different models to different product types within the same run.
+**Fix:** Match the model to the use case. Seedream v5.0 Lite for volume. Imagen 4 Ultra for premium. Nano Banana 2 for 3D visualization. Using the batch script above, you can assign different models to different product types within the same run.
 
 ### Mistake 4: Inconsistent Aspect Ratios
 
@@ -492,14 +492,14 @@ AI product photography is not a universal replacement. Traditional photography r
 
 | Volume | Model | Cost per Image | Total Cost | Time (Concurrent) |
 |--------|-------|---------------|------------|-------------------|
-| 100 images | Flux 2 Pro | $0.04 | $4.00 | ~5 min |
-| 100 images | Imagen 4 Ultra | $0.06 | $6.00 | ~15 min |
-| 500 images | Flux 2 Pro | $0.04 | $20.00 | ~20 min |
-| 500 images | Imagen 4 Ultra | $0.06 | $30.00 | ~60 min |
-| 1,000 images | Flux 2 Pro | $0.04 | $40.00 | ~40 min |
-| 5,000 images | Flux 2 Pro | $0.04 | $200.00 | ~3 hours |
+| 100 images | Seedream v5.0 Lite | $0.032 | $3.20 | ~5 min |
+| 100 images | Imagen 4 Ultra | $0.054 | $5.40 | ~15 min |
+| 500 images | Seedream v5.0 Lite | $0.032 | $16.00 | ~20 min |
+| 500 images | Imagen 4 Ultra | $0.054 | $27.00 | ~60 min |
+| 1,000 images | Seedream v5.0 Lite | $0.032 | $32.00 | ~40 min |
+| 5,000 images | Seedream v5.0 Lite | $0.032 | $160.00 | ~3 hours |
 
-These estimates assume 3-5 concurrent API requests. Actual costs vary slightly based on resolution and prompt complexity. Compare this to traditional photography at $25-150 per image and the economics become clear -- 1,000 traditional product photos would cost $25,000 to $150,000.
+These estimates assume 3-5 concurrent API requests. Actual costs vary slightly based on resolution and prompt complexity. Compare this to traditional photography at $25-150 per image and the economics become clear -- 1,000 traditional product photos would cost $25,000 to $150,000, while AI generation covers that for $32.
 
 > [Generate Product Photos at Scale -- $1 Free Credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=how-to-generate-ai-product-photography)
 
@@ -507,7 +507,7 @@ These estimates assume 3-5 concurrent API requests. Actual costs vary slightly b
 
 ### Which model should I use for product photography?
 
-For most e-commerce product photos, start with Flux 2 Pro. It offers the best balance of speed, cost, and quality for catalog-scale generation. Use Imagen 4 Ultra for hero images and premium brand photography where maximum photorealism matters. Use Nano Banana 2 when you need 3D-style product renders or exploded views.
+For most e-commerce product photos, start with Seedream v5.0 Lite. It offers the best balance of speed, cost, and quality for catalog-scale generation. Use Imagen 4 Ultra for hero images and premium brand photography where maximum photorealism matters. Use Nano Banana 2 when you need 3D-style product renders or exploded views.
 
 ### Can I generate product photos without having the physical product?
 
@@ -523,11 +523,11 @@ Images generated through Atlas Cloud's API are available for commercial use. How
 
 ### What resolution should I generate at?
 
-For e-commerce listings, 1024x1024 is standard and sufficient. For hero images, landing pages, or print materials, generate at 2048x2048. Higher resolutions cost slightly more but provide flexibility for cropping and multi-format use.
+For e-commerce listings, 1024x1024 is standard and sufficient. For hero images, landing pages, or print materials, generate at 4K resolution. Higher resolutions cost slightly more but provide flexibility for cropping and multi-format use.
 
 ## Verdict
 
-AI product photography has crossed the threshold from experimental to production-ready. For e-commerce teams generating catalog imagery at scale, the combination of Flux 2 Pro for volume, Imagen 4 Ultra for premium shots, and Nano Banana 2 for 3D visualization covers virtually every product photography need. The batch generation script in this guide provides a working foundation -- customize the prompt templates for your product categories, set your preferred models, and start generating.
+AI product photography has crossed the threshold from experimental to production-ready. For e-commerce teams generating catalog imagery at scale, the combination of Seedream v5.0 Lite for volume, Imagen 4 Ultra for premium shots, and Nano Banana 2 for 3D visualization covers virtually every product photography need. The batch generation script in this guide provides a working foundation -- customize the prompt templates for your product categories, set your preferred models, and start generating.
 
 The ROI calculation is simple. If you spend more than $200 per month on product photography, AI generation through Atlas Cloud will reduce that cost by 90% or more while delivering faster turnaround and greater consistency. Start with the $1 free credit, test the quality against your current photography, and scale from there.
 

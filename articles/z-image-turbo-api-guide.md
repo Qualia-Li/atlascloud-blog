@@ -16,9 +16,9 @@ For development teams, content creators, and businesses that need images at scal
 
 Here are examples of what Z-Image Turbo can generate:
 
-![Futuristic cityscape at dusk, generated with Z-Image Turbo on Atlas Cloud for just $0.01](../resources/samples/z-image-turbo-cityscape.png)
+![Futuristic cityscape at dusk, generated with Z-Image Turbo on Atlas Cloud for just $0.01](https://drive.google.com/uc?id=1xGe1w70l2YOIVaoeS14qWX42QXyIwENp)
 
-![Photorealistic portrait with shallow depth of field, generated with Z-Image Turbo on Atlas Cloud](../resources/samples/z-image-turbo-portrait.png)
+![Photorealistic portrait with shallow depth of field, generated with Z-Image Turbo on Atlas Cloud](https://drive.google.com/uc?id=1dZkNA4F5xC8nSpR53LtRwSftzDUAVgUc)
 
 ## Z-Image Turbo at a Glance
 
@@ -108,9 +108,9 @@ The honest assessment: Z-Image Turbo is not trying to compete with Imagen 4 Ultr
 
 Register at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=z-image-turbo-api-guide) and create an API key from the console. You will receive $1 in free credit immediately upon registration -- enough for 100 images with Z-Image Turbo.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 ### Step 2: Generate Your First Image
 

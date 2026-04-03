@@ -99,9 +99,9 @@ You can get up and running with the Veo 3.1 API via Veo 3.1 Atlas Cloud in less 
 
 Register an account at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=veo-3-guide) and go to the API Keys tab in the console. The $1 free credit will be automatically added to your account after registration.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 ### Step 2: Generate Video
 

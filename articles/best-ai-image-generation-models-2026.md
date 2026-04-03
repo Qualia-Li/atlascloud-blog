@@ -17,13 +17,13 @@ This guide compares every major AI image generation model available through the 
 
 Here are examples of what these models can generate:
 
-![Nano Banana 2: 3D figurine generation](../resources/samples/nano-banana-2-figurine.png)
+![Nano Banana 2: 3D figurine generation](https://drive.google.com/uc?id=1Yows9ptvclt20HGyqURm4HEX4JPIJ1qI)
 
-![Seedream v5.0 Lite: Product photography](../resources/samples/seedream-product-photo.png)
+![Seedream v5.0 Lite: Product photography](https://drive.google.com/uc?id=1CgR-ap6n0l2ie3eRQXLnivYZ4_QRCBYE)
 
-![Z-Image Turbo: Cityscape for $0.01](../resources/samples/z-image-turbo-cityscape.png)
+![Z-Image Turbo: Cityscape for $0.01](https://drive.google.com/uc?id=1xGe1w70l2YOIVaoeS14qWX42QXyIwENp)
 
-![Imagen 4 Ultra: Text rendering accuracy](../resources/samples/imagen4-ultra-text.png)
+![Imagen 4 Ultra: Text rendering accuracy](https://drive.google.com/uc?id=1ZXqAkGZ2EGHhN2NdzWG_HYK6kOohJ24J)
 
 ## The Complete Comparison Table
 
@@ -215,9 +215,9 @@ Z-Image Turbo is purpose-built for speed and volume. At $0.01/image and approxim
 
 Sign up at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=best-ai-image-generation-models-2026) and generate an API key from the console. New accounts receive a $1 free credit to test any model.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 ### Step 2: Generate an Image
 

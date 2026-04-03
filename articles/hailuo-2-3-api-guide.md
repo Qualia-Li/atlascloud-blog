@@ -123,9 +123,9 @@ Atlas Cloud provides the most accessible path to Hailuo 2.3 for international de
 
 **Step 1:** Sign up on [atlascloud.ai](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=hailuo-2-3-api-guide) and get your API key from the dashboard. $1 free credit is added automatically to your account.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 **Step 2:** Generate anime video with Hailuo 2.3 in Python:
 

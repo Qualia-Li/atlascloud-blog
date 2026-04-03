@@ -244,9 +244,9 @@ while True:
 3. Replace `your-atlas-cloud-api-key` in the code above
 4. Run the script -- video URL is returned when generation completes
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 API implements common async polling model. Send a generation request, get a `request_id`, poll until done. 60-120 seconds is normal for 10 second clips.
 

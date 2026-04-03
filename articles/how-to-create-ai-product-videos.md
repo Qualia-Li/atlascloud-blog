@@ -46,8 +46,8 @@ Based on reported averages across major e-commerce platforms -- individual resul
 | **Equipment** | $100-300/day | $0 |
 | **Talent/Models** | $200-1,000/day | $0 |
 | **Editing/Post** | $100-500/video | $0 |
-| **Per Video Total** | $500-2,000 | $0.15-1.50 |
-| **100 Videos** | $50,000-200,000 | $15-150 |
+| **Per Video Total** | $500-2,000 | $0.14-0.57 |
+| **100 Videos** | $50,000-200,000 | $14-57 |
 | **Turnaround** | 1-4 weeks | Minutes |
 
 At the AI price point, product video becomes feasible for every SKU in a catalog -- not just hero products. A 500-product store that could only afford video for its top 20 products can now have video for every single listing.
@@ -56,41 +56,41 @@ At the AI price point, product video becomes feasible for every SKU in a catalog
 
 Not all AI video models are equally suited to product content. Based on extensive testing, these three deliver the best results for product video workflows:
 
-### PixVerse V4.5: Camera Control Specialist
+### [Kling 3.0 Standard](https://www.atlascloud.ai/models/kwaivgi/kling-v3.0-std/image-to-video?utm_medium=article&utm_source=blog&utm_campaign=how-to-create-ai-product-videos): Camera Control and Text Preservation
 
-**Why it works for product videos:** PixVerse V4.5's camera control parameters give you precise control over how the camera moves around your product. Specify a slow orbit, a dolly-in to highlight texture, a pan across a product lineup, or a zoom to detail. This level of camera direction is essential for product videos that need to follow standard advertising conventions -- slow reveals, detail close-ups, and smooth rotations.
+**Why it works for product videos:** Kling 3.0 Standard gives you strong camera control for product showcases -- specify a slow orbit, a dolly-in to highlight texture, a pan across a product lineup, or a zoom to detail. It also preserves on-screen text like brand names, price tags, and model numbers with high fidelity, which is critical for e-commerce content. Kling 3.0 Standard hits a good balance between quality and cost for product video workflows.
 
 | Spec | Detail |
 |------|--------|
-| **Model ID** | `pixverse/v4.5/image-to-video` |
-| **Price** | $0.04/sec |
-| **Max Duration** | 8 seconds |
-| **Best Feature** | Granular camera controls |
-| **Per 8s Video** | $0.32 |
+| **Model ID** | `kwaivgi/kling-v3.0-std/image-to-video` |
+| **Price** | $0.071/sec |
+| **Max Duration** | 10 seconds |
+| **Best Feature** | Camera controls + text preservation |
+| **Per 8s Video** | $0.57 |
 
-### Seedance 2.0: Quality and Versatility
+### [Seedance v1.5 Pro](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/image-to-video?utm_medium=article&utm_source=blog&utm_campaign=how-to-create-ai-product-videos): Quality and Versatility
 
-**Why it works for product videos:** Seedance 2.0 produces the highest visual quality at the most affordable price point for product content. Its multi-reference input capability means you can provide multiple views of the same product, and the model will maintain consistency. The 15-second maximum duration is also the longest available, which is valuable for product demonstrations that need more time.
+**Why it works for product videos:** Seedance v1.5 Pro produces high visual quality at an affordable price point for product content. Its multi-reference input capability means you can provide multiple views of the same product, and the model will maintain consistency. The 15-second maximum duration is also the longest available, which is valuable for product demonstrations that need more time.
 
 | Spec | Detail |
 |------|--------|
 | **Model ID** | `bytedance/seedance-v1.5-pro/image-to-video` |
-| **Price** | $0.022/sec |
+| **Price** | $0.047/sec |
 | **Max Duration** | 15 seconds |
 | **Best Feature** | Multi-reference input, quality |
-| **Per 10s Video** | $0.22 |
+| **Per 10s Video** | $0.47 |
 
-### Wan 2.6: Budget Volume Production
+### [Wan 2.6 Flash](https://www.atlascloud.ai/models/alibaba/wan-2.6/image-to-video?utm_medium=article&utm_source=blog&utm_campaign=how-to-create-ai-product-videos): Budget Volume Production
 
-**Why it works for product videos:** At $0.015/second, Wan 2.6 is the cheapest model for generating product videos at volume. The quality is good enough for social media ads, marketplace listings, and internal marketing content. For teams with hundreds or thousands of SKUs that need video, Wan 2.6 makes the economics work at any scale.
+**Why it works for product videos:** At $0.018/second, Wan 2.6 Flash is the cheapest model for generating product videos at volume. The quality is good enough for social media ads, marketplace listings, and internal marketing content. For teams with hundreds or thousands of SKUs that need video, Wan 2.6 Flash makes the economics work at any scale.
 
 | Spec | Detail |
 |------|--------|
 | **Model ID** | `alibaba/wan-2.6/image-to-video` |
-| **Price** | $0.015/sec |
+| **Price** | $0.018/sec |
 | **Max Duration** | 10 seconds |
 | **Best Feature** | Lowest price |
-| **Per 8s Video** | $0.12 |
+| **Per 8s Video** | $0.14 |
 
 ## How to Access the API
 
@@ -98,9 +98,9 @@ Not all AI video models are equally suited to product content. Based on extensiv
 
 Register at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=how-to-create-ai-product-videos) and navigate to the API Keys tab. The $1 free credit is applied automatically -- enough to generate dozens of product videos before spending any of your own money.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 ### Step 2: Generate Your First Product Video
 
@@ -118,7 +118,7 @@ response = requests.post(
         "Content-Type": "application/json"
     },
     json={
-        "model": "pixverse/v4.5/image-to-video",
+        "model": "kwaivgi/kling-v3.0-std/image-to-video",
         "prompt": "Slow 360-degree rotation of the product on a clean "
                   "white surface, soft studio lighting creating elegant "
                   "reflections, premium commercial style, shallow depth "
@@ -285,7 +285,7 @@ products = [
 ]
 
 # Configuration
-MODEL = "bytedance/seedance-v1.5-pro/image-to-video"  # Best quality/price
+MODEL = "bytedance/seedance-v1.5-pro/image-to-video"  # Best quality
 DURATION = 8
 RESOLUTION = "1080p"
 MAX_CONCURRENT = 5  # Limit concurrent requests
@@ -380,7 +380,7 @@ def process_catalog(products):
     # Summary
     successful = [r for r in results if r["status"] == "success"]
     failed = [r for r in results if r["status"] == "failed"]
-    cost = len(successful) * DURATION * 0.022  # Seedance pricing
+    cost = len(successful) * DURATION * 0.047  # Seedance v1.5 Pro pricing
 
     print(f"\n--- Batch Complete ---")
     print(f"Successful: {len(successful)}/{len(products)}")
@@ -407,7 +407,7 @@ This script handles:
 - **Cost tracking** and summary reporting
 - **Results logging** for audit and troubleshooting
 
-To use this with your own catalog, replace the `products` list with your actual product data. Each product needs a `name`, `image_url`, and `prompt`. You can also swap the `MODEL` variable to try different models -- `pixverse/v4.5/image-to-video` for camera controls or `alibaba/wan-2.6/image-to-video` for budget production.
+To use this with your own catalog, replace the `products` list with your actual product data. Each product needs a `name`, `image_url`, and `prompt`. You can also swap the `MODEL` variable to try different models -- `kwaivgi/kling-v3.0-std/image-to-video` for camera controls and text preservation, or `alibaba/wan-2.6/image-to-video` for budget production.
 
 ## Cost Analysis: Traditional vs. AI Video
 
@@ -418,27 +418,27 @@ Here is what the cost comparison looks like for a real-world product catalog:
 | Approach | Cost | Time | Notes |
 |----------|------|------|-------|
 | **Traditional video** | $25,000-100,000 | 4-8 weeks | Studio, talent, editing |
-| **Seedance 2.0 (quality)** | $8.80 | ~30 minutes | $0.022/sec x 8s x 50 |
-| **Wan 2.6 (budget)** | $6.00 | ~30 minutes | $0.015/sec x 8s x 50 |
-| **PixVerse V4.5 (camera)** | $16.00 | ~30 minutes | $0.04/sec x 8s x 50 |
+| **Seedance v1.5 Pro (quality)** | $18.80 | ~30 minutes | $0.047/sec x 8s x 50 |
+| **Wan 2.6 Flash (budget)** | $7.20 | ~30 minutes | $0.018/sec x 8s x 50 |
+| **Kling 3.0 Std (camera)** | $28.40 | ~30 minutes | $0.071/sec x 8s x 50 |
 
 ### Medium Store: 500 Products
 
 | Approach | Cost | Time | Notes |
 |----------|------|------|-------|
 | **Traditional video** | $250,000-1,000,000 | 3-6 months | Usually only top 50 done |
-| **Seedance 2.0** | $88.00 | ~3 hours | All 500 products covered |
-| **Wan 2.6** | $60.00 | ~3 hours | All 500 products covered |
-| **PixVerse V4.5** | $160.00 | ~3 hours | All 500 products covered |
+| **Seedance v1.5 Pro** | $188.00 | ~3 hours | All 500 products covered |
+| **Wan 2.6 Flash** | $72.00 | ~3 hours | All 500 products covered |
+| **Kling 3.0 Std** | $284.00 | ~3 hours | All 500 products covered |
 
 ### Large Store: 5,000 Products
 
 | Approach | Cost | Time | Notes |
 |----------|------|------|-------|
 | **Traditional video** | Not feasible | -- | No studio does this at scale |
-| **Seedance 2.0** | $880.00 | ~1 day | Fully automated batch |
-| **Wan 2.6** | $600.00 | ~1 day | Fully automated batch |
-| **PixVerse V4.5** | $1,600.00 | ~1 day | Fully automated batch |
+| **Seedance v1.5 Pro** | $1,880.00 | ~1 day | Fully automated batch |
+| **Wan 2.6 Flash** | $720.00 | ~1 day | Fully automated batch |
+| **Kling 3.0 Std** | $2,840.00 | ~1 day | Fully automated batch |
 
 The economics speak for themselves. AI product video is not a marginal improvement over traditional production -- it is a different order of magnitude in both cost and speed. A 5,000-SKU store can have video for every product for less than the cost of a single traditional product video shoot.
 
@@ -472,9 +472,9 @@ The quality of AI product videos is directly tied to the quality of the source p
 
 ### Post-Generation Optimization
 
-11. **Generate multiple variations.** Run the same product with 2-3 different prompts and select the best. At $0.12-0.32 per video, generating extras is cheap insurance for quality.
+11. **Generate multiple variations.** Run the same product with 2-3 different prompts and select the best. At $0.14-0.57 per video, generating extras is cheap insurance for quality.
 
-12. **Test different models.** The same product photo may look best with different models. Camera-heavy reveals work well with PixVerse V4.5. Quality-focused hero shots work well with Seedance 2.0. Volume runs work well with Wan 2.6.
+12. **Test different models.** The same product photo may look best with different models. Camera-heavy reveals work well with Kling 3.0 Std. Quality-focused hero shots work well with Seedance v1.5 Pro. Volume runs work well with Wan 2.6 Flash.
 
 13. **Add branding in post.** While some models preserve text from source images, it is generally more reliable to add brand overlays, logos, and text in post-production using standard video editing tools.
 
@@ -527,7 +527,7 @@ def generate_product_video(image_url, prompt, model, duration=8):
 # Strategy: Use different models for different video types
 product_image = "https://example.com/products/smartwatch.jpg"
 
-# 1. Hero video with Seedance 2.0 (highest quality)
+# 1. Hero video with Seedance v1.5 Pro (highest quality)
 hero_video = generate_product_video(
     image_url=product_image,
     prompt="Cinematic slow reveal of the smartwatch, dramatic lighting "
@@ -538,18 +538,18 @@ hero_video = generate_product_video(
 )
 print(f"Hero video: {hero_video}")
 
-# 2. Product rotation with PixVerse V4.5 (camera control)
+# 2. Product rotation with Kling 3.0 Std (camera control + text preservation)
 rotation_video = generate_product_video(
     image_url=product_image,
     prompt="Smooth 360-degree rotation on a clean surface, studio "
            "lighting highlighting material textures and screen display, "
            "product showcase style",
-    model="pixverse/v4.5/image-to-video",
+    model="kwaivgi/kling-v3.0-std/image-to-video",
     duration=8
 )
 print(f"Rotation video: {rotation_video}")
 
-# 3. Quick social media clip with Wan 2.6 (budget)
+# 3. Quick social media clip with Wan 2.6 Flash (budget)
 social_video = generate_product_video(
     image_url=product_image,
     prompt="Dynamic quick reveal with energetic camera movement, "
@@ -560,16 +560,16 @@ social_video = generate_product_video(
 )
 print(f"Social video: {social_video}")
 
-# Total cost: $0.22 + $0.32 + $0.075 = $0.615 for 3 videos
-print("\nTotal estimated cost: $0.615 for 3 product videos")
+# Total cost: $0.47 + $0.57 + $0.09 = $1.13 for 3 videos
+print("\nTotal estimated cost: $1.13 for 3 product videos")
 ```
 
 This pipeline produces three distinct videos for one product:
-- A **hero video** using Seedance 2.0 for the product detail page
-- A **rotation video** using PixVerse V4.5 for marketplace listings
-- A **social clip** using Wan 2.6 for Instagram/TikTok ads
+- A **hero video** using Seedance v1.5 Pro for the product detail page
+- A **rotation video** using Kling 3.0 Std for marketplace listings
+- A **social clip** using Wan 2.6 Flash for Instagram/TikTok ads
 
-Total cost: approximately $0.62 for three production-ready product videos.
+Total cost: approximately $1.13 for three production-ready product videos.
 
 ## Frequently Asked Questions
 
@@ -579,7 +579,7 @@ PNG with transparent or white background produces the most consistent results. H
 
 ### How many product videos can I generate with the $1 free credit?
 
-At Wan 2.6 pricing ($0.015/sec), the $1 credit generates approximately 8 eight-second product videos. At Seedance 2.0 pricing ($0.022/sec), approximately 5 eight-second videos. At PixVerse V4.5 pricing ($0.04/sec), approximately 3 eight-second videos.
+At Wan 2.6 Flash pricing ($0.018/sec), the $1 credit generates approximately 6 eight-second product videos. At Seedance v1.5 Pro pricing ($0.047/sec), approximately 2 eight-second videos. At Kling 3.0 Std pricing ($0.071/sec), approximately 1-2 eight-second videos.
 
 ### Can I use AI product videos for Amazon and Shopify listings?
 
@@ -604,12 +604,12 @@ AI product video generation has reached the point where it is not just viable --
 The recommended workflow for most teams:
 
 1. **Start with the $1 free credit on Atlas Cloud** to test all three models with your actual product photography.
-2. **Choose your primary model** -- Seedance 2.0 for quality, PixVerse V4.5 for camera controls, or Wan 2.6 for budget.
+2. **Choose your primary model** -- Seedance v1.5 Pro for quality, Kling 3.0 Std for camera controls and text preservation, or Wan 2.6 Flash for budget.
 3. **Build the batch processing pipeline** using the script in this guide.
 4. **Generate video for your full catalog** and upload to your e-commerce platform.
 5. **Iterate on prompts** based on performance data from your listings.
 
-One API key, three specialized models, and a complete product video catalog for the price of a single traditional video. That is the value proposition of AI product video generation on Atlas Cloud.
+One API key, three specialized models, and a complete product video catalog for a fraction of traditional video costs. That is the value proposition of AI product video generation on Atlas Cloud.
 
 > [Get $1 Free Credit -- Start Creating Product Videos](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=how-to-create-ai-product-videos)
 

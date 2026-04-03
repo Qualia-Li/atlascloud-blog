@@ -1,17 +1,17 @@
 ---
-title: "Generate 100 Marketing Videos/Week Under $50"
-description: "Step-by-step guide to generating 100+ AI marketing videos per week for under $50 using Atlas Cloud's unified API. Includes cost breakdowns and automation code."
+title: "Generate 100 Marketing Videos/Week Under $60"
+description: "Step-by-step guide to generating 100+ AI marketing videos per week for under $60 using Atlas Cloud's unified API. Includes cost breakdowns and automation code."
 keywords: ["AI video generation at scale", "bulk video API", "cheap AI video", "Atlas Cloud video generation", "marketing video automation"]
 slug: "generate-100-videos-week-atlas-cloud"
 date: "2026-02-20"
 author: "Atlas Cloud Team"
 ---
 
-# Generate 100 Marketing Videos per Week Under $50 with Atlas Cloud
+# Generate 100 Marketing Videos per Week Under $60 with Atlas Cloud
 
 Traditional video production can cost anywhere between $500 and $5,000 per finished minute. But even at $500 a minute, 100 short marketing videos per week would cost a team $50,000 or more per month -- if they could even find that many video editors and motion designers to keep up the pace. It's just not feasible for most businesses.
 
-AI video generation at scale is a gamechanger. With powerful models like Seedance, Kling, Veo, Sora all now available through a single bulk video API, the price of a marketing-quality 8-second video is now under $0.25. 100 videos per week no longer requires an enterprise-scale budget. It is a line item that comfortably sits under $50.
+AI video generation changes the math entirely. With powerful models like [Seedance v1.5 Pro](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud), [Kling 3.0](https://www.atlascloud.ai/models/kwaivgi/kling-v3.0-std/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud), and [Veo 3.1](https://www.atlascloud.ai/models/google/veo-3.1/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud) all available through a single bulk video API, the price of a marketing-quality 8-second video is now under $0.60. 100 videos per week no longer requires an enterprise-scale budget. It is a line item that comfortably sits under $60.
 
 This walkthrough will cover an exact cost breakdown, model selection strategy and marketing video automation code to create an Atlas Cloud video generation pipeline churning out 100+ clips a week.
 
@@ -25,60 +25,59 @@ See what AI video generation can produce:
 
 ## The Math: 100 Videos/Week Cost Breakdown
 
-The first question any team exploring cheap AI video production will ask is an obvious one: how much does this actually cost? It all depends on the model you use and how long each clip has to be. Here’s a complete breakdown, based on current [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide) API pricing.
+The first question any team exploring cheap AI video production will ask is an obvious one: how much does this actually cost? It all depends on the model you use and how long each clip has to be. Here’s a complete breakdown, based on current [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud) API pricing.
 
 ### Cost Per Video by Model (8-Second Clips)
 
 | Model | Cost/Second | Cost per 8s Video | 100 Videos/Week | 400 Videos/Month |
 |-------|------------|-------------------|-----------------|------------------|
-| **Seedance v1.5 Pro Fast** | $0.022/sec | $0.176 | **$17.60** | **$70.40** |
-| **Veo 3.1** | $0.03/sec | $0.24 | **$24.00** | **$96.00** |
-| **Wan 2.6** | $0.07/sec | $0.56 | **$56.00** | **$224.00** |
-| **Kling 3.0 Standard** | $0.126/sec | $1.008 | **$100.80** | **$403.20** |
-| **Sora 2** | $0.15/sec | $1.20 | **$120.00** | **$480.00** |
-| **Kling 3.0 Pro** | $0.168/sec | $1.344 | **$134.40** | **$537.60** |
-| **Seedance v1.5 Pro** | $0.247/sec | $1.976 | **$197.60** | **$790.40** |
+| **[Wan 2.6](https://www.atlascloud.ai/models/alibaba/wan-2.6/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)** | $0.07/sec | $0.56 | **$56.00** | **$224.00** |
+| **[Seedance v1.5 Pro](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)** | $0.047/sec | $0.376 | **$37.60** | **$150.40** |
+| **[Kling 3.0 Standard](https://www.atlascloud.ai/models/kwaivgi/kling-v3.0-std/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)** | $0.071/sec | $0.568 | **$56.80** | **$227.20** |
+| **[Veo 3.1 Fast](https://www.atlascloud.ai/models/google/veo-3.1/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)** | $0.09/sec | $0.72 | **$72.00** | **$288.00** |
+| **[Kling 3.0 Pro](https://www.atlascloud.ai/models/kwaivgi/kling-v3.0-pro/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)** | $0.095/sec | $0.76 | **$76.00** | **$304.00** |
+| **[Kling O3 Pro](https://www.atlascloud.ai/models/kwaivgi/kling-o3-pro/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)** | $0.095/sec | $0.76 | **$76.00** | **$304.00** |
 
-### The Strategy That Keeps It Under $50
+### The Strategy That Keeps Costs Low
 
 The secret to delivering AI video generation at scale is not every video should run on the most expensive model. The optimal ratio of cost to quality is achieved with the right mix of models on the bulk video API:
 
-- **60 videos on Seedance v1.5 Fast** (product shots, simple demos): 60 x $0.176 = $10.56
-- **20 videos on Veo 3.1** (brand storytelling, cinematic clips): 20 x $0.24 = $4.80
-- **15 videos on Kling 3.0 Std** (text-heavy social content): 15 x $1.008 = $15.12
-- **5 videos on Sora 2** (physics-heavy hero content): 5 x $1.20 = $6.00
+- **60 videos on Wan 2.6** (product shots, simple demos): 60 x $0.56 = $33.60
+- **20 videos on Seedance v1.5 Pro** (brand storytelling, polished clips): 20 x $0.376 = $7.52
+- **15 videos on Kling 3.0 Std** (text-heavy social content): 15 x $0.568 = $8.52
+- **5 videos on Veo 3.1 Fast** (cinematic hero content): 5 x $0.72 = $3.60
 
-Total: $36.48/week for 100 videos.  Well below the $50 threshold.
+Total: $53.24/week for 100 videos. Just over $50 -- and still a fraction of traditional production costs.
 
-A standardized workflow using only Seedance v1.5 Fast costs $17.60 per week for 100 eight-sec clips.  That is less than what most teams pay for stock footage subscriptions.
+A standardized workflow using only Seedance v1.5 Pro costs $37.60 per week for 100 eight-sec clips. That is less than what most teams pay for stock footage subscriptions.
 
 ## Sample Videos Generated via Atlas Cloud API
 
 For the purpose of showing you the type of videos each model generates, here are actual videos created using the Atlas Cloud API, with the prompts directly from this tutorial:
 
-### Seedance v1.5 Pro Fast -- Product Showcase
+### Seedance v1.5 Pro -- Product Showcase
 Image description: promotional image, lighting on product a little top left, angle top down, neutral lighting on product a little bottom right, angle bottom up
-**Cost:** 8 seconds × $0.022/sec = **$0.176**
+**Cost:** 8 seconds x $0.047/sec = **$0.376**
 
-[](https://atlas-media.oss-us-west-1.aliyuncs.com/flashvsr_videos/13e0a4b3-8976-40e6-a717-84fbb3edd3c1.mp4)
+[![Seedance product showcase demo](https://img.youtube.com/vi/INWDLI63z0s/maxresdefault.jpg)](https://www.youtube.com/watch?v=INWDLI63z0s)
 
-▶ [Watch Seedance Product Video](https://atlas-media.oss-us-west-1.aliyuncs.com/flashvsr_videos/13e0a4b3-8976-40e6-a717-84fbb3edd3c1.mp4)
+[Watch on YouTube](https://www.youtube.com/watch?v=INWDLI63z0s)
 
-### Veo 3.1 -- Brand Storytelling
-Title : City skyline and golden sunsets transitioning to blue hour with warm to cool color grading, a drone slowly gliding and flying.
-**Cost:** 8 seconds × $0.03/sec = **$0.24**
+### Seedance v1.5 Pro -- Recreating the Severance Intro
+A creative example showing what Seedance can do with stylized, cinematic content.
+**Cost:** 8 seconds x $0.047/sec = **$0.376**
 
-[](https://atlas-media.oss-us-west-1.aliyuncs.com/videos/1d2de4c9-d5ed-4727-b64f-4cda3f99de9d.mp4)
+[![Recreating the SEVERANCE Intro with Seedance](https://img.youtube.com/vi/FfW0F5k9VT0/maxresdefault.jpg)](https://www.youtube.com/watch?v=FfW0F5k9VT0)
 
-▶ [Watch Veo 3.1 Brand Story Video](https://atlas-media.oss-us-west-1.aliyuncs.com/videos/1d2de4c9-d5ed-4727-b64f-4cda3f99de9d.mp4)
+[Watch on YouTube](https://www.youtube.com/watch?v=FfW0F5k9VT0)
 
 ### Kling 3.0 Standard -- Social Media Hook
 Captivating hook for a social media post, steaming coffee cup on wooden desk, morning sunlight coming through window, cozy warm atmosphere, in the style of an Instagram Reel
-**Cost:** 6 seconds × $0.126/sec = **$0.756**
+**Cost:** 6 seconds x $0.071/sec = **$0.426**
 
 *Video sample available with Atlas Cloud API -- create your own using the prompt above.*
 
-**$1.17 total for all 3 sample videos** --  just how cheap AI video generation at scale really is.
+**$1.18 total for all 3 sample videos** -- just how cheap AI video generation at scale really is.
 
 ---
 
@@ -86,44 +85,44 @@ Captivating hook for a social media post, steaming coffee cup on wooden desk, mo
 
 Different models have different strengths, and they’re better at different kinds of marketing video automation. The right model for the right task is how teams ensure quality without inflating cheap AI video prices.
 
-### Product Demos and Showcases -- Seedance v1.5 Fast
+### Product Demos and Showcases -- Wan 2.6
 
 - **Best for**: Product rotation shots, unboxing animations, feature highlights
-- **Why**: Seedance excels at image-to-video generation, making it ideal for turning product photos into polished video clips. The Fast tier produces output that is production-ready for approximately 90% of use cases.
-- **Cost**: $0.022/sec -- the most affordable option available
+- **Why**: [Wan 2.6](https://www.atlascloud.ai/models/alibaba/wan-2.6/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud) is an affordable video model with good output quality for product showcases and simple demos.
+- **Cost**: $0.07/sec for text-to-video
 - **Tip**: Supply a high-quality product image as the input frame for best results.
 
 ### Social Media Hooks -- Kling 3.0
 
 - **Best for**: Instagram Reels, TikTok ads, YouTube Shorts with text overlays
-- **Why**: Kling 3.0 leads the competition in text rendering fidelity. Brand names, prices, and CTAs remain legible in the generated video. The Motion Brush tool also allows precise control over object movement within the frame.
-- **Cost**: $0.126/sec (Standard) or $0.168/sec (Pro)
+- **Why**: Kling 3.0 leads the competition in text rendering fidelity. Brand names, prices, and CTAs remain legible in the generated video.
+- **Cost**: $0.071/sec (Standard) or $0.095/sec (Pro)
 - **Tip**: Use Kling when the video requires readable text or specific motion paths.
 
-### Brand Storytelling -- Veo 3.1
+### Brand Storytelling -- Veo 3.1 Fast
 
 - **Best for**: Brand awareness clips, cinematic intros, atmospheric content
 - **Why**: Veo 3.1 produces output with a distinctly cinematic quality -- natural lighting transitions, smooth camera movements, and a polished aesthetic that feels closer to traditional footage than AI-generated content.
-- **Cost**: $0.03/sec -- strong value for the quality tier
+- **Cost**: $0.09/sec (Fast) -- cinematic quality at an accessible price
 - **Tip**: Veo works best with descriptive, scene-setting prompts rather than action-heavy instructions.
 
-### Physics and Realism -- Sora 2
+### Physics and Realism -- Veo 3.1
 
 - **Best for**: Realistic demonstrations, liquid simulations, mechanical motion, nature scenes
-- **Why**: Sora 2 handles physics simulation better than any competing model. Water flow, fabric draping, and object interactions look convincingly real.
-- **Cost**: $0.15/sec -- reserve for hero content
-- **Tip**: Use Sora 2 selectively for content where physical accuracy matters most.
+- **Why**: [Veo 3.1](https://www.atlascloud.ai/models/google/veo-3.1/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud) produces cinematic output with natural physics -- water flow, fabric draping, and object interactions look convincingly real, with native audio generation as a bonus.
+- **Cost**: $0.09/sec (Fast) -- reserve for hero content
+- **Tip**: Use Veo 3.1 selectively for content where physical accuracy and cinematic quality matter most.
 
 ### Quick Reference: Model Selection Matrix
 
 | Content Type | Recommended Model | Cost/8s | Priority |
 |-------------|-------------------|---------|----------|
-| Product rotation | Seedance v1.5 Fast | $0.176 | High volume |
-| Social media ads | Kling 3.0 Std | $1.008 | Text-heavy |
-| Brand story clips | Veo 3.1 | $0.24 | Cinematic |
-| Physics demos | Sora 2 | $1.20 | Hero content |
-| Explainer clips | Wan 2.6 | $0.56 | Mid-range |
-| Draft iterations | Seedance v1.5 Fast | $0.176 | Cost savings |
+| Product rotation | Wan 2.6 | $0.56 | High volume |
+| Social media ads | Kling 3.0 Std | $0.568 | Text-heavy |
+| Brand story clips | Veo 3.1 Fast | $0.72 | Cinematic |
+| Physics demos | Veo 3.1 Fast | $0.72 | Hero content |
+| Polished promos | Seedance v1.5 Pro | $0.376 | Mid-range |
+| Draft iterations | Seedance v1.5 Pro Fast | $0.144 | Cost savings |
 
 ## Automation: Python Batch Generation Script
 
@@ -141,7 +140,7 @@ BASE_URL = "https://api.atlascloud.ai/api/v1"
 # Define video generation tasks
 videos = [
     {
-        "model": "bytedance/seedance-v1.5-pro-fast/text-to-video",
+        "model": "alibaba/wan-2.6/text-to-video",
         "prompt": "Product showcase: wireless earbuds rotating on black surface, studio lighting, premium feel",
         "duration": 8
     },
@@ -245,11 +244,11 @@ Teams looking to scale to 100 videos per week with AI generation typically curat
 - **Scheduling**: Run via cron job or a task scheduler. A Monday/Wednesday/Friday split of ~33 videos per run keeps the pipeline manageable.
 - **Prompt templates**: Store reusable prompt templates with placeholder variables (product name, color, tagline) to maintain consistency across large batches.
 
-Users can [sign up for Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide) and receive $1 of free credit, which is enough to process 5-40+ videos, depending on the model selected. API keys can be obtained right away from the [console](https://www.atlascloud.ai/console/api-keys?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide).
+Users can [sign up for Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud) and receive $1 of free credit, which is enough to process 5-40+ videos, depending on the model selected. API keys can be obtained right away from the [console](https://www.atlascloud.ai/console/api-keys?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud).
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 ## Quality Optimization Tips
 
@@ -257,11 +256,11 @@ Generating video at scale in Atlas Cloud presents quality issues that are not pr
 
 ### Use the Fast Tier for Drafts, Pro for Finals
 
-The single best money-saving hack. Use Seedance v1.5 Fast at $0.022/second for all your prompt iterations in the beginning. When you have fine-tuned your prompt, framing and style, use a more expensive model for final generation. Groups that have implemented this process see on average a 70-85% reduction of their total generation costs vs running everything at Pro tiers.
+The single best money-saving hack. Use Seedance v1.5 Pro Fast at $0.018/second for all your prompt iterations in the beginning. When you have fine-tuned your prompt, framing and style, use a more expensive model for final generation. Groups that have implemented this process see on average a 70-85% reduction of their total generation costs vs running everything at Pro tiers.
 
 ### Start with 4-6 Second Clips
 
-Longer doesn't mean better. On social media platforms, 4-6 second clips perform much better than longer video clips on engagement metrics. Plus, they cost 25-50% less to produce. A 4-second Seedance v1.5 Fast clip costs only $0.088 -- or 100 short clips for only $8.80 per week.
+Longer doesn't mean better. On social media platforms, 4-6 second clips perform much better than longer video clips on engagement metrics. Plus, they cost 25-50% less to produce. A 4-second Seedance v1.5 Pro clip costs only $0.188 -- or 100 short clips for only $18.80 per week.
 
 ### Template Your Prompts for Consistency
 
@@ -294,11 +293,11 @@ A neighborhood business making social media content and product shows.
 |-----------|--------|
 | Videos per week | 25 |
 | Average duration | 8 seconds |
-| Primary model | Seedance v1.5 Fast |
-| Weekly cost | 25 x 8 x $0.022 = **$4.40** |
-| Monthly cost | **$17.60** |
+| Primary model | Seedance v1.5 Pro |
+| Weekly cost | 25 x 8 x $0.047 = **$9.40** |
+| Monthly cost | **$37.60** |
 
-For just $4.40 per week, your small business can have a thriving social media presence, with daily fresh video content. That's less than one stock video download on most sites.
+For under $10 per week, your small business can have a thriving social media presence, with daily fresh video content. That's less than one stock video download on most sites.
 
 ### Agency: 100 Videos/Week (Mixed Models)
 
@@ -308,12 +307,12 @@ A multi-client marketing agency with a variety of content requirements.
 |-----------|--------|
 | Videos per week | 100 |
 | Average duration | 8 seconds |
-| Model mix | 60% Seedance v1.5 Fast, 20% Veo 3.1, 15% Kling 3.0 Std, 5% Sora 2 |
-| Weekly breakdown | $10.56 + $4.80 + $15.12 + $6.00 |
-| **Weekly cost** | **$36.48** |
-| **Monthly cost** | **$145.92** |
+| Model mix | 60% Wan 2.6, 20% Seedance v1.5 Pro, 15% Kling 3.0 Std, 5% Veo 3.1 Fast |
+| Weekly breakdown | $33.60 + $7.52 + $8.52 + $3.60 |
+| **Weekly cost** | **$53.24** |
+| **Monthly cost** | **$212.96** |
 
-Even when adding in premium packages for client-facing hero pieces, the overall total is well below $50 per week. The agency that bills clients $500 to $2,000 for a video package is enjoying margins over 95%.
+Even with a mix of models, the total is just over $50 per week -- a fraction of traditional production costs. The agency that bills clients $500 to $2,000 for a video package is enjoying margins over 90%.
 
 ### Enterprise: 500 Videos/Week
 
@@ -323,34 +322,34 @@ Mass-scale e-commerce business producing product videos, ad variations and A/B t
 |-----------|--------|
 | Videos per week | 500 |
 | Average duration | 6 seconds |
-| Model mix | 70% Seedance v1.5 Fast, 20% Veo 3.1, 10% Kling 3.0 Std |
-| Seedance v1.5 Fast | 350 x 6 x $0.022 = $46.20 |
-| Veo 3.1 | 100 x 6 x $0.03 = $18.00 |
-| Kling 3.0 Std | 50 x 6 x $0.126 = $37.80 |
-| **Weekly cost** | **$102.00** |
-| **Monthly cost** | **$408.00** |
+| Model mix | 70% Seedance v1.5 Pro, 20% Kling 3.0 Std, 10% Veo 3.1 Fast |
+| Seedance v1.5 Pro | 350 x 6 x $0.047 = $98.70 |
+| Kling 3.0 Std | 100 x 6 x $0.071 = $42.60 |
+| Veo 3.1 Fast | 50 x 6 x $0.09 = $27.00 |
+| **Weekly cost** | **$168.30** |
+| **Monthly cost** | **$673.20** |
 
-Five hundred videos per week for around $400 per month -- this is the real deal of cheap AI video at enterprise scale. Contrast that with the $100,000+ per month budget needed by a traditional production team to produce the same volume of marketing videos. We’re not even in the same ballpark when it comes to the economics of this form of marketing video automation.
+Five hundred videos per week for under $700 per month -- this is the real deal of cheap AI video at enterprise scale. Contrast that with the $100,000+ per month budget needed by a traditional production team to produce the same volume of marketing videos. We’re not even in the same ballpark when it comes to the economics of this form of marketing video automation.
 
-Contact [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide) for volume pricing for enterprise scale needs -- additional discounts are available for large volume commitments.
+Contact [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud) for volume pricing for enterprise scale needs -- additional discounts are available for large volume commitments.
 
 ## Frequently Asked Questions
 
 ### What is the cheapest way to generate 100 AI videos per week?
 
-Seedance v1.5 Pro Fast over the Atlas Cloud video generation API is the lowest cost API option for high volume at $0.022/second. At 8 seconds per video that comes out to $17.60 per week for 100 videos. To provide a cinematic variety for teams that want to use higher quality videos on occasion, mixing in Veo 3.1 at $0.03/sec can still be kept under $50 in total.
+Seedance v1.5 Pro over the Atlas Cloud video generation API offers strong quality at $0.047/second. At 8 seconds per video that comes out to $37.60 per week for 100 videos. For teams that want to mix models, combining Seedance v1.5 Pro with Kling 3.0 Std ($0.071/sec) or Veo 3.1 Fast ($0.09/sec) for hero content keeps the total well under $100.
 
 ### Do I need a subscription to use Atlas Cloud for bulk video generation?
 
-No. Atlas Cloud has no subscription fees or memberships. Users only pay for the videos they create. Every new account gets [$1 in free credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide) when they sign up. The $1 free credit will create 5-40+ test videos based on which model is selected.
+No. Atlas Cloud has no subscription fees or memberships. Users only pay for the videos they create. Every new account gets [$1 in free credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud) when they sign up. The $1 free credit will create 5-40+ test videos based on which model is selected.
 
 ### Can I use different AI models through the same API key?
 
-Yes. Atlas Cloud gives you access to over 300 AI models -- including Seedance, Kling 3.0, Veo 3.1, Sora 2, and Wan 2.6 -- all through a single API key and endpoint. You can switch between models on a per-request basis with no separate accounts or credentials to manage.
+Yes. Atlas Cloud gives you access to over 300 AI models -- including Seedance v1.5 Pro, Kling 3.0, Veo 3.1, and Wan 2.6 -- all through a single API key and endpoint. You can switch between models on a per-request basis with no separate accounts or credentials to manage.
 
 ### How long does it take to generate 100 videos?
 
-Generation time is different for each model. Seedance v1.5 Fast generates an 8-second video in 30-90 seconds. Kling 3.0 and Veo 3.1 can take 2-5 minutes for each clip. Processing requests one at a time, a batch of 100 videos takes 2-3 hours on Seedance v1.5 Fast. Using parallel requests shortens that duration considerably.
+Generation time is different for each model. Seedance v1.5 Pro generates an 8-second video in 1-2 minutes. Kling 3.0 and Veo 3.1 can take 2-5 minutes for each clip. Processing requests one at a time, a batch of 100 videos takes 2-4 hours. Using parallel requests shortens that duration considerably.
 
 ### Are AI-generated videos suitable for commercial use?
 
@@ -358,18 +357,17 @@ Yes. Videos created through the Atlas Cloud API are ready for commercial use, in
 
 ## Get Started
 
-The quickest way to determine if this bulk video API method for AI video generation at scale works for a specific use case is to simply give it a try. Sign up to [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide) and receive $1 in free credit -- no credit card required. That will be enough to test several models, compare output, and run the batch script above with actual prompts.
+The quickest way to determine if this bulk video API method for AI video generation at scale works for a specific use case is to simply give it a try. Sign up to [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud) and receive $1 in free credit -- no credit card required. That will be enough to test several models, compare output, and run the batch script above with actual prompts.
 
 If your team is ready to discover the complete model catalog and API documentation:
 
-> [Start Free on Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide) | [Browse All Video Models](https://www.atlascloud.ai/models?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide) | [API Documentation](https://www.atlascloud.ai/docs?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
+> [Start Free on Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud) | [Browse All Video Models](https://www.atlascloud.ai/models?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud) | [API Documentation](https://www.atlascloud.ai/docs?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)
 
 ---
 
 ## Related Articles
 
-- [Seedance 2.0 Pricing Breakdown](https://www.atlascloud.ai/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
-- [Kling 3.0 Review: Features, Pricing & How to Access](https://www.atlascloud.ai/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
-- [Sora 2 on Atlas Cloud: Complete API Guide](https://www.atlascloud.ai/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
-- [Veo 3.1 on Atlas Cloud: Google's Film-Grade AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
-- [Atlas Cloud Image Generation: Flux, Imagen & Ideogram Guide](https://www.atlascloud.ai/blog/image-generation-api-guide?utm_medium=article&utm_source=blog&utm_campaign=bulk-video-guide)
+- [Seedance 2.0 Pricing Breakdown](https://www.atlascloud.ai/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)
+- [Kling 3.0 Review: Features, Pricing & How to Access](https://www.atlascloud.ai/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)
+- [Veo 3.1 on Atlas Cloud: Google's Film-Grade AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)
+- [Atlas Cloud Image Generation: Flux, Imagen & Ideogram Guide](https://www.atlascloud.ai/blog/image-generation-api-guide?utm_medium=article&utm_source=blog&utm_campaign=generate-100-videos-week-atlas-cloud)

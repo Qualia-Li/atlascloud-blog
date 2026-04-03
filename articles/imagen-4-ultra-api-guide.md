@@ -16,9 +16,9 @@ The Standard tier at $0.04 per image is suitable for high-volume content. The Pr
 
 Here are examples of what Imagen 4 Ultra can generate:
 
-![Neon sign with accurate text rendering, generated with Imagen 4 Ultra on Atlas Cloud](../resources/samples/imagen4-ultra-text.png)
+![Neon sign with accurate text rendering, generated with Imagen 4 Ultra on Atlas Cloud](https://drive.google.com/uc?id=1ZXqAkGZ2EGHhN2NdzWG_HYK6kOohJ24J)
 
-![Aerial coral reef photography, generated with Imagen 4 Ultra on Atlas Cloud](../resources/samples/imagen4-ultra-nature.png)
+![Aerial coral reef photography, generated with Imagen 4 Ultra on Atlas Cloud](https://drive.google.com/uc?id=1Fsr2maTp7a0PXHiwo_eWc4D_sStKbp6-)
 
 ## Imagen 4 Ultra at a Glance
 
@@ -155,9 +155,9 @@ The blended approach -- using Standard for volume, Premium for featured content,
 
 Register at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=imagen-4-ultra-api-guide) and create an API key from the console. Your $1 free credit is applied immediately -- enough for 12-25 Imagen 4 Ultra images depending on the tier you select.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 ### Step 2: Generate Images
 

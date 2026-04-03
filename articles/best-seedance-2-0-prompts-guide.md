@@ -8,7 +8,7 @@ author: "Atlas Cloud Team"
 ---
 # 15 Best Seedance 2.0 Prompts: The Ultimate Guide to Create Viral Videos
 
-Prompt quality is by far the most important determinant of output quality in Seedance 2.0. Hundreds of experiments over many different variations have proven one thing consistent: A lackluster, two-line description without guidance or instruction leads to wildly variable and often unusable results. Thoughtful, specific Seedance 2.0 prompts, on the other hand, reliably produce broadcast-quality video clips ready for commercial and social distribution.
+Prompt quality is by far the most important determinant of output quality in [Seedance 2.0](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=best-seedance-2-0-prompts-guide). Hundreds of experiments over many different variations have proven one thing consistent: A lackluster, two-line description without guidance or instruction leads to wildly variable and often unusable results. Thoughtful, specific Seedance 2.0 prompts, on the other hand, reliably produce broadcast-quality video clips ready for commercial and social distribution.
 
 The below Seedance 2.0 prompt list is made up of 15 of the best tested video prompts for AI. Each of the AI video prompts has been tested with dozens of different versions and edits, and each prompt has been copy-pasted here as ready-to-use with an explanation as to why it works. From cinematic videos to product placements and social media videos to experimental art Seedance 2.0 best prompts give consistent high-quality results no matter the category.
 
@@ -332,10 +332,9 @@ Image to video, combined with a text prompt, offers the most creative control of
 
 All prompts from this guide can be tried for free:
 
-1. **[Sign up for Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)** -- new accounts receive $1 in free credits
-2. Open **[Seedance 2.0](https://www.atlascloud.ai/collections/seedance2?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)**
-3. Paste any prompt from this guide
-4. Click generate and review the output
+1. **[Sign up for Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=best-seedance-2-0-prompts-guide)** -- new accounts receive $1 in free credits
+2. Open **[Seedance 2.0](https://www.atlascloud.ai/collections/seedance2?utm_medium=article&utm_source=blog&utm_campaign=best-seedance-2-0-prompts-guide)** and paste any prompt from this guide
+3. Click generate and review the output
 
 That credit dollar goes towards 3-4 generations of HD video, or roughly 45 seconds of video on the fast tier – enough capacity to run a handful of Seedance 2.0 prompts and figure out which style fits a particular content plan.
 
@@ -345,9 +344,9 @@ Developers who want to integrate video generation into their apps have unified a
 
 ### How to Get Your API Key
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 ## Frequently Asked Questions
 
 ### What is the maximum prompt length for Seedance 2.0?
@@ -381,5 +380,4 @@ The optimal aspect ratio depends on the target platform:
 - [How to Use Seedance 2.0 for Video Generation](https://www.atlascloud.ai/blog/how-to-use-seedance-2-0-video-generation?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
 - [Seedance 2.0 Pricing Breakdown](https://www.atlascloud.ai/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
 - [Kling 3.0 Review: Features, Pricing & How to Access](https://www.atlascloud.ai/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
-- [Sora 2 on Atlas Cloud: Complete API Guide](https://www.atlascloud.ai/blog/sora-2-api-guide?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)
 - [Veo 3.1 on Atlas Cloud: Google's Film-Grade AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=seedance-prompts)

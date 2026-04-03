@@ -16,11 +16,11 @@ This guide contains 15+ of the best Nano Banana 2 prompts, organized by category
 
 Here are examples of what Nano Banana 2 can generate:
 
-![3D figurine generated using the cyberpunk cat hacker prompt from this guide](../resources/samples/nano-banana-2-figurine.png)
+![3D figurine generated using the cyberpunk cat hacker prompt from this guide](https://drive.google.com/uc?id=1Yows9ptvclt20HGyqURm4HEX4JPIJ1qI)
 
-![Landscape generated with Nano Banana 2 showing detailed natural scenery](../resources/samples/nano-banana-2-landscape.png)
+![Landscape generated with Nano Banana 2 showing detailed natural scenery](https://drive.google.com/uc?id=1Wa26vr0BnwQe_wJHdAfd49cq78kw81jW)
 
-Access Nano Banana 2 on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts-guide) for $0.056-0.072 per image with $1 in free credit at sign-up -- enough for approximately 14-18 images to test these prompts yourself.
+Access [Nano Banana 2](https://www.atlascloud.ai/models/google/nano-banana-2/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts-guide) on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts-guide) for $0.013 per image with $1 in free credit at sign-up -- enough for approximately 76 images to test these prompts yourself.
 
 ## The Nano Banana 2 Prompt Formula
 
@@ -55,7 +55,7 @@ white background, sharp macro lens detail
 
 This prompt hits all the key elements of the figurine formula: explicit format (collectible figurine), materials (hand-painted metallic details), packaging (blister pack with cardboard backing), accessories (sword and shield), and photography style (studio lighting, macro lens). The medieval knight subject gives the model a rich set of visual references to draw from -- armor textures, heraldic details, weapon forms. This prompt produces excellent results approximately 9 out of 10 times.
 
-**Best settings:** 1024x1024
+**Best settings:** 1K or 2K, 1:1 aspect ratio
 
 ### Prompt 2: Pop Culture Vinyl Toy
 
@@ -69,7 +69,7 @@ soft gradient background, clean product photography aesthetic
 
 The Funko Pop reference is powerful here. It tells the model exactly what proportions to use -- oversized head, small body, simplified features -- and the model renders this style with high consistency. The specific color scheme (rose gold and midnight blue) prevents the model from defaulting to generic primary colors. The pedestal display context, rather than blister packaging, gives a different but equally polished presentation.
 
-**Best settings:** 1024x1024
+**Best settings:** 1K or 2K, 1:1 aspect ratio
 
 ### Prompt 3: Anime-Style Action Figure
 
@@ -84,7 +84,7 @@ product photography with dramatic rim lighting
 
 The Bandai reference anchors this firmly in the Japanese action figure tradition -- precise engineering, dynamic poses, and premium packaging. The translucent visor detail tests Nano Banana 2's material rendering, and it handles it well. Japanese text on the packaging adds authenticity, as the model renders stylized characters convincingly even without specific text content. This prompt benefits from the dynamic pose instruction, which breaks the static default.
 
-**Best settings:** 768x1024 (portrait orientation)
+**Best settings:** 1K or 2K, 9:16 aspect ratio
 
 ### Prompt 4: Chibi Fantasy Character
 
@@ -99,7 +99,7 @@ painting quality, shallow depth of field
 
 Chibi proportions work exceptionally well with Nano Banana 2. The oversized eyes and small body instruction produces consistently charming results. The dual-figure composition (tamer and dragon) tests the model's ability to handle multiple subjects, and the iridescent scales add a material challenge that Nano Banana 2 handles better than most models. Removing the packaging and using a painted base instead gives this more of a tabletop miniature feel.
 
-**Best settings:** 1024x1024
+**Best settings:** 1K or 2K, 1:1 aspect ratio
 
 ### Prompt 5: Retro Vintage Action Figure
 
@@ -114,7 +114,7 @@ product photography with slight film grain
 
 This prompt leans into nostalgia by asking for period-specific details -- stiff pose, limited articulation, yellowed packaging, retro card art. Nano Banana 2 interprets these aging and era cues with surprising accuracy. The film grain and warm lighting reinforce the vintage feel. This style has strong engagement on social media because it triggers nostalgia while still looking like a fresh photograph.
 
-**Best settings:** 1024x1024
+**Best settings:** 1K or 2K, 1:1 aspect ratio
 
 ## Category 2: Character Art (Prompts 6-9)
 
@@ -131,7 +131,7 @@ with warm highlights and cool shadows, medium close-up composition
 
 Moving beyond figurines, this prompt demonstrates Nano Banana 2's ability to render semi-realistic characters with cinematic quality. The "Pixar-meets-Lord-of-the-Rings" reference is a powerful stylistic anchor that tells the model to blend animated approachability with high-fantasy detail. The lighting description (volumetric rays, warm highlights, cool shadows) pushes the output toward professional concept art quality.
 
-**Best settings:** 1024x1024 or 768x1024
+**Best settings:** 1K or 2K, 1:1 or 9:16 aspect ratio
 
 ### Prompt 7: Cyberpunk Character Design
 
@@ -146,7 +146,7 @@ concept art style, clean lines, professional game art quality
 
 Character design sheets are a practical application beyond social sharing. This prompt requests multiple views and specific design elements, which Nano Banana 2 handles with reasonable consistency. The cyberpunk aesthetic plays to the model's strengths in material rendering -- chrome, glowing circuits, wet surfaces with reflections. The "character design concept art style" instruction keeps the output structured rather than illustrative.
 
-**Best settings:** 1024x768 (landscape for character sheet layout)
+**Best settings:** 1K or 2K, 16:9 aspect ratio
 
 ### Prompt 8: Cartoon Mascot
 
@@ -160,7 +160,7 @@ illustration style, bright pastel color palette, clean white background
 
 Nano Banana 2 handles the shift to flat, vector-style illustration surprisingly well. This prompt style is useful for teams generating mascot concepts, app icons, sticker sets, or brand characters. The explicit instruction for "simple geometric shapes" and "bold black outlines" prevents the model from defaulting to its more detailed 3D rendering style. The result is clean, immediately usable artwork.
 
-**Best settings:** 1024x1024
+**Best settings:** 1K or 2K, 1:1 aspect ratio
 
 ### Prompt 9: Stylized Portrait Series
 
@@ -175,7 +175,7 @@ artistic collectible quality
 
 The "sculpted clay aesthetic" instruction is worth highlighting. This tells Nano Banana 2 to render the character as though it were a physical sculpture with visible material texture, which produces a distinctive look that sits between figurine and fine art. The exaggerated proportions prevent the output from trying to be photorealistic and instead embrace a characterful, artistic quality.
 
-**Best settings:** 768x1024
+**Best settings:** 1K or 2K, 9:16 aspect ratio
 
 ## Category 3: Product Shots & Mockups (Prompts 10-12)
 
@@ -192,7 +192,7 @@ studio lighting with soft reflections on surface
 
 Nano Banana 2's material rendering capabilities extend well into product visualization. This prompt demonstrates how the model handles complex material combinations (matte black, brushed gold, magnetic contacts) and floating product compositions. The Apple reference anchors the minimalist aesthetic. While not a replacement for professional 3D rendering for final product launches, outputs from this prompt are more than adequate for concept presentations, pitch decks, and social media teasing.
 
-**Best settings:** 1024x1024
+**Best settings:** 1K or 2K, 1:1 aspect ratio
 
 ### Prompt 11: Food & Beverage Product
 
@@ -208,7 +208,7 @@ style, rich and indulgent color palette
 
 Food products present a unique challenge because viewers immediately detect when something looks artificial. Nano Banana 2 produces convincing food textures -- the gloss of chocolate, the matte of cocoa powder, the translucent quality of caramel. Six distinct finishes in one image tests the model's ability to differentiate materials within a single generation, and it performs well. This type of output is useful for menu design concepts, packaging mockups, and marketing materials.
 
-**Best settings:** 1024x768
+**Best settings:** 1K or 2K, 16:9 aspect ratio
 
 ### Prompt 12: Sneaker Design Concept
 
@@ -224,7 +224,7 @@ culture photography style, hyper-detailed render
 
 Sneaker design is one of the most popular product visualization use cases in AI image generation. This prompt demonstrates Nano Banana 2's handling of complex material layering -- carbon fiber weave, translucent materials, iridescent surfaces, and metallic hardware. The specific camera angle (side profile) and surface (reflective dark) follow sneaker photography conventions. Outputs from prompts like this are used in design exploration, social media content, and concept presentations.
 
-**Best settings:** 1024x768
+**Best settings:** 1K or 2K, 16:9 aspect ratio
 
 ## Category 4: Landscapes & Environments (Prompts 13-15)
 
@@ -241,7 +241,7 @@ base with glass dome cover, museum-quality miniature art
 
 This prompt plays to Nano Banana 2's unique strength at the intersection of miniatures and environments. The diorama format -- with its base, glass dome, and miniature scale -- connects to the model's figurine capabilities while expanding into environment rendering. The tilt-shift photography reference reinforces the miniature scale. Diorama-style outputs have strong engagement because they combine the appeal of tiny things with rich environmental detail.
 
-**Best settings:** 1024x1024
+**Best settings:** 1K or 2K, 1:1 aspect ratio
 
 ### Prompt 14: Fantasy Environment Concept
 
@@ -257,7 +257,7 @@ wide establishing shot composition
 
 Pure environment art is not Nano Banana 2's primary strength -- Imagen 4 Ultra produces more photorealistic landscapes. But for stylized, fantasy-influenced environment concepts, Nano Banana 2 delivers surprisingly appealing results. The bioluminescent vines and floating island are fantastical elements that benefit from the model's stylized rendering. This prompt style is useful for game concept art, book cover backgrounds, and creative social media content.
 
-**Best settings:** 1024x768
+**Best settings:** 1K or 2K, 16:9 aspect ratio
 
 ### Prompt 15: Isometric Room Scene
 
@@ -273,7 +273,7 @@ art aesthetic
 
 Isometric scenes are popular for social media and game-related content. Nano Banana 2's understanding of 3D space and material properties makes it well-suited for this style. The "low-poly 3D render" instruction keeps the geometry clean rather than photorealistic, which is the appropriate aesthetic for isometric scenes. The details -- steaming coffee, rain on window, sleeping cat -- add warmth and life that drives engagement.
 
-**Best settings:** 1024x1024
+**Best settings:** 1K or 2K, 1:1 aspect ratio
 
 ## Simple vs. Detailed Prompts: A Comparison
 
@@ -340,9 +340,9 @@ Lighting is one of the most impactful elements in determining output quality. Ev
 
 Sign up at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts-guide) to get your free API key with $1 in credits.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 ### Step 2: Generate Images with Your Prompts
 
@@ -442,7 +442,7 @@ while len(results) < len(request_ids):
     time.sleep(3)
 ```
 
-Access Nano Banana 2 on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts-guide) with $1 free credit -- enough for 14-18 images to test these prompts.
+Access Nano Banana 2 on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts-guide) with $1 free credit -- enough for 76 images to test these prompts.
 
 > [Try These Prompts on Atlas Cloud -- $1 Free Credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-prompts-guide)
 
@@ -472,7 +472,7 @@ Nano Banana 2 does not support a dedicated negative prompt parameter through the
 
 ### What is the best aspect ratio for figurine prompts?
 
-For standalone figurines and collectible toy shots, 1024x1024 (square) produces the best results. The square format gives the model balanced space to render the figure, packaging, and background without cropping. For character sheets or action poses with horizontal elements, 1024x768 (landscape) works well. For tall figures, standing poses, or portrait-style compositions, 768x1024 (portrait) is the better choice. When in doubt, start with 1024x1024 -- it is the most reliable default for Nano Banana 2.
+For standalone figurines and collectible toy shots, a 1:1 aspect ratio produces the best results. The square format gives the model balanced space to render the figure, packaging, and background without cropping. For character sheets or action poses with horizontal elements, 16:9 works well. For tall figures, standing poses, or portrait-style compositions, 9:16 is the better choice. Resolution options include 1K, 2K, and 4K. When in doubt, start with 1K or 2K at 1:1 -- it is the most reliable default for Nano Banana 2.
 
 ## Verdict
 

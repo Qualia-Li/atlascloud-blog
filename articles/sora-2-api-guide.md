@@ -1,20 +1,23 @@
 ---
 title: "Sora 2 on Atlas Cloud: Complete API Guide"
-description: "Access Sora 2 API through Atlas Cloud. Complete guide with pricing, Python code examples, and comparison to Seedance 2.0, Kling 3.0, and Veo 3.1."
+description: "Access Sora 2 API through Atlas Cloud. Complete guide with pricing, Python code examples, and comparison to Seedance v1.5 Pro, Kling 3.0, and Veo 3.1."
 keywords: ["Sora 2 API", "Sora 2 pricing", "Sora 2 tutorial", "OpenAI Sora 2", "Sora 2 Atlas Cloud"]
 slug: "sora-2-api-guide"
 date: "2026-02-20"
 author: "Atlas Cloud Team"
 ---
-# Sora 2 on Atlas Cloud: Complete API Guide with Code Examples
 
-OpenAI Sora 2 is a state-of-the-art model for AI video generation, specifically in physics simulation. Objects fall, bounce, break, and interact with their surroundings in ways that seem legitimately plausible -- a feat that no competing model has yet to match to its fullest. This Sora 2 tutorial covers all you need to know as a developer to integrate Sora 2 into your workflow through the Sora 2 Atlas Cloud API, including pricing, Python code examples, prompt engineering, and a direct comparison against Seedance 2.0, Kling 3.0, and Veo 3.1.
+> **Note: Sora 2 has been discontinued by OpenAI and is no longer available on Atlas Cloud. This article is kept for reference only.**
+
+# Sora 2 on Atlas Cloud: Complete API Guide with Code Examples (Deprecated)
+
+OpenAI Sora 2 was a state-of-the-art model for AI video generation, specifically in physics simulation. Objects fell, bounced, broke, and interacted with their surroundings in ways that seemed legitimately plausible -- a feat that no competing model matched to its fullest. This Sora 2 reference covers what developers needed to know about Sora 2, including pricing, Python code examples, prompt engineering, and a comparison against Seedance v1.5 Pro, Kling 3.0, and Veo 3.1.
 
 See Sora 2 in action:
 
 [![5 Top AI Models. 3 Prompts. One Clear Winner for Audio/Video Sync](https://img.youtube.com/vi/j-qDCyXubyE/maxresdefault.jpg)](https://www.youtube.com/watch?v=j-qDCyXubyE)
 
-The Sora 2 API is accessible via [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide) for $0.15 per second of generated video. Atlas also provides $1 in free credit upon sign-up. Atlas customers can access Sora 2 as well as 300+ other models with a single API key, without having to use separate accounts with OpenAI, Kuaishou, ByteDance, and Google.
+The Sora 2 API was previously accessible via [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide) for $0.1 per second of generated video. Sora 2 has since been discontinued by OpenAI. Atlas Cloud customers can still access 300+ other models -- including Seedance v1.5 Pro, Kling 3.0, and Veo 3.1 -- with a single API key.
 
 ## Sora 2 at a Glance
 
@@ -22,19 +25,19 @@ The Sora 2 API is accessible via [Atlas Cloud](https://www.atlascloud.ai?utm_med
 |------|--------|
 | **Developer** | OpenAI |
 | **Model ID** | `openai/sora-2/text-to-video-pro-developer` |
-| **Max Resolution** | High Definition |
+| **Max Resolution** | 720p |
 | **Max Duration** | 12 seconds |
 | **Frame Rate** | 30fps |
 | **Native Audio** | Yes |
 | **Reference Input** | 1 image |
 | **Core Strength** | Physics simulation, realistic object interactions |
-| **Atlas Cloud Price** | $0.15/sec |
+| **Atlas Cloud Price** | $0.1/sec |
 
 ## Key Features of Sora 2
 
 ### Physics Simulation
 
-It's also in this area where Sora 2 really distances itself from the pack. Gravity, momentum, fluid dynamics and collision dynamics are simulated with a degree of fidelity other models can't reproduce in a consistent way. Throw a prompt in describing a bowling ball hitting some pins and the result shows proper force distribution, pin scatter patterns, and follow through. Kling 3.0 and Seedance 2.0 mostly estimate these interactions; Sora 2 simulates them.
+It's also in this area where Sora 2 really distances itself from the pack. Gravity, momentum, fluid dynamics and collision dynamics are simulated with a degree of fidelity other models can't reproduce in a consistent way. Throw a prompt in describing a bowling ball hitting some pins and the result shows proper force distribution, pin scatter patterns, and follow through. [Kling 3.0](https://www.atlascloud.ai/models/kwaivgi/kling-v3.0-pro/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide) and [Seedance v1.5 Pro](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide) mostly estimate these interactions; Sora 2 simulates them.
 
 ### Realistic Object Interactions
 
@@ -58,22 +61,22 @@ For the full 12 seconds of its maximum length, Sora 2 shows a high level of inte
 
 Access to OpenAI Sora 2 is provided by ChatGPT as a part of their Plus subscription ($20/month) or Pro subscription ($200/month) with strict limitations. While Plus subscription users get a capped number of generations per month, queue times may be long during peak hours. Access through OpenAI's direct API is also possible, however, it is only available to developer accounts which are approved by OpenAI, and Sora 2 is priced at a higher premium.
 
-### Atlas Cloud API Pricing (Recommended)
+### Atlas Cloud API Pricing (Historical)
 
-The easiest way for developers to access the Sora 2 API is through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide):
+Sora 2 was previously available through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide) at the following rates:
 
 | Detail | Value |
 |--------|-------|
 | **Model** | `openai/sora-2/text-to-video-pro-developer` |
-| **Price** | $0.15/sec |
-| **10-second clip** | $1.50 |
-| **12-second clip (max)** | $1.80 |
+| **Price** | $0.1/sec |
+| **10-second clip** | $1.00 |
+| **12-second clip (max)** | $1.20 |
 | **Free signup credit** | $1.00 |
 | **Queue** | No wait times |
 
-The $1 free credit at sign up = approx 6 secs of Sora 2 video -- the ability to sample the quality and physics accuracy before deciding to use more for a fee. With the Sora 2 pricing, the expense scales linearly and very predictably for teams that produce at scale.
+Sora 2 is no longer available. The $1 free credit at Atlas Cloud sign-up can be used to try other video generation models such as Seedance v1.5 Pro, Kling 3.0, and Veo 3.1.
 
-> [Access Sora 2 API on Atlas Cloud -- $1 Free Credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
+> [Try Other Video Models on Atlas Cloud -- $1 Free Credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide)
 
 ## How to Access Sora 2 API
 
@@ -81,15 +84,15 @@ The $1 free credit at sign up = approx 6 secs of Sora 2 video -- the ability to 
 
 Sora 2 is accessible to users through OpenAI's official routes, namely via ChatGPT subscriptions or through the developer API. The developer API access is contingent on having an approved account and incurs higher costs per generation. Documentation is provided at [platform.openai.com](https://platform.openai.com), with the onboarding process including waitlist approval for video generation endpoints.
 
-### Option 2: Atlas Cloud (Recommended)
+### Option 2: Atlas Cloud (Sora 2 No Longer Available)
 
-For many developers, the quickest route to production will be through the Sora 2 Atlas Cloud integration. One API key to the power of OpenAI Sora 2 and over 300 other models, including Seedance 2.0, Kling 3.0, and Veo 3.1. No waitlist. No separate accounts. Single billing.
+Sora 2 was previously available through Atlas Cloud but has been discontinued. Atlas Cloud still offers one API key for over 300 other models, including Seedance v1.5 Pro, Kling 3.0, and [Veo 3.1](https://www.atlascloud.ai/models/google/veo-3.1/text-to-video?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide). No waitlist. No separate accounts. Single billing.
 
-Step 1: Sign up on atlascloud.ai (https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide) and get your API key from the dashboard. $1 free credit is added automatically to your account.
+Step 1: Sign up on atlascloud.ai (https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide) and get your API key from the dashboard. $1 free credit is added automatically to your account.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 Step 2: Generate video with Sora 2 in Python:
 
@@ -131,7 +134,7 @@ while True:
 
 **Step 3:** The API immediately returns a `request_id`. Poll the prediction endpoint until its status is `completed`, and then get the video URL from the response. The generation time is usually 30 seconds to 3 minutes for Sora 2 depending on duration and complexity.
 
-> [Start Using Sora 2 on Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
+> [Try Other Video Models on Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide)
 
 ## Sora 2 Prompt Tips
 
@@ -172,27 +175,27 @@ gently disturbed by the waves, golden hour lighting, macro lens perspective
 
 ## Sora 2 vs Competitors
 
-| Feature | Sora 2 | Seedance 2.0 | Kling 3.0 | Veo 3.1 |
+| Feature | Sora 2 | Seedance v1.5 Pro | Kling 3.0 Pro | Veo 3.1 |
 |---------|--------|-------------|----------|---------|
-| **Max Resolution** | High Definition | High Definition | Ultra HD | HD Cinematic |
-| **Max Duration** | 12s | 15s | 10s | 8s |
+| **Max Resolution** | 720p | 720p | 720p | 720p |
+| **Max Duration** | 12s | 12s | 10s | 8s |
 | **Reference Input** | 1 image | 12 files | 1-2 images | 1-2 images |
 | **Native Audio** | Yes | Yes | Yes (5 languages) | Yes |
-| **API Cost (Atlas Cloud)** | $0.15/sec | $0.022/sec | $0.126/sec | $0.03/sec |
-| **Best Strength** | Physics realism | Multimodal control | Resolution + value | Cinematic polish |
+| **API Cost (Atlas Cloud)** | $0.1/sec | $0.047/sec | $0.095/sec | $0.09/sec (Fast) / $0.18/sec (Std) |
+| **Best Strength** | Physics realism | Multimodal control | Detail + text rendering | Cinematic polish |
 | **Content Filter** | Strict | Strict | Very strict | Moderate |
 
 ### Where Sora 2 Wins
 
-OpenAI Sora 2 is state of the art in physics simulation fidelity and believability in how objects behave. When it comes to physics-based cause and effect video content -- product demos, explainer visualizations, physics-based art and creativity -- no other model rivals its quality of output. And its 12-second maximum length is an improvement over Kling 3.0 (10s) and Veo 3.1 (8s), allowing more story content within a single clip.
+OpenAI Sora 2 is state of the art in physics simulation fidelity and believability in how objects behave. When it comes to physics-based cause and effect video content -- product demos, explainer visualizations, physics-based art and creativity -- no other model rivals its quality of output. Its 12-second maximum length is longer than Kling 3.0 (10s) and Veo 3.1 (8s), allowing more story content within a single clip.
 
 ### Where Sora 2 Falls Short
 
-Comparing Sora 2 pricing, $0.15/sec for Sora 2 is the highest priced in this article. Seedance 2.0 at $0.022/sec is about 85% cheaper per second. Resolution is maxed out at high definition, lower than Kling 3.0's ultra-high-definition. Reference input is one image, Seedance 2.0 can handle up to 12 files (nine images, three videos, three audio). For budget constrained teams or projects needing heavy reference based control, these differences are meaningful.
+Comparing Sora 2 pricing, $0.1/sec for Sora 2 is the highest priced in this article. Seedance v1.5 Pro at $0.047/sec is about 53% cheaper per second. All models output at 720p on Atlas Cloud. Reference input is one image, while Seedance v1.5 Pro can handle up to 12 files (nine images, three videos, three audio). For budget constrained teams or projects needing heavy reference based control, these differences are meaningful.
 
 ### The Practical Approach
 
-As covered in this Sora 2 tutorial, most teams will need more than one model and won't want to use Sora 2 exclusively. Sora 2 is for productionizing physics-heavy scenes. Seedance 2.0 is for complex, multi-reference projects. Kling 3.0 is for final renders at full resolution. Veo 3.1 is for cinematic polish. [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide) makes this multi-model approach feasible with a single API key and consolidated billing.
+As covered in this Sora 2 tutorial, most teams will need more than one model and won't want to use Sora 2 exclusively. Sora 2 is for productionizing physics-heavy scenes. Seedance v1.5 Pro is for complex, multi-reference projects. Kling 3.0 is for final renders at full resolution. Veo 3.1 is for cinematic polish. [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide) makes this multi-model approach feasible with a single API key and consolidated billing.
 
 ## Who Should Use Sora 2?
 
@@ -204,46 +207,46 @@ As covered in this Sora 2 tutorial, most teams will need more than one model and
 * The 12-second duration ceiling provides sufficient time for the intended content. Sora 2 offers more time per clip than Kling 3.0 and Veo 3.1.
 * Budget is less of a concern than output quality for physics-driven content.
 
-**Choose Seedance 2.0 instead if:**
+**Choose Seedance v1.5 Pro instead if:**
 
 * The project requires extensive reference material -- multiple images, videos, and audio files as input.
-* Budget efficiency is paramount. At $0.022/sec on Atlas Cloud, Seedance 2.0 is roughly 7x cheaper than Sora 2.
-* Longer clips (up to 15 seconds) are needed.
+* Budget efficiency is paramount. At $0.047/sec on Atlas Cloud, Seedance v1.5 Pro is roughly half the price of Sora 2.
+* Clips up to 12 seconds are needed with multimodal input control.
 * Multimodal input control is more important than physics accuracy.
 
 **Choose Kling 3.0 instead if:**
 
-* Ultra-high-definition output is required. Sora 2 outputs at high-definition resolution.
+* Maximum visual detail is required for product showcases or text rendering.
 * Free-tier access matters. Kling 3.0 offers 66 daily credits; Sora 2 requires a paid subscription.
 * E-commerce content needs crisp, readable text rendering in generated video.
 
 **Choose Veo 3.1 instead if:**
 
 * Cinematic visual quality and color grading are the top priorities.
-* Cost-effective scaling is needed. At $0.03/sec, Veo 3.1 is 5x cheaper than Sora 2.
+* Cost-effective scaling is needed. At $0.09/sec (Fast) or $0.18/sec (Standard), Veo 3.1 offers flexible pricing tiers.
 * Shorter clips (up to 8 seconds) are acceptable for the use case.
 
 ## Frequently Asked Questions
 
 ### How do I access the Sora 2 API?
 
-The easiest way is via [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide). Sign up, obtain an API key, and include the model ID `openai/sora-2/text-to-video-pro-developer` in your requests. The $1 free credit automatically credits to your account at sign up. Sora 2 is also available via OpenAI's official API, but requires separate approval to their developer program.
+The easiest way is via [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide). Sign up, obtain an API key, and include the model ID `openai/sora-2/text-to-video-pro-developer` in your requests. The $1 free credit automatically credits to your account at sign up. Sora 2 is also available via OpenAI's official API, but requires separate approval to their developer program.
 
 ### How much does Sora 2 cost per video?
 
-Sora 2 is priced at $0.15/second of generated video on Atlas Cloud. A 10 second clip will be $1.50. A maximum length 12 second clip will be $1.80. Pricing through OpenAI directly for Sora 2 varies based on subscription tier, but is generally more expensive than the Sora 2 Atlas Cloud rate for comparable output.
+Sora 2 is priced at $0.1/second of generated video on Atlas Cloud. A 10 second clip will be $1.00. A maximum length 12 second clip will be $1.20. Pricing through OpenAI directly for Sora 2 varies based on subscription tier, but is generally more expensive than the Sora 2 Atlas Cloud rate for comparable output.
 
 ### What is the maximum video length Sora 2 can generate?
 
-Sora 2 has a maximum length of 12 seconds at HD resolution. It sits in the middle of Seedance 2.0 (15 seconds max) and Kling 3.0 (10 seconds max). Most people create multiple clips and combine them in editing for longer works.
+Sora 2 has a maximum length of 12 seconds at 720p resolution. It matches Seedance v1.5 Pro (12 seconds max) and is longer than Kling 3.0 (10 seconds max). Most people create multiple clips and combine them in editing for longer works.
 
 ### Can Sora 2 do image-to-video generation?
 
-Yes. Sora 2 takes a single reference image as input, and the model takes the image as an initial frame or style reference for the created video, but it only allows one. Seedance 2.0 has up to 12 reference files for more complicated reference-based generation.
+Yes. Sora 2 takes a single reference image as input, and the model takes the image as an initial frame or style reference for the created video, but it only allows one. Seedance v1.5 Pro has up to 12 reference files for more complicated reference-based generation.
 
-### Is Sora 2 better than Seedance 2.0 or Kling 3.0?
+### Is Sora 2 better than Seedance v1.5 Pro or Kling 3.0?
 
-The models are the strongest in different areas. Sora 2 has the best physics simulation and real-world object interaction. Seedance 2.0 has the best multimodal input control and lowest API pricing ($0.022/sec). Kling 3.0 has the highest resolution output and most lenient free tier. For most teams the best strategy will be to use all three through a unified platform such as Atlas Cloud and direct each task to the appropriate model.
+The models are the strongest in different areas. Sora 2 has the best physics simulation and real-world object interaction. Seedance v1.5 Pro has the best multimodal input control and lowest API pricing ($0.047/sec). Kling 3.0 has the sharpest detail and most lenient free tier. For most teams the best strategy will be to use all three through a unified platform such as Atlas Cloud and direct each task to the appropriate model.
 
 ### Does Sora 2 generate audio with the video?
 
@@ -251,17 +254,9 @@ Yes. Sora 2's native audio generation is timed to the visuals. The audio is work
 
 ## Verdict
 
-Sora 2 has a very specific place in the AI video generation ecosystem. It is not the most cost-effective, it doesn't have the highest resolution, and it doesn't have the most open-ended input system. It does have the most physically-accurate video generation available in any public API. If your application or content relies on physics that are true to the real world – product demos, education, scientific visualization, art grounded in reality – Sora 2 is the most powerful option for you.
+Sora 2 had a very specific place in the AI video generation ecosystem. It was not the most cost-effective, it did not have the highest resolution, and it did not have the most open-ended input system. It did have the most physically-accurate video generation available in any public API. However, OpenAI has since discontinued Sora 2, and it is no longer available for new projects.
 
-The one practical take away from this Sora 2 tutorial: Access Sora 2 + Seedance 2.0, Kling 3.0, Veo 3.1, 300+ models on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide). One API key. One bill. Freedom to select the best model for each job. $1 free credit to get started with Sora 2 physics simulation side-by-side and scale as you go.
+For teams that need physics-accurate video generation, the best current alternatives are Veo 3.1 (cinematic quality with strong motion) and Kling 3.0 (sharp detail and text rendering). Access Seedance v1.5 Pro, Kling 3.0, Veo 3.1, and 300+ other models on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide). One API key. One bill. $1 free credit to get started.
 
-> [Get $1 Free Credit on Atlas Cloud -- Try Sora 2 and 300+ Models](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
+> [Get $1 Free Credit on Atlas Cloud -- Try 300+ Models](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=sora-2-api-guide)
 
----
-## Related Articles
-
-- [Seedance 2.0 Pricing Breakdown](https://www.atlascloud.ai/blog/seedance-2-0-pricing-breakdown?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
-- [Kling 3.0 Review: Features, Pricing & How to Access](https://www.atlascloud.ai/blog/kling-3-0-review?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
-- [Veo 3.1 on Atlas Cloud: Google's Film-Grade AI Video Guide](https://www.atlascloud.ai/blog/veo-3-1-api-guide?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
-- [How to Use Seedance 2.0 for Video Generation](https://www.atlascloud.ai/blog/how-to-use-seedance-2-0-video-generation?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)
-- [15 Best Seedance 2.0 Prompts for Viral Videos](https://www.atlascloud.ai/blog/best-seedance-2-0-prompts-guide?utm_medium=article&utm_source=blog&utm_campaign=sora-2-guide)

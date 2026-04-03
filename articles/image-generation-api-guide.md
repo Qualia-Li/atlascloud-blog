@@ -57,7 +57,7 @@ Flux 2 Pro yields impressive outputs, yet it falls short of Imagen 4 Ultra's pho
 
 The Imagen 4 API provides access to Imagen 4 Ultra, Google DeepMind's premier image generation model, and it shows. The photorealism of this model is the best of any currently offered through a public AI image generation API. If fidelity is your top priority and a slightly longer generation time is no concern, Imagen 4 Ultra is the way to go.
 
-![Imagen 4 Ultra sample: Photorealistic aerial view of a Norwegian fjord at golden hour](https://atlas-media.oss-us-west-1.aliyuncs.com/images/89522cbd-4c56-4357-a2ce-26536cc6e72a.png)
+![Imagen 4 Ultra sample: Photorealistic aerial view of a Norwegian fjord at golden hour](https://atlas-media.oss-us-west-1.aliyuncs.com/images/d3436c01-5bf6-47cf-bed4-549c15209edc.png)
 
 Generated with Imagen 4 Ultra using the Atlas Cloud API. Prompt: "Photorealistic aerial view of a Norwegian fjord at golden hour, dramatic cliffs, mirror-still water reflecting mountains"
 
@@ -138,9 +138,9 @@ All 3 models use the same AI image generation API endpoint and are authenticated
 
 Register at [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=image-gen-guide) and get an API key from the console. $1 free credit is auto-applied on sign up.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 ```python
 import requests

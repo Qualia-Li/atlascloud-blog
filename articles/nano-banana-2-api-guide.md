@@ -1,6 +1,6 @@
 ---
 title: "Nano Banana 2 on Atlas Cloud: Google's Viral AI Image Generator"
-description: "Access Google's Nano Banana 2 API through Atlas Cloud. Complete guide with pricing, Python code examples, 3D figurine generation tips, and comparison to Flux 2 Pro, Imagen 4 Ultra, and Ideogram v3."
+description: "Access Google's Nano Banana 2 API through Atlas Cloud. Complete guide with pricing, Python code examples, 3D figurine generation tips, and comparison to Imagen 4 Ultra and other top models."
 keywords: ["Nano Banana 2 API", "Nano Banana 2 pricing", "Nano Banana 2 3D figurine", "Google Nano Banana 2", "Nano Banana 2 Atlas Cloud", "AI image generation API"]
 slug: "nano-banana-2-api-guide"
 date: "2026-02-28"
@@ -10,17 +10,17 @@ author: "Atlas Cloud Team"
 
 Google's Nano Banana 2 gained massive popularity almost overnight. Within days of its release, social media feeds across every platform were flooded with hyper-detailed 3D figurines of celebrities, pets, fictional characters, and everyday people -- all generated from a single text prompt. The model's ability to turn anyone and anything into a collectible-style figurine with blister packaging, hand-painted textures, and miniature accessories hit a cultural nerve that no other image model has managed to replicate.
 
-But Nano Banana 2 is more than a meme generator. Under the hood, it is a versatile image generation model with strong character consistency, detailed texture rendering, and the kind of stylized output that has practical applications in product visualization, game asset prototyping, marketing, and social media content. This guide covers everything developers need to know to integrate the Nano Banana 2 API into their workflows through Atlas Cloud -- pricing, Python code examples, prompt tips, and a direct comparison against Flux 2 Pro, Imagen 4 Ultra, and Ideogram v3.
+But Nano Banana 2 is more than a meme generator. Under the hood, it is a versatile image generation model with strong character consistency, detailed texture rendering, and the kind of stylized output that has practical applications in product visualization, game asset prototyping, marketing, and social media content. This guide covers everything developers need to know to integrate the [Nano Banana 2](https://www.atlascloud.ai/models/google/nano-banana-2/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) API into their workflows through Atlas Cloud -- pricing, Python code examples, prompt tips, and a direct comparison against [Imagen 4 Ultra](https://www.atlascloud.ai/models/google/imagen-4-ultra/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) and other top image models.
 
 *Last Updated: February 28, 2026*
 
 Here are examples of what Nano Banana 2 can generate:
 
-![3D collectible figurine of a cyberpunk cat hacker, generated with Nano Banana 2 on Atlas Cloud](../resources/samples/nano-banana-2-figurine.png)
+![3D collectible figurine of a cyberpunk cat hacker, generated with Nano Banana 2 on Atlas Cloud](https://drive.google.com/uc?id=1Yows9ptvclt20HGyqURm4HEX4JPIJ1qI)
 
-![Japanese garden landscape at golden hour, generated with Nano Banana 2 on Atlas Cloud](../resources/samples/nano-banana-2-landscape.png)
+![Japanese garden landscape at golden hour, generated with Nano Banana 2 on Atlas Cloud](https://drive.google.com/uc?id=1Wa26vr0BnwQe_wJHdAfd49cq78kw81jW)
 
-The Nano Banana 2 API is accessible via [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) for $0.056-0.072 per image depending on resolution. Atlas also provides $1 in free credit upon sign-up, which translates to roughly 14-18 images. Atlas customers can access Nano Banana 2 as well as 300+ other models with a single API key, without needing separate accounts with Google, Black Forest Labs, or Ideogram.
+The Nano Banana 2 API is accessible via [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) for $0.013 per image. Atlas also provides $1 in free credit upon sign-up, which translates to roughly 76 images. Atlas customers can access Nano Banana 2 as well as 300+ other models with a single API key, without needing separate accounts with Google or other providers.
 
 ## Nano Banana 2 at a Glance
 
@@ -28,11 +28,11 @@ The Nano Banana 2 API is accessible via [Atlas Cloud](https://www.atlascloud.ai?
 |------|--------|
 | **Developer** | Google |
 | **Model ID** | `google/nano-banana-2/text-to-image` |
-| **Max Resolution** | 1024x1024 |
+| **Max Resolution** | 4K |
 | **Generation Speed** | Fast (~4s) |
 | **Core Strength** | 3D figurine style, character consistency, viral social media content |
-| **Atlas Cloud Price** | $0.056-0.072/image |
-| **Free Signup Credit** | $1.00 (~14-18 images) |
+| **Atlas Cloud Price** | $0.013/image |
+| **Free Signup Credit** | $1.00 (~76 images) |
 
 ## Why Nano Banana 2 Went Viral
 
@@ -42,7 +42,7 @@ The figurine trend did not come out of nowhere. Several factors converged to mak
 
 Nano Banana 2 generates 3D-rendered characters that look like actual collectible figurines -- the kind you would find in a toy store, complete with branded packaging, plastic blister shells, and miniature accessories. The model understands how light interacts with painted plastic surfaces, how tiny details like stitching on a miniature jacket or the gloss on a pair of sunglasses should look at that scale, and how to compose the entire scene as though it were a product photo shot with a macro lens.
 
-This combination of material accuracy and compositional understanding is what separates it from other image models attempting the same style. You can ask Flux 2 Pro or DALL-E 3 to generate a figurine, and the results will be competent but flat. Nano Banana 2 produces figurines that look like they belong on a shelf.
+This combination of material accuracy and compositional understanding is what separates it from other image models attempting the same style. You can ask DALL-E 3 or other models to generate a figurine, and the results will be competent but flat. Nano Banana 2 produces figurines that look like they belong on a shelf.
 
 ### Character Consistency
 
@@ -58,10 +58,6 @@ Nano Banana 2 generates images in approximately 4 seconds, fast enough for inter
 
 ## Key Features of Nano Banana 2
 
-### 3D Figurine Generation
-
-This is the flagship capability. Nano Banana 2 produces figurines with realistic plastic textures, painted details, and packaging that mimics real toy brands. The model handles everything from action figure poses to static display figurines, chibi-style characters, and realistic miniature portraits. It understands packaging conventions -- blister packs, box art, brand logos, barcode areas -- and renders them with convincing detail.
-
 ### Stylized Character Art
 
 Beyond figurines, Nano Banana 2 excels at stylized character rendering more broadly. Anime-influenced designs, cartoon characters, game-ready character concepts, and illustrated portraits all fall within its strong range. The model has a particular talent for rendering expressive faces at various levels of stylization, from semi-realistic to heavily exaggerated proportions.
@@ -73,10 +69,6 @@ The same capabilities that make Nano Banana 2 excellent at figurine generation -
 ### Texture and Material Rendering
 
 Nano Banana 2 demonstrates strong understanding of different material properties. Glossy plastic, matte finishes, metallic surfaces, fabric textures, wood grain, and translucent materials are all rendered with appropriate light interaction. This material fidelity is what gives its outputs the "real object" quality that distinguishes them from flatter AI-generated images.
-
-### Fast Generation
-
-At approximately 4 seconds per image at 1024x1024, Nano Banana 2 is fast enough for interactive applications. Users can iterate on prompts quickly, and automated pipelines can process batches at a reasonable throughput.
 
 ## Nano Banana 2 Pricing
 
@@ -91,12 +83,12 @@ The most straightforward way for developers to access the Nano Banana 2 API is t
 | Detail | Value |
 |--------|-------|
 | **Model** | `google/nano-banana-2/text-to-image` |
-| **Price** | $0.056-0.072/image |
-| **$1 Free Credit** | ~14-18 images |
+| **Price** | $0.013/image |
+| **$1 Free Credit** | ~76 images |
 | **Queue** | No wait times |
-| **Resolution** | Up to 1024x1024 |
+| **Resolution** | Up to 4K |
 
-The price varies based on resolution. Lower resolutions (512x512) sit at the lower end, while maximum resolution (1024x1024) is at the higher end. For most use cases, 1024x1024 is the right choice as it provides enough detail for social media sharing and product mockups.
+At $0.013 per image with a flat rate regardless of resolution, Nano Banana 2 is one of the most affordable image generation models available. For most use cases, the default settings provide enough detail for social media sharing and product mockups.
 
 > [Access Nano Banana 2 API on Atlas Cloud -- $1 Free Credit](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide)
 
@@ -104,9 +96,9 @@ The price varies based on resolution. Lower resolutions (512x512) sit at the low
 
 For teams producing images at volume:
 
-- **100 images/day at 1024x1024**: ~$7.20/day, ~$216/month
-- **500 images/day at 1024x1024**: ~$36/day, ~$1,080/month
-- **1,000 images/day at 1024x1024**: ~$72/day, ~$2,160/month
+- **100 images/day**: ~$1.30/day, ~$39/month
+- **500 images/day**: ~$6.50/day, ~$195/month
+- **1,000 images/day**: ~$13/day, ~$390/month
 
 These rates are competitive with or below the pricing available through Google's direct platform, with the added benefit of consolidated billing across all models.
 
@@ -118,13 +110,13 @@ Nano Banana 2 is available through Google's Vertex AI platform. This requires a 
 
 ### Option 2: Atlas Cloud (Recommended)
 
-For most developers, Atlas Cloud is the fastest path to production. One API key gives access to Nano Banana 2 and over 300 other models -- including Flux 2 Pro, Imagen 4 Ultra, Ideogram v3, and all major video generation models. No separate accounts. Single billing.
+For most developers, Atlas Cloud is the fastest path to production. One API key gives access to Nano Banana 2 and over 300 other models -- including [Imagen 4 Ultra](https://www.atlascloud.ai/models/google/imagen-4-ultra/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide), [Seedream v5.0 Lite](https://www.atlascloud.ai/models/bytedance/seedream-v5.0-lite/sequential?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide), [Z-Image Turbo](https://www.atlascloud.ai/models/z-image/turbo?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide), and all major video generation models. No separate accounts. Single billing.
 
 **Step 1:** Sign up on [atlascloud.ai](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) and get your API key from the dashboard. $1 free credit is added automatically to your account.
 
-![How to create an API key on Atlas Cloud](https://static.atlascloud.ai/uploads/Guidance1_4b3c2abb20.jpg)
+![How to create an API key on Atlas Cloud](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance1.jpg)
 
-![API key management on Atlas Cloud console](https://static.atlascloud.ai/uploads/Guidance2_1eef025803.jpg)
+![API key management on Atlas Cloud console](https://fs.pagegun.com/u/1fcb7bc9-f747-4b81-b205-c1c970ac10aa/images/Guidance2.jpg)
 
 **Step 2:** Generate an image with Nano Banana 2 in Python:
 
@@ -218,16 +210,16 @@ soft gradient background, clean product photography aesthetic
 
 ## Nano Banana 2 vs Competitors
 
-| Feature | Nano Banana 2 | Flux 2 Pro | Imagen 4 Ultra | Ideogram v3 |
-|---------|--------------|-----------|---------------|-------------|
-| **Developer** | Google | Black Forest Labs | Google DeepMind | Ideogram |
-| **Max Resolution** | 1024x1024 | 2048x2048 | 2048x2048 | 2048x2048 |
-| **Speed** | ~4s | ~3s | ~8s | ~4s |
-| **3D Figurine Quality** | Excellent | Good | Good | Fair |
-| **Photorealism** | Good | Strong | Excellent | Good |
-| **Text Rendering** | Fair | Good | Good | Excellent |
-| **Price Range** | $0.056-0.072 | $0.03-0.05 | $0.04-0.08 | $0.03-0.05 |
-| **Best For** | Figurines + stylized art | Speed + versatility | Quality + realism | Typography + design |
+| Feature | Nano Banana 2 | Seedream v5.0 Lite | Z-Image Turbo | Imagen 4 Ultra |
+|---------|--------------|-------------------|--------------|---------------|
+| **Developer** | Google | ByteDance | Open Source Community | Google DeepMind |
+| **Max Resolution** | 4K | 4704x2016 | 2048x2048 | 2048x2048 |
+| **Speed** | ~4s | ~2-4s | ~1-2s | ~8s |
+| **3D Figurine Quality** | Excellent | Good | Fair | Good |
+| **Photorealism** | Good | Good | Good | Excellent |
+| **Text Rendering** | Fair | Good | Fair | Good |
+| **Price** | $0.013 | $0.032 | $0.01 | $0.054 |
+| **Best For** | Figurines + stylized art | Volume + speed | Maximum speed | Quality + realism |
 
 ### Where Nano Banana 2 Wins
 
@@ -235,11 +227,11 @@ Nano Banana 2 is the clear leader for 3D figurine and stylized character generat
 
 ### Where Nano Banana 2 Falls Short
 
-Resolution caps at 1024x1024, half the maximum of Flux 2 Pro, Imagen 4 Ultra, and Ideogram v3. For large-format prints, high-resolution marketing assets, or applications requiring fine detail at scale, this is a meaningful limitation. The model is also not the strongest choice for pure photorealism -- Imagen 4 Ultra produces more lifelike images when that is the goal. Text rendering is serviceable but well behind Ideogram v3 for typography-heavy use cases. And at $0.056-0.072 per image, it is more expensive than Flux 2 Pro and Ideogram v3 for comparable resolutions.
+While Nano Banana 2 supports up to 4K resolution, it is still not the strongest choice for pure photorealism -- [Imagen 4 Ultra](https://www.atlascloud.ai/models/google/imagen-4-ultra/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) produces more lifelike images when that is the goal. Text rendering is serviceable but not best-in-class for typography-heavy use cases.
 
 ### The Practical Approach
 
-The best strategy for most teams is to use multiple models, selecting the right one for each task. Nano Banana 2 for figurines and stylized characters. Flux 2 Pro for fast, versatile general-purpose generation. Imagen 4 Ultra for maximum photorealism. Ideogram v3 for anything text-heavy. [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) makes this multi-model approach practical with a single API key and consolidated billing across all models.
+The best strategy for most teams is to use multiple models, selecting the right one for each task. Nano Banana 2 for figurines and stylized characters. [Seedream v5.0 Lite](https://www.atlascloud.ai/models/bytedance/seedream-v5.0-lite/sequential?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) for fast, high-volume generation. [Imagen 4 Ultra](https://www.atlascloud.ai/models/google/imagen-4-ultra/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) for maximum photorealism. [Z-Image Turbo](https://www.atlascloud.ai/models/z-image/turbo?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) for the fastest, cheapest option. [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) makes this multi-model approach practical with a single API key and consolidated billing across all models.
 
 ## Who Should Use Nano Banana 2?
 
@@ -249,34 +241,33 @@ The best strategy for most teams is to use multiple models, selecting the right 
 - The application involves social media content where the figurine aesthetic drives engagement and sharing.
 - Character consistency across multiple generations matters -- creating series, merchandise mockups, or character sheets.
 - Product visualization with stylized rendering is needed for early-stage design or marketing.
-- The 1024x1024 resolution ceiling is sufficient for the intended output format.
+- The 4K resolution ceiling is sufficient for the intended output format.
 
-**Choose Flux 2 Pro instead if:**
-
-- Speed and versatility are the primary requirements. Flux 2 Pro is slightly faster and handles a broader range of styles.
-- Higher resolution output (up to 2048x2048) is needed.
-- Budget efficiency matters for high-volume generation. Flux 2 Pro is cheaper per image.
-
-**Choose Imagen 4 Ultra instead if:**
+**Choose [Imagen 4 Ultra](https://www.atlascloud.ai/models/google/imagen-4-ultra/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) instead if:**
 
 - Photorealism is the top priority. Imagen 4 Ultra produces the most lifelike images of any publicly available model.
 - High-resolution detail preservation (up to 2048x2048) is critical.
 - The use case involves hero images, editorial content, or premium brand assets.
 
-**Choose Ideogram v3 instead if:**
+**Choose [Seedream v5.0 Lite](https://www.atlascloud.ai/models/bytedance/seedream-v5.0-lite/sequential?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) instead if:**
 
-- Text rendering accuracy is essential. Ideogram v3 is the clear leader for typography in generated images.
-- The workflow centers on posters, banners, logos, or any content where readable text is a primary element.
+- Budget efficiency matters for high-volume generation. Seedream v5.0 Lite at $0.032/image is a solid all-rounder with good text rendering.
+- Speed and versatility are the primary requirements across varied content types.
+
+**Choose [Z-Image Turbo](https://www.atlascloud.ai/models/z-image/turbo?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) instead if:**
+
+- Maximum speed and lowest cost ($0.01/image) are the priorities.
+- The workflow needs sub-2-second generation for real-time applications.
 
 ## Frequently Asked Questions
 
 ### How much does Nano Banana 2 cost per image?
 
-Nano Banana 2 is priced at $0.056-0.072 per image on Atlas Cloud, depending on resolution. At 1024x1024 (the maximum and most common resolution), the cost is at the higher end of that range. The $1 free credit at sign-up gives you approximately 14-18 images to test the model before committing to further spend.
+Nano Banana 2 is priced at $0.013 per image on Atlas Cloud. The $1 free credit at sign-up gives you approximately 76 images to test the model before committing to further spend.
 
 ### Can Nano Banana 2 generate images other than figurines?
 
-Yes. While the figurine trend is what made the model famous, Nano Banana 2 is a general-purpose image generation model. It handles character art, product visualization, landscape rendering, and stylized illustrations. Its particular strengths -- material rendering, lighting, and compositional understanding -- benefit all of these use cases. That said, for pure photorealism, Imagen 4 Ultra is a stronger choice, and for text rendering, Ideogram v3 is superior.
+Yes. While the figurine trend is what made the model famous, Nano Banana 2 is a general-purpose image generation model. It handles character art, product visualization, landscape rendering, and stylized illustrations. Its particular strengths -- material rendering, lighting, and compositional understanding -- benefit all of these use cases. That said, for pure photorealism, [Imagen 4 Ultra](https://www.atlascloud.ai/models/google/imagen-4-ultra/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide) is a stronger choice.
 
 ### How do I access the Nano Banana 2 API?
 
@@ -284,7 +275,7 @@ The easiest way is through [Atlas Cloud](https://www.atlascloud.ai?utm_medium=ar
 
 ### What resolution does Nano Banana 2 support?
 
-Nano Banana 2 supports resolutions up to 1024x1024. Both square and non-square aspect ratios are supported by adjusting the width and height parameters. Common configurations include 1024x1024 (square, best for figurines and product shots), 1024x768 (landscape), and 768x1024 (portrait).
+Nano Banana 2 supports resolutions up to 4K. The available resolution options are 1K, 2K, and 4K, with aspect ratios including 1:1, 16:9, and others. Square format works best for figurines and product shots, while wider aspect ratios suit landscape and banner content.
 
 ### Is Nano Banana 2 better than DALL-E 3 for figurines?
 
@@ -294,7 +285,7 @@ For figurine generation specifically, Nano Banana 2 is significantly better than
 
 Nano Banana 2 earned its viral status for a reason. The 3D figurine capability is genuinely a step ahead of any competing model, and the underlying strengths in material rendering and character consistency make it useful well beyond the meme-driven trend. For developers building social media tools, character creation platforms, merchandise visualization features, or entertainment applications, it is the strongest option available.
 
-The practical takeaway: Access Nano Banana 2 alongside Flux 2 Pro, Imagen 4 Ultra, Ideogram v3, and 300+ other models on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide). One API key. One bill. Choose the right model for each job. $1 free credit to test Nano Banana 2's figurine magic and scale from there.
+The practical takeaway: Access Nano Banana 2 alongside [Imagen 4 Ultra](https://www.atlascloud.ai/models/google/imagen-4-ultra/text-to-image?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide), [Seedream v5.0 Lite](https://www.atlascloud.ai/models/bytedance/seedream-v5.0-lite/sequential?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide), and 300+ other models on [Atlas Cloud](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide). One API key. One bill. Choose the right model for each job. $1 free credit to test Nano Banana 2's figurine magic and scale from there.
 
 > [Get $1 Free Credit on Atlas Cloud -- Try Nano Banana 2 and 300+ Models](https://www.atlascloud.ai?utm_medium=article&utm_source=blog&utm_campaign=nano-banana-2-api-guide)
 
