@@ -1,8 +1,8 @@
 # Google Docs Index
 
-All 30 blog articles uploaded as Google Docs (anyone with link can edit).
+All 32 blog articles uploaded as Google Docs (anyone with link can edit).
 
-Last updated: 2026-03-17
+Last updated: 2026-04-27
 
 | # | Article | Google Doc ID | Link |
 |---|---------|---------------|------|
@@ -36,3 +36,5 @@ Last updated: 2026-03-17
 | 28 | Vidu Q3 API Guide | 1YqVR4MMKeYelpdXwd2jgqewOhuvlN1qp0JcXQ9L5q1Q | [Open](https://docs.google.com/document/d/1YqVR4MMKeYelpdXwd2jgqewOhuvlN1qp0JcXQ9L5q1Q/edit) |
 | 29 | Wan 2.6 API Guide | 12F2yCU6RmdGYbxFgPJrS3fumKj6Luw6OHixsTwcJol8 | [Open](https://docs.google.com/document/d/12F2yCU6RmdGYbxFgPJrS3fumKj6Luw6OHixsTwcJol8/edit) |
 | 30 | Z-Image Turbo API Guide | 1DCXf8WWVFwJ64sfB6w3DWYGaKa1JsleHaZ9WjqRzzyA | [Open](https://docs.google.com/document/d/1DCXf8WWVFwJ64sfB6w3DWYGaKa1JsleHaZ9WjqRzzyA/edit) |
+| 31 | Best AI Image Editing Models 2026 | 1InRnEounfs7yox0mZk7FW1AG07UNx7d67F7wrKRYLLI | [Open](https://docs.google.com/document/d/1InRnEounfs7yox0mZk7FW1AG07UNx7d67F7wrKRYLLI/edit) |
+| 32 | How to Generate AI Headshots and Avatars | 1EYOOBck4Y0hwodBo2zNo1IBfa55uZ2Z6Em_jwjFXkzk | [Open](https://docs.google.com/document/d/1EYOOBck4Y0hwodBo2zNo1IBfa55uZ2Z6Em_jwjFXkzk/edit) |
