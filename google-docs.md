@@ -1,8 +1,8 @@
 # Google Docs Index
 
-All 32 blog articles uploaded as Google Docs (anyone with link can edit).
+All 34 blog articles uploaded as Google Docs (anyone with link can edit).
 
-Last updated: 2026-04-27
+Last updated: 2026-05-04
 
 | # | Article | Google Doc ID | Link |
 |---|---------|---------------|------|
@@ -38,3 +38,5 @@ Last updated: 2026-04-27
 | 30 | Z-Image Turbo API Guide | 1DCXf8WWVFwJ64sfB6w3DWYGaKa1JsleHaZ9WjqRzzyA | [Open](https://docs.google.com/document/d/1DCXf8WWVFwJ64sfB6w3DWYGaKa1JsleHaZ9WjqRzzyA/edit) |
 | 31 | Best AI Image Editing Models 2026 | 1InRnEounfs7yox0mZk7FW1AG07UNx7d67F7wrKRYLLI | [Open](https://docs.google.com/document/d/1InRnEounfs7yox0mZk7FW1AG07UNx7d67F7wrKRYLLI/edit) |
 | 32 | How to Generate AI Headshots and Avatars | 1EYOOBck4Y0hwodBo2zNo1IBfa55uZ2Z6Em_jwjFXkzk | [Open](https://docs.google.com/document/d/1EYOOBck4Y0hwodBo2zNo1IBfa55uZ2Z6Em_jwjFXkzk/edit) |
+| 33 | GPT Image 2 API Guide | 1c1fRc42kwVlS-ddxXw4E-RY0vBZipAbiTh-PR5xc3iQ | [Open](https://docs.google.com/document/d/1c1fRc42kwVlS-ddxXw4E-RY0vBZipAbiTh-PR5xc3iQ/edit) |
+| 34 | GPT Image 2 Prompt Guide: 50+ Prompts for Product Photos, UI Design, and Marketing Visuals | 1fSmyUTWxT2JIa0CWLer4JiTdA0Ju9QI2nnGnUdvpP5E | [Open](https://docs.google.com/document/d/1fSmyUTWxT2JIa0CWLer4JiTdA0Ju9QI2nnGnUdvpP5E/edit) |
